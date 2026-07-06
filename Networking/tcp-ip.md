@@ -13,6 +13,7 @@ TCP/IP (Transmission Control Protocol/Internet Protocol) is the networking model
 Provides network services directly to user applications.
 
 ### Examples
+
 - HTTP
 - HTTPS
 - FTP
@@ -21,6 +22,7 @@ Provides network services directly to user applications.
 - SMTP
 
 ### Common Activities
+
 - Browsing websites
 - Sending emails
 - Remote logins
@@ -35,22 +37,26 @@ Responsible for end-to-end communication between devices.
 ### Protocols
 
 #### TCP (Transmission Control Protocol)
+
 - Connection-oriented
 - Reliable
 - Performs error checking
 - Guarantees delivery
 
 Examples:
+
 - HTTPS
 - SSH
 - FTP
 
 #### UDP (User Datagram Protocol)
+
 - Connectionless
 - Faster than TCP
 - No guarantee of delivery
 
 Examples:
+
 - DNS
 - Video streaming
 - Online gaming
@@ -62,11 +68,13 @@ Examples:
 Responsible for routing packets across networks.
 
 ### Protocols
+
 - IP
 - ICMP
 - ARP
 
 ### Functions
+
 - Logical addressing
 - Packet routing
 - Determining the best path to a destination
@@ -78,12 +86,14 @@ Responsible for routing packets across networks.
 Responsible for communication with the physical network.
 
 ### Technologies
+
 - Ethernet
 - Wi-Fi
 - Fiber Optic
 - MAC Addresses
 
 ### Devices
+
 - Switches
 - Network Interface Cards (NICs)
 
@@ -110,6 +120,19 @@ Responsible for communication with the physical network.
 
 ---
 
+# Decapsulation Process
+
+When data reaches the destination:
+
+1. The Network Access layer removes the frame information.
+2. The Internet layer removes the IP header.
+3. The Transport layer removes the TCP or UDP header.
+4. The Application layer receives the original data.
+
+This process is called **decapsulation**.
+
+---
+
 # Example: Loading a Website
 
 1. User enters a URL.
@@ -130,11 +153,45 @@ Responsible for communication with the physical network.
 
 ---
 
-# Notes
+# Cybersecurity Relevance
 
-Understanding the TCP/IP model is fundamental for:
-- Networking
-- Cybersecurity
-- Packet analysis
-- Troubleshooting
-- Penetration testing
+Understanding the TCP/IP model is important because security professionals work with network traffic every day.
+
+Examples:
+
+- Packet captures in Wireshark
+- Firewall rules
+- Network troubleshooting
+- Port scanning with Nmap
+- Detecting malicious traffic
+- Understanding attacks and vulnerabilities
+
+Examples of attacks:
+
+- Denial-of-Service (DoS)
+- TCP SYN Floods
+- DNS attacks
+- IP spoofing
+- Man-in-the-Middle attacks
+
+---
+
+# Tools That Use TCP/IP Knowledge
+
+- Wireshark
+- Nmap
+- tcpdump
+- Burp Suite
+- Ping
+- Traceroute
+- Netstat
+
+---
+
+# Lessons Learned
+
+- The Internet operates using the TCP/IP model.
+- Data is encapsulated and decapsulated as it travels across a network.
+- Different protocols operate at different layers.
+- Understanding TCP/IP makes troubleshooting and packet analysis much easier.
+- Many cybersecurity tools rely on knowledge of the TCP/IP model.
