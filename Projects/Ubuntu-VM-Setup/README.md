@@ -1,23 +1,76 @@
 # Projects
 
-This folder contains hands-on cybersecurity and IT projects that I complete while learning.
+This folder contains hands-on projects that document my cybersecurity and IT learning journey.
 
-## Current Projects
+Each project includes:
 
-### Ubuntu VM Setup
-- Installed Oracle VirtualBox
-- Downloaded Ubuntu and Xubuntu ISOs
-- Created a Linux virtual machine
-- Troubleshot display issues
-- Used Safe Graphics Mode
-- Installed Xubuntu successfully
-- Documented the entire process
+- Documentation
+- Installation steps
+- Troubleshooting notes
+- Screenshots
+- Lessons learned
+- Configuration files
+- Future improvements
 
-## Future Projects
+---
+
+# Current Projects
+
+## Ubuntu VM Setup
+
+Built my first Linux virtual machine using Oracle VirtualBox and Ubuntu/Xubuntu.
+
+### Skills Learned
+
+- Virtualization concepts
+- Installing operating systems
+- VM hardware configuration
+- Troubleshooting boot issues
+- Linux installation procedures
+- Documentation practices
+
+### Technologies Used
+
+- Oracle VirtualBox
+- Ubuntu Desktop
+- Xubuntu
+- Windows 11
+
+### Project Structure
+
+```text
+Ubuntu-VM-Setup/
+├── configs/
+├── docs/
+├── notes/
+├── screenshots/
+└── scripts/
+```
+
+---
+
+# Future Projects
 
 - Kali Linux Lab
 - Windows Server Lab
 - Active Directory Lab
-- Home SOC
 - Vulnerability Scanning Lab
+- Home SOC
 - SIEM Lab
+- Network Monitoring Lab
+- Python Automation Projects
+- Web Application Security Lab
+
+---
+
+# Goals
+
+- Build practical cybersecurity experience.
+- Learn troubleshooting and documentation.
+- Create a professional portfolio.
+- Demonstrate hands-on technical skills.
+- Develop repeatable lab environments.
+
+---
+
+This folder will continue to grow as I complete additional cybersecurity and IT projects.
