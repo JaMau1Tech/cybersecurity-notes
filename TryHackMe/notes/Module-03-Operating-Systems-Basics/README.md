@@ -31,7 +31,7 @@ The knowledge gained in this module builds a strong foundation for future topics
 - ✅ Introduction to Operating Systems
 - ✅ Windows Basics
 - ✅ Linux CLI Basics
-- ⬜ Windows CLI Basics
+- ✅ Windows CLI Basics
 - ⬜ Operating System Security
 
 ---
@@ -41,9 +41,11 @@ The knowledge gained in this module builds a strong foundation for future topics
 - Operating system fundamentals
 - Windows navigation
 - Linux command-line navigation
+- Windows command-line navigation
 - File and directory management
 - System information gathering
-- Basic Windows administration
+- Network information gathering
+- Windows system administration
 - Linux terminal usage
 - Technical documentation
 - Cybersecurity portfolio development
@@ -78,7 +80,7 @@ Module-03-Operating-Systems-Basics/
 - Introduction to Operating Systems ✅
 - Windows Basics ✅
 - Linux CLI Basics ✅
-- Windows CLI Basics ⬜
+- Windows CLI Basics ✅
 - Operating System Security ⬜
 - Topic Transition Recap ⬜
 
@@ -86,9 +88,9 @@ Module-03-Operating-Systems-Basics/
 
 ## Next Steps
 
-Continue completing the remaining rooms:
+Continue completing the remaining room:
 
-- Windows CLI Basics
 - Operating System Security
 
-After completing all rooms, create the Topic Transition Recap to summarize the knowledge and skills gained throughout the module.
+After completing the final room, create the Topic Transition Recap to summarize the knowledge and skills gained throughout the Operating Systems Basics module.
+
