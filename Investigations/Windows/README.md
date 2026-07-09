@@ -1,21 +1,38 @@
-# Investigation 01 - Windows System Recon
+# Windows Investigations
 
 ## Overview
 
-This investigation documents the collection of basic Windows system information using native Command Prompt utilities.
+This directory contains hands-on Windows investigations designed to reinforce Windows administration, system troubleshooting, and cybersecurity concepts through practical exercises.
 
-The objective was to practice gathering information commonly collected by IT support technicians, system administrators, and security analysts during an initial workstation assessment.
+Each investigation focuses on a specific topic using native Windows tools and follows a structured workflow consisting of planning, evidence collection, documentation, and analysis.
+
+These investigations complement my TryHackMe learning by providing additional real-world practice and strengthening my command-line and investigative skills.
 
 ---
 
-## Objectives
+## Investigation Workflow
 
-- Identify the current user
-- Identify the computer name
-- Gather operating system information
-- View network configuration
-- List local directories
-- Examine disk volumes
+Each investigation follows the same documentation process:
+
+1. Define the investigation objective.
+2. Perform the hands-on investigation.
+3. Collect supporting evidence (screenshots).
+4. Document findings and lessons learned.
+5. Organize evidence and documentation.
+6. Commit the completed investigation to GitHub.
+
+---
+
+## Investigations
+
+| Investigation | Focus | Status |
+|---------------|-------|:------:|
+| Investigation 01 – System Recon | Enumerating user, system, network, directory, and storage information using native Windows commands. | ✅ |
+| Investigation 02 – Process Analysis | Investigating running processes, Windows services, and process filtering using the `tasklist` utility. | ✅ |
+| Investigation 03 – Network Connections | Investigating active network connections, listening ports, and associated processes. | ⬜ |
+| Investigation 04 – User & Account Enumeration | Enumerating local users, groups, and account information. | ⬜ |
+| Investigation 05 – Scheduled Tasks | Investigating scheduled tasks and automated execution. | ⬜ |
+| Investigation 06 – Event Logs | Exploring Windows Event Viewer and log analysis. | ⬜ |
 
 ---
 
@@ -23,27 +40,42 @@ The objective was to practice gathering information commonly collected by IT sup
 
 - Windows Command Prompt
 - System Enumeration
+- Process Enumeration
+- Service Enumeration
 - Network Enumeration
-- Storage Enumeration
 - File System Navigation
+- Disk Enumeration
+- Windows Administration
 - Technical Documentation
+- Incident Investigation
 
 ---
 
-## Investigation Files
+## Repository Structure
 
-- investigation-notes.md
-- screenshots/
+```text
+Windows/
+├── README.md
+├── Investigation-01-System-Recon/
+│   ├── README.md
+│   ├── investigation-notes.md
+│   └── screenshots/
+│       └── README.md
+│
+├── Investigation-02-Process-Analysis/
+│   ├── README.md
+│   ├── investigation-notes.md
+│   └── screenshots/
+│       └── README.md
+│
+├── Investigation-03-Network-Connections/
+├── Investigation-04-User-Account-Enumeration/
+├── Investigation-05-Scheduled-Tasks/
+└── Investigation-06-Event-Logs/
+```
 
 ---
 
-## Commands Used
+## Purpose
 
-- whoami
-- hostname
-- cd
-- systeminfo
-- ipconfig
-- dir
-- diskpart
-- list volume
+The goal of these investigations is to develop practical Windows investigation skills using built-in operating system tools while creating a professional portfolio that demonstrates hands-on experience with Windows system administration and basic incident response techniques.
