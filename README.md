@@ -1,103 +1,101 @@
-# Cybersecurity Notes
+# Root & Repository
 
-![GitHub last commit](https://img.shields.io/github/last-commit/JaMau1Tech/cybersecurity-notes)
-![GitHub repo size](https://img.shields.io/github/repo-size/JaMau1Tech/cybersecurity-notes)
-![GitHub stars](https://img.shields.io/github/stars/JaMau1Tech/cybersecurity-notes)
+![GitHub last commit](https://img.shields.io/github/last-commit/JaMau1Tech/root-and-repository)
+![GitHub repo size](https://img.shields.io/github/repo-size/JaMau1Tech/root-and-repository)
+![GitHub stars](https://img.shields.io/github/stars/JaMau1Tech/root-and-repository)
 
-A personal knowledge base documenting my journey into cybersecurity, Linux, networking, and hands-on labs.
+A centralized cybersecurity learning repository documenting my hands-on labs, investigations, projects, notes, and progress as I develop practical skills in IT and cybersecurity.
 
 ---
 
 # About
 
-This repository serves as my central location for:
+This repository serves as my cybersecurity knowledge base and professional portfolio.
 
-- Study notes
-- Hands-on projects
-- TryHackMe labs
-- Linux learning
-- Networking concepts
-- Troubleshooting documentation
-- Cybersecurity resources
+Everything I learn is documented here—from handwritten notes and TryHackMe rooms to Linux labs, networking concepts, troubleshooting investigations, and personal projects.
 
-The goal is to build both technical skills and a professional portfolio while preparing for a career in cybersecurity and information technology.
+My goal is to build strong technical skills while maintaining professional documentation that demonstrates my growth throughout my cybersecurity journey.
 
 ---
 
-# Goals
+# Learning Goals
 
-- Learn Linux fundamentals
-- Learn networking concepts
-- Build virtual labs
-- Document projects and troubleshooting
+- Master Linux fundamentals
+- Understand networking concepts
+- Build practical cybersecurity labs
+- Develop scripting and automation skills
 - Complete TryHackMe learning paths
-- Prepare for cybersecurity certifications
-- Develop strong documentation habits
+- Create a professional cybersecurity portfolio
+- Build consistent documentation habits
 
 ---
 
 # Repository Structure
 
 ```text
-cybersecurity-notes/
+root-and-repository/
+├── Investigations/
 ├── Linux/
 ├── Networking/
 ├── Projects/
 ├── Resources/
+├── Roadmap/
 ├── Screenshots/
+├── Scripts/
+├── Templates/
 └── TryHackMe/
 ```
 
 ---
 
-# Current Projects
-
-## Ubuntu VM Setup
-
-Built my first Linux virtual machine using:
-
-- Oracle VirtualBox
-- Ubuntu Desktop ISO
-- Xubuntu 26.04
-
-### Project Highlights
-
-- Installed Oracle VirtualBox
-- Downloaded Ubuntu and Xubuntu ISOs
-- Created a Linux virtual machine
-- Configured VM hardware
-- Troubleshot display issues
-- Used Safe Graphics Mode
-- Installed Xubuntu successfully
-- Documented the entire process
-
----
-
-# Learning Areas
+# Repository Sections
 
 ## Linux
 
-- Linux commands
-- File system navigation
-- Bash scripting
-- Package management
-- User permissions
+Linux notes, commands, Bash scripting, WSL, virtual machines, and operating system fundamentals.
 
 ## Networking
 
-- OSI Model
-- TCP/IP
-- Ports and Protocols
-- DNS
-- DHCP
-- Routing and Switching
+Networking concepts, protocols, packet analysis, Wireshark, subnetting, and troubleshooting.
 
-## Cybersecurity
+## TryHackMe
 
-- TryHackMe learning paths
-- Virtualization
-- Home lab development
-- Security tools and concepts
+Room walkthroughs, learning paths, handwritten notes, documentation, and lab write-ups.
+
+## Investigations
+
+Troubleshooting exercises, incident investigations, Windows analysis, Wireshark investigations, and other blue-team style case studies.
+
+## Projects
+
+Hands-on cybersecurity and IT projects built throughout my learning journey.
+
+## Scripts
+
+Automation scripts, Bash scripts, PowerShell scripts, and Python utilities.
+
+## Resources
+
+Reference material, cheat sheets, documentation, and learning resources.
+
+## Roadmap
+
+Learning roadmap, progress tracking, and future goals.
+
+## Templates
+
+Reusable documentation templates for notes, investigations, labs, projects, and reports.
+
+---
+
+# Current Focus
+
+- Linux Fundamentals
+- Networking Fundamentals
+- Bash Scripting
+- Windows Fundamentals
+- TryHackMe Learning Paths
+- Documentation Skills
 
 ---
 
@@ -105,82 +103,97 @@ Built my first Linux virtual machine using:
 
 ## Completed
 
-- Intro to Cybersecurity
+- Introduction to Cyber Security
 - Computer Fundamentals
+- Operating Systems Security
 
 ## In Progress
 
+- Pre Security
 - Linux Fundamentals
 
 ## Planned
 
-- Pre Security - Start Operating Systems
 - Complete Beginner
-- Jr Penetration Tester
 - SOC Level 1
+- Jr Penetration Tester
+- Cyber Defense
 
 ---
 
-# Current Progress
+# Current Projects
 
-- [x] Install VirtualBox
-- [x] Install Ubuntu/Xubuntu
-- [x] Build first Linux virtual machine
-- [x] Document VM installation process
-- [ ] Learn Linux fundamentals
-- [ ] Learn networking fundamentals
-- [ ] Build cybersecurity home lab
-- [ ] Complete additional TryHackMe paths
-- [ ] Learn scripting and automation
+- Linux Virtual Machine Lab
+- WSL Documentation
+- Root & Repository Portfolio
+- TryHackMe Documentation
+- Windows Investigations
+- Wireshark Investigations
 
 ---
 
 # Future Projects
 
-- Kali Linux Lab
+- Active Directory Home Lab
 - Windows Server Lab
-- Active Directory Lab
-- Vulnerability Scanning Lab
-- Home SOC
+- Kali Linux Lab
 - SIEM Lab
-- Network Monitoring Lab
+- SOC Analyst Lab
+- Vulnerability Management Lab
+- Detection Engineering Projects
+- Python Security Tools
 
 ---
 
-# Certifications Goal
+# Certification Roadmap
 
 - CompTIA A+
 - CompTIA Network+
 - CompTIA Security+
 - CompTIA CySA+
-- CISSP (Long-term)
+- CISSP (Long-Term)
 
 ---
 
-# Technologies Used
+# Technologies
 
-- Oracle VirtualBox
+- Windows 11
 - Ubuntu
-- Xubuntu 24.04 LTS
+- Xubuntu
+- WSL
+- Oracle VirtualBox
 - Git
 - GitHub
 - Visual Studio Code
-- Windows 11
+- Bash
+- PowerShell
+- Wireshark
 
 ---
 
-# Repository Statistics
+# Documentation Workflow
 
-### Projects Completed
+Every major lab or project follows a consistent workflow:
 
-- Ubuntu VM Setup
+1. Learn the concept
+2. Create handwritten notebook notes
+3. Complete the hands-on lab
+4. Capture screenshots
+5. Write professional documentation
+6. Organize files in the repository
+7. Commit changes to GitHub
 
-### Current Focus
+This ensures every topic is documented consistently while building a professional portfolio.
 
-- Linux Fundamentals
-- Networking Fundamentals
-- Building a Cybersecurity Home Lab
-- Developing Documentation Skills
+---
+
+# Repository Status
+
+- ✅ Repository Organized
+- ✅ Documentation Templates Created
+- ✅ Screenshot Organization Complete
+- ✅ GitHub Portfolio Active
+- 🚧 Learning Continues
 
 ---
 
@@ -193,4 +206,6 @@ CSIT Student | Aspiring Cybersecurity Professional
 GitHub:
 https://github.com/JaMau1Tech
 
-This repository is continuously updated as I learn new technologies and complete additional projects.
+---
+
+> This repository is continuously updated as I complete labs, investigations, projects, and cybersecurity training.
