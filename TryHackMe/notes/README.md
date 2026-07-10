@@ -1,98 +1,190 @@
 # TryHackMe Notes
 
-## Overview
+This folder contains notes, screenshots, and documentation from my progress through the **TryHackMe** learning paths.
 
-This directory contains my organized notes from completing the **TryHackMe Pre Security** learning path.
+The purpose of this section is to:
 
-Each module contains handwritten notebook notes, room documentation, screenshots, and task notes that document my learning progress and reinforce the concepts covered throughout the course.
-
----
-
-## Modules
-
-### Module 01 - Introduction to Cybersecurity
-
-Introduction to cybersecurity concepts, common threats, attack surfaces, and defensive security principles.
+- Practice hands-on cybersecurity skills
+- Learn foundational IT concepts
+- Build problem-solving abilities
+- Improve technical documentation skills
+- Track learning progress
 
 ---
 
-### Module 02 - Computer Fundamentals
+# Progress
 
-Fundamental computer concepts including:
+| Module | Status |
+|---------|---------|
+| Module 01 – Introduction to Cybersecurity | ✅ Completed |
+| Module 02 – Computer Fundamentals | ✅ Completed |
+| Module 03 – Operating Systems Basics | ✅ Completed |
+| Module 04 – Software Basics | ✅ Completed |
+| Module 05 – Network Fundamentals | ⬜ Not Started |
+| Module 06 – How the Web Works | ⬜ Not Started |
+| Module 07 – Attacks and Defenses | ⬜ Not Started |
+
+---
+
+# Completed Modules
+
+## ✅ Module 01 – Introduction to Cybersecurity
+
+**Topics Covered**
+
+- Introduction to Cybersecurity
+- Offensive Security
+- Defensive Security
+- Careers in Cybersecurity
+
+**Skills Developed**
+
+- Understanding cybersecurity concepts
+- Security domains
+- Threat awareness
+- Documentation
+
+---
+
+## ✅ Module 02 – Computer Fundamentals
+
+**Topics Covered**
 
 - Client-Server Basics
 - Cloud Computing Fundamentals
 - Computer Types
 - Inside a Computer System
 - Virtualization
-- Topic Transition Recap
+
+**Skills Developed**
+
+- Client-server architecture
+- Cloud computing concepts
+- Hardware fundamentals
+- Computer components
+- Virtual machines
 
 ---
 
-### Module 03 - Operating Systems Basics
+## ✅ Module 03 – Operating Systems Basics
 
-Operating system fundamentals including Windows and Linux concepts, file systems, command-line basics, users, permissions, and operating system architecture.
+**Topics Covered**
+
+- Windows Fundamentals
+- Linux Fundamentals
+- File Systems
+- Command Line Basics
+- Operating System Concepts
+
+**Skills Developed**
+
+- Windows navigation
+- Linux navigation
+- Command-line usage
+- File management
+- Operating system fundamentals
 
 ---
 
-### Module 04 - Software Basics
+## ✅ Module 04 – Software Basics
 
-Software fundamentals including:
+**Topics Covered**
 
 - Data Representation
 - Data Encoding
-- *(Additional rooms will be added as completed.)*
+- Python: Simple Demo
+- JavaScript: Simple Demo
+- Database SQL Basics
+- Topic Transition Recap
+
+**Skills Developed**
+
+- Binary and hexadecimal
+- ASCII and Unicode
+- UTF-8, UTF-16, UTF-32
+- Python fundamentals
+- JavaScript fundamentals
+- Variables and constants
+- Conditional statements
+- Loops
+- SQL basics
+- Database concepts
+- Basic query construction
 
 ---
 
-### Module 05 - Network Fundamentals
+# Skills Gained
 
-Networking concepts including protocols, IP addressing, DNS, routing, switching, and network communication.
+## Computer Fundamentals
+
+- Client-Server Architecture
+- Computer Hardware
+- Cloud Computing
+- Virtual Machines
+- Operating Systems
+
+## Software Fundamentals
+
+- Binary
+- Decimal
+- Hexadecimal
+- RGB Colors
+- ASCII
+- Unicode
+- UTF Encoding
+
+## Programming
+
+### Python
+
+- Variables
+- User Input
+- Random Number Generation
+- Conditional Statements
+- While Loops
+
+### JavaScript
+
+- Variables
+- Constants
+- User Input
+- Conditional Statements
+- While Loops
+- Node.js
+
+## Databases
+
+- Database Fundamentals
+- Tables
+- Rows
+- Columns
+- SQL Queries
+- SELECT
+- FROM
+- WHERE
+- ORDER BY
+
+## Technical Skills
+
+- Technical Documentation
+- Git & GitHub
+- Repository Organization
+- Screenshot Documentation
+- Hands-on Labs
 
 ---
 
-### Module 06 - How the Web Works
+# Current Portfolio Statistics
 
-Core web technologies including HTTP, HTTPS, DNS, web servers, browsers, cookies, sessions, and common web application concepts.
-
----
-
-### Module 07 - Attacks and Defenses
-
-Foundational cybersecurity concepts covering common attack techniques, defensive strategies, security controls, and basic threat mitigation.
-
----
-
-## Repository Organization
-
-Each module follows a consistent documentation structure:
-
-```text
-Module-XX-Module-Name/
-│
-├── README.md
-├── images/
-│   ├── README.md
-│   └── all screenshots for the module
-│
-├── Room-Name-1/
-│   └── task-notes.md
-│
-├── Room-Name-2/
-│   └── task-notes.md
-│
-└── Topic-Transition-Recap/
-    └── task-notes.md
-```
+- ✅ 4 Completed Modules
+- ✅ Multiple Hands-On Labs
+- ✅ Python Fundamentals
+- ✅ JavaScript Fundamentals
+- ✅ SQL Fundamentals
+- ✅ Organized Technical Documentation
+- ✅ Structured Screenshot Library
+- ✅ Growing Cybersecurity Portfolio
 
 ---
 
-## Purpose
-
-The purpose of this repository is to:
-
-- Reinforce cybersecurity concepts through structured note-taking.
-- Document completed TryHackMe rooms.
-- Maintain a consistent learning portfolio.
-- Track progress through the Pre Security learning path.
-- Build a long-term cybersecurity knowledge base for future reference.
+This repository is continuously updated as I complete additional TryHackMe modules and continue building my cybersecurity knowledge through hands-on practice and technical documentation.

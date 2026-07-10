@@ -75,6 +75,31 @@ dataencoding-room-complete
 - javascript-simple-demo-lab-guess-v3
 - javascript-simple-demo-room-complete
 
+## Database SQL Basics
+
+| Screenshot | Description |
+|---|---|
+| `database-sql-basics-room-introduction` | Introduction to the Database SQL Basics room. |
+| `database-sql-basics-task2-database-basics` | Completed database, table, row, and column concepts. |
+| `database-sql-basics-task3-basic-sql-queries` | Completed the basic SQL query task. |
+| `database-sql-basics-lab-select-all-orders` | Ran `SELECT * FROM Orders;` to display all orders. |
+| `database-sql-basics-lab-select-drink-price` | Selected only the drink and price columns. |
+| `database-sql-basics-lab-filter-coffee-orders` | Filtered the Orders table to display Coffee orders. |
+| `database-sql-basics-lab-order-price-ascending` | Sorted orders from cheapest to most expensive. |
+| `database-sql-basics-lab-order-price-descending` | Sorted orders from most expensive to cheapest. |
+| `database-sql-basics-lab-filter-and-sort-coffee` | Combined filtering and descending price sorting. |
+| `database-sql-basics-lab-menu-price-descending` | Sorted the Menu table from most expensive to cheapest. |
+| `database-sql-basics-room-complete` | Shows the room completed at 100%. |
+
+---
+
+## Topic Transition Recap
+
+| Screenshot | Description |
+|---|---|
+| `module-04-recap-sql-query-order` | Reordered the steps used to construct a filtered and sorted SQL query. |
+| `module-04-recap-javascript-game-order` | Reordered the program flow for the JavaScript number-guessing game. |
+
 ## Purpose
 
 These screenshots document the completion of practical exercises and reinforce concepts learned throughout the Software Basics module.
