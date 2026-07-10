@@ -51,6 +51,16 @@ dataencoding-room-complete
 - dataencoding-task3-unicode-complete
 - dataencoding-room-complete
 
+## Python: Simple Demo
+
+- python-simple-demo-room-introduction
+- python-simple-demo-task2-variables-input-output
+- python-simple-demo-lab-guess-v1
+- python-simple-demo-task3-conditionals
+- python-simple-demo-lab-guess-v2
+- python-simple-demo-task4-while-loops
+- python-simple-demo-lab-guess-v3
+- python-simple-demo-room-complete
 ---
 
 ## Purpose

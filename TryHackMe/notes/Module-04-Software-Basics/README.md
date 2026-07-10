@@ -39,6 +39,20 @@ Learned how computers represent text using character encoding standards, includi
 
 ---
 
+### ✅ Python: Simple Demo
+
+Introduced the fundamentals of Python programming through a simple interactive "Guess the Number" game.
+
+**Topics Covered**
+
+- Variables
+- Functions
+- User Input
+- Random Numbers
+- Conditional Statements
+- While Loops
+- Basic Program Flow
+
 ## Skills Developed
 
 Throughout this module I developed an understanding of:
@@ -54,6 +68,14 @@ Throughout this module I developed an understanding of:
 - UTF-16
 - UTF-32
 - Data representation fundamentals
+- Python Fundamentals
+- Variables
+- Functions
+- User Input
+- Random Number Generation
+- Conditional Statements
+- While Loops
+- Program Flow
 
 ---
 
