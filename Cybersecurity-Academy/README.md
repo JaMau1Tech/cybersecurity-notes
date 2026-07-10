@@ -219,6 +219,18 @@ Screenshots supporting practical exercises and investigations.
 
 ---
 
+## Upcoming Goals
+
+- [ ] Complete Pre-Security Midterm
+- [ ] Finish Module 05 – Network Fundamentals
+- [ ] Complete Module 05 Validation
+- [ ] Finish Module 06 – How the Web Works
+- [ ] Complete Module 06 Validation
+- [ ] Finish Module 07 – Attacks and Defenses
+- [ ] Complete Pre-Security Final
+- [ ] Complete Mock Interviews
+- [ ] Complete Capstone Challenges
+
 # Purpose
 
 This academy represents my commitment to mastering cybersecurity concepts rather than simply completing online courses.
