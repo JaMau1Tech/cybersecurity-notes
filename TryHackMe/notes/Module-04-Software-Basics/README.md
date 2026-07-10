@@ -2,27 +2,36 @@
 
 ## Overview
 
-This module introduces the fundamental concepts of how computers store, represent, and encode data. It builds the foundation needed to understand operating systems, networking, programming, and cybersecurity.
+The **Software Basics** module introduces the core concepts behind how computers store, represent, and encode information. These foundational topics provide the knowledge needed for future learning in operating systems, networking, programming, digital forensics, and cybersecurity.
 
 ---
 
-## Completed Rooms
+## Rooms Completed
 
-| Room | Description | Status |
-|------|-------------|--------|
-| Data Representation | Learned how computers represent numbers, binary, hexadecimal, and RGB colors. | ✅ |
-| Data Encoding | Learned how computers encode characters using ASCII, Unicode, UTF-8, UTF-16, and UTF-32. | ✅ |
+### ✅ Data Representation
 
----
+Learned how computers represent data using binary, hexadecimal, and decimal numbering systems while exploring RGB color representation.
 
-## Skills Developed
+**Topics Covered**
 
-- Binary Fundamentals
-- Hexadecimal Representation
-- Decimal Conversion
+- Binary Numbers
+- Decimal Numbers
+- Hexadecimal Numbers
 - RGB Color Representation
+- 24-bit Color
+- Binary Conversion
+
+---
+
+### ✅ Data Encoding
+
+Learned how computers represent text using character encoding standards, including ASCII, Unicode, and UTF encoding formats.
+
+**Topics Covered**
+
 - Character Encoding
 - ASCII
+- Extended ASCII
 - Unicode
 - UTF-8
 - UTF-16
@@ -30,11 +39,44 @@ This module introduces the fundamental concepts of how computers store, represen
 
 ---
 
+## Skills Developed
+
+Throughout this module I developed an understanding of:
+
+- Binary arithmetic
+- Decimal and hexadecimal conversion
+- Bit significance
+- RGB color representation
+- Character encoding
+- ASCII
+- Unicode
+- UTF-8
+- UTF-16
+- UTF-32
+- Data representation fundamentals
+
+---
+
 ## Module Structure
 
 ```text
 Module-04-Software-Basics/
+│
 ├── README.md
+├── images/
+│   └── README.md
+│
 ├── Data-Representation/
+│   └── task-notes.md
+│
 └── Data-Encoding/
+    └── task-notes.md
 ```
+
+---
+
+## Notes
+
+Each room contains its own **task-notes.md** file documenting the concepts learned and practical exercises completed.
+
+All screenshots for this module are stored in the shared **images** directory.
