@@ -20,7 +20,7 @@ The purpose of this section is to:
 | Module 02 – Computer Fundamentals | ✅ Completed |
 | Module 03 – Operating Systems Basics | ✅ Completed |
 | Module 04 – Software Basics | ✅ Completed |
-| Module 05 – Network Fundamentals | ⬜ Not Started |
+| Module 05 – Network Fundamentals | 🟨 In Progress (1/2 Rooms Completed) |
 | Module 06 – How the Web Works | ⬜ Not Started |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
@@ -113,6 +113,33 @@ The purpose of this section is to:
 
 ---
 
+## 🟨 Module 05 – Network Fundamentals *(In Progress)*
+
+**Completed Rooms**
+
+- ✅ What is Networking?
+
+**Upcoming Rooms**
+
+- ⏳ Intro to LAN
+
+**Skills Developed**
+
+- Networking Fundamentals
+- Internet Fundamentals
+- Network Communication
+- IP Addressing
+- Public vs Private IP Addresses
+- IPv4
+- IPv6
+- MAC Addressing
+- MAC Address Spoofing
+- ICMP
+- Ping
+- Basic Network Troubleshooting
+
+---
+
 # Skills Gained
 
 ## Computer Fundamentals
@@ -132,6 +159,20 @@ The purpose of this section is to:
 - ASCII
 - Unicode
 - UTF Encoding
+
+## Networking Fundamentals
+
+- Computer Networks
+- Internet Fundamentals
+- IP Addressing
+- Public vs Private IP Addresses
+- IPv4
+- IPv6
+- MAC Addressing
+- MAC Address Spoofing
+- ICMP
+- Ping
+- Basic Network Troubleshooting
 
 ## Programming
 
@@ -177,10 +218,13 @@ The purpose of this section is to:
 # Current Portfolio Statistics
 
 - ✅ 4 Completed Modules
+- 🟨 Module 05 – Network Fundamentals (In Progress)
+- ✅ 1 TryHackMe Networking Room Completed
 - ✅ Multiple Hands-On Labs
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
+- ✅ Networking Fundamentals
 - ✅ Organized Technical Documentation
 - ✅ Structured Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
