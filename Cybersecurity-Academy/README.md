@@ -155,21 +155,25 @@ Examples may include:
 
 # Repository Contents
 
-Each academy module contains:
+Each Academy module contains:
+
+```text
+exam-objectives.md
+```
+
+Defines:
+
+- Learning objectives
+- Topics covered
+- Skills assessed
+
+---
 
 ```text
 exam.md
 ```
 
-Knowledge assessment.
-
----
-
-```text
-practical.md
-```
-
-Hands-on exercises.
+Certification-style written knowledge assessment.
 
 ---
 
@@ -177,7 +181,7 @@ Hands-on exercises.
 results.md
 ```
 
-Exam scores, grading, and performance tracking.
+Exam grading, score, missed questions, and performance summary.
 
 ---
 
@@ -185,7 +189,15 @@ Exam scores, grading, and performance tracking.
 reflection.md
 ```
 
-Lessons learned, strengths, weaknesses, and future study goals.
+Personal reflection covering strengths, weaknesses, lessons learned, and future study goals.
+
+---
+
+```text
+review-guide.md
+```
+
+Targeted review material covering only concepts that require additional study.
 
 ---
 
@@ -193,7 +205,45 @@ Lessons learned, strengths, weaknesses, and future study goals.
 answer-key.md
 ```
 
-Official answers and explanations for every exercise.
+Official answers with explanations for every assessment question.
+
+---
+
+```text
+practical.md
+```
+
+Hands-on practical assessment designed to validate real-world application of module concepts.
+
+---
+
+```text
+practical-results.md
+```
+
+Performance review of the practical assessment, observations, and recommended improvements.
+
+---
+
+```text
+mock-interview.md
+```
+
+Technical interview questions focused on the completed module to reinforce communication and technical understanding.
+
+---
+
+```text
+mastery-report.md
+```
+
+Comprehensive summary of:
+
+- Overall performance
+- Technical strengths
+- Skills demonstrated
+- Areas for continued improvement
+- Recommended next steps
 
 ---
 
@@ -201,8 +251,7 @@ Official answers and explanations for every exercise.
 images/
 ```
 
-Screenshots supporting practical exercises and investigations.
-
+Screenshots supporting practical exercises, investigations, and Academy documentation where applicable.
 ---
 
 # Current Progress

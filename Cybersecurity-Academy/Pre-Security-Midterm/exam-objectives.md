@@ -15,6 +15,18 @@ The purpose of this assessment is to verify that foundational concepts can be re
 
 ---
 
+# Assessment Standards
+
+This assessment follows the official Academy standards:
+
+- Cybersecurity-Academy-Workflow.md
+- Cybersecurity-Academy-Exam-Standard.md
+- Cybersecurity-Academy-Grading-Standard.md
+
+All documentation, assessment creation, and grading follow these standards.
+
+---
+
 # Assessment Goals
 
 The midterm will evaluate whether I can:
@@ -567,7 +579,7 @@ These topics may appear only as general context and will not require specialized
 
 # Assessment Standard
 
-The midterm evaluates four levels of understanding:
+The midterm evaluates four levels of understanding.
 
 ## Remember
 
@@ -581,9 +593,9 @@ Can I explain the concept in my own words?
 
 Can I use the concept to solve a basic problem?
 
-## Explain
+## Troubleshoot
 
-Can I clearly communicate my reasoning to another person?
+Can I logically analyze a problem and recommend an appropriate solution?
 
 ---
 
@@ -593,11 +605,11 @@ Can I clearly communicate my reasoning to another person?
 |------:|---------------|
 | 95–100% | Distinguished |
 | 90–94% | Mastered |
-| 85–89% | Proficient |
-| 75–84% | Developing |
-| Below 75% | Needs Review |
+| 80–89% | Proficient |
+| 70–79% | Developing |
+| Below 70% | Needs Review |
 
-A score of **85% or higher**, combined with satisfactory practical performance, demonstrates readiness to begin Module 05 — Network Fundamentals.
+A score of **80% or higher**, combined with satisfactory practical performance, demonstrates successful completion of the Pre-Security Midterm and readiness to progress through the Academy workflow.
 
 ---
 

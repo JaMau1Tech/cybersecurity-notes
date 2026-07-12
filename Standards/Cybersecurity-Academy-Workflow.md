@@ -1,10 +1,10 @@
 # Root & Repository Cybersecurity Academy Workflow
 
-**Version:** 1.0
+**Version:** 2.1
 
 **Status:** 🔒 LOCKED
 
-**Last Updated:** 2026-07-11
+**Last Updated:** 2026-07-12
 
 This document defines the official workflow for every Root & Repository Cybersecurity Academy assessment.
 
@@ -15,10 +15,11 @@ No steps may be skipped, reordered, added, or removed without explicit user appr
 # Core Principles
 
 - The Academy reinforces knowledge gained through hands-on learning.
-- Assessments measure understanding, not memorization.
-- Every assessment follows the same structure.
+- Assessments measure understanding, reasoning, and practical application.
+- Every assessment follows the same documented workflow.
 - Every completed assessment is documented and committed to Git.
-- Improvements require explicit user approval and version updates.
+- Written assessments must follow the official **Cybersecurity Academy Exam Standard**.
+- Improvements require explicit user approval and a workflow version update.
 
 ---
 
@@ -26,7 +27,23 @@ No steps may be skipped, reordered, added, or removed without explicit user appr
 
 Each Academy module follows the same documentation workflow.
 
-Repository organization remains consistent throughout the Academy.
+The Academy uses **one master README** located at the repository root.
+
+Module folders do **not** contain individual README files.
+
+```text
+Cybersecurity-Academy/
+│
+├── README.md
+│
+├── Pre-Security-Midterm/
+├── Module-05/
+├── Module-06/
+├── Module-07/
+├── Pre-Security-Final/
+├── Mock-Interviews/
+└── Capstone-Challenges/
+```
 
 ---
 
@@ -34,13 +51,7 @@ Repository organization remains consistent throughout the Academy.
 
 Complete every assessment in this exact order.
 
-## 1. README.md
-
-Create or update the module README.
-
----
-
-## 2. exam-objectives.md
+## 1. exam-objectives.md
 
 Define:
 
@@ -50,37 +61,41 @@ Define:
 
 ---
 
-## 3. exam.md
+## 2. exam.md
 
-Create a comprehensive certification-style written exam.
+Create the written assessment.
 
-The exam should:
+The written assessment must follow the official:
 
-- Cover all module objectives
-- Include multiple question types
-- Be completed independently without assistance
+**Cybersecurity-Academy-Exam-Standard.md**
 
 ---
 
-## 4. User Completes Exam
+## 3. User Completes Exam
 
 The user completes the written assessment independently.
 
-No answers or hints are provided during the exam.
+During an active assessment the assistant must:
+
+- Never reveal answers.
+- Never provide hints.
+- Never explain questions.
+- Never indicate whether answers are correct.
 
 ---
 
-## 5. results.md
+## 4. results.md
 
 Record:
 
-- Score
+- Overall score
+- Percentage
 - Missed questions
 - Performance summary
 
 ---
 
-## 6. reflection.md
+## 5. reflection.md
 
 Document:
 
@@ -91,56 +106,63 @@ Document:
 
 ---
 
-## 7. review-guide.md
+## 6. review-guide.md
 
-Create a targeted review guide based only on missed topics.
+Create a targeted review guide covering **only** missed concepts.
 
-Do not repeat material the user already demonstrated mastery of.
+Do not repeat topics already demonstrated as mastered.
 
 ---
 
-## 8. answer-key.md
+## 7. answer-key.md
 
 Provide:
 
 - Correct answers
-- Explanations
+- Detailed explanations
 - Supporting concepts
 
 ---
 
-## 9. practical.md
+## 8. practical.md
 
-Create a hands-on practical assessment based on the module.
+Create a hands-on practical assessment based on the completed module.
 
 ---
 
-## 10. practical-results.md
+## 9. practical-results.md
 
 Document:
 
 - Practical assessment performance
 - Observations
-- Areas needing improvement
+- Strengths
+- Areas requiring improvement
 
 ---
 
-## 11. mock-interview.md
+## 10. mock-interview.md
 
-Conduct a mock interview focused on the completed module.
+Conduct a technical mock interview focused on the completed module.
 
-Questions should reinforce practical understanding.
+Questions should reinforce:
+
+- Technical understanding
+- Problem solving
+- Communication skills
 
 ---
 
-## 12. mastery-report.md
+## 11. mastery-report.md
 
 Summarize:
 
 - Overall performance
 - Technical strengths
 - Skills demonstrated
+- Remaining weaknesses
 - Recommended next steps
+- Readiness to progress
 
 ---
 
@@ -150,8 +172,9 @@ All Academy documentation uses:
 
 - Markdown
 - Clear headings
-- Consistent formatting
-- Professional technical writing
+- Professional formatting
+- Consistent writing style
+- Technical accuracy
 
 ---
 
@@ -173,7 +196,6 @@ The assistant provides the exact Git commands.
 
 Before an Academy module is considered complete:
 
-- [ ] README updated
 - [ ] exam-objectives.md completed
 - [ ] exam.md completed
 - [ ] User completed exam
@@ -197,7 +219,9 @@ Only after every box is complete is the Academy module considered finished.
 The assistant must:
 
 - Follow this workflow exactly.
-- Never reveal exam answers before the user completes the assessment.
+- Follow the Cybersecurity Academy Exam Standard for every written assessment.
+- Never reveal exam answers before the assessment is submitted.
+- Never provide hints during an active assessment.
 - Never skip workflow steps.
 - Generate documentation in the documented order.
 - Never modify the workflow without explicit user approval.

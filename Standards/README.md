@@ -1,4 +1,4 @@
-# Root & Repository Standards
+# Root & Repository Standards Index
 
 **Version:** 1.0
 
@@ -76,7 +76,15 @@ Official workflow for documenting investigations and troubleshooting exercises.
 
 - Cybersecurity-Academy-Workflow.md
 
-Official workflow for assessments, practical exams, and mastery reports.
+Defines the official assessment workflow and documentation order.
+
+- Cybersecurity-Academy-Exam-Standard.md
+
+Defines how all Academy written assessments are created, administered, and formatted.
+
+- Cybersecurity-Academy-Grading-Standard.md
+
+Defines how all Academy written and practical assessments are graded.
 
 ---
 
@@ -85,8 +93,6 @@ Official workflow for assessments, practical exams, and mastery reports.
 - Career-Workflow.md
 
 Official workflow for resumes, LinkedIn, cover letters, interview preparation, and job tracking.
-
----
 
 # Versioning
 
