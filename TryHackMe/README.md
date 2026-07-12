@@ -21,7 +21,7 @@ The purpose of this repository is to:
 | Module 02 – Computer Fundamentals | ✅ Complete |
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
-| Module 05 – Network Fundamentals | 🟨 In Progress (4/6 Rooms Completed) |
+| Module 05 – Network Fundamentals | 🟨 In Progress (5/6 Rooms Completed) |
 | Module 06 – How the Web Works | ⬜ Not Started |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
@@ -144,10 +144,10 @@ TryHackMe/
 - ✅ Intro to LAN
 - ✅ OSI Model
 - ✅ Packets & Frames
+- ✅ Extending Your Network
 
 ### Upcoming Rooms
 
-- ⏳ Extending Your Network
 - ⏳ Topic Transition Recap
 
 ### Skills Developed So Far
@@ -192,7 +192,21 @@ TryHackMe/
 - Sequence Numbers
 - Network Ports
 - Common Service Ports
-
+- Port Forwarding
+- Firewalls
+- Stateful Firewalls
+- Stateless Firewalls
+- Packet Inspection
+- VPN Fundamentals
+- PPP
+- PPTP
+- IPSec
+- Routing
+- Layer 2 Switching
+- Layer 3 Switching
+- VLANs
+- Network Simulation
+- Packet Flow Analysis
 ---
 
 # Skills Gained
@@ -224,6 +238,18 @@ TryHackMe/
 - Three-Way Handshake
 - Network Ports
 - Common Ports
+- Port Forwarding
+- Firewalls
+- VPNs
+- PPP
+- PPTP
+- IPSec
+- Routing
+- Layer 2 Switching
+- Layer 3 Switching
+- VLANs
+- Packet Inspection
+- Network Simulation
 
 ---
 
@@ -273,8 +299,8 @@ TryHackMe/
 
 - ✅ 4 Completed Modules
 - 🟨 1 Module In Progress
-- ✅ 4 Networking Rooms Completed
-- ✅ 6 Interactive Networking Labs Completed
+- ✅ 5 Networking Rooms Completed
+- ✅ 8 Interactive Networking Labs
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
@@ -290,10 +316,11 @@ I am currently completing:
 
 **Module 05 – Network Fundamentals**
 
-Remaining Rooms:
+Final remaining room:
 
-- Extending Your Network
 - Topic Transition Recap
+
+After completing this recap, Module 05 will be complete and I will begin **Module 06 – How the Web Works**.
 
 ---
 

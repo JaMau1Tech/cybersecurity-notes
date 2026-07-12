@@ -86,6 +86,26 @@ Screenshots are organized using standardized descriptive filenames for easy refe
 
 ---
 
+# Room 5 – Extending Your Network
+
+## Task Screenshots
+
+- extending-your-network-task01-introduction-to-port-forwarding
+- extending-your-network-task02-firewalls-101
+- extending-your-network-task04-vpn-basics
+- extending-your-network-task05-lan-networking-devices
+
+## Lab Screenshots
+
+- extending-your-network-task03-firewall-lab
+- extending-your-network-task06-network-simulator-lab
+
+## Room Completion
+
+- extending-your-network-room-complete
+
+---
+
 # Screenshot Naming Standard
 
 Every screenshot follows this convention:
@@ -116,8 +136,9 @@ room-name-room-complete
 | Intro to LAN | 4 | 1 | 1 | 6 |
 | OSI Model | 8 | 1 | 1 | 10 |
 | Packets & Frames | 3 | 2 | 1 | 6 |
+| Extending Your Network | 4 | 2 | 1 | 7 |
 
-**Total Screenshots:** **28**
+**Total Screenshots:** **35**
 
 ---
 

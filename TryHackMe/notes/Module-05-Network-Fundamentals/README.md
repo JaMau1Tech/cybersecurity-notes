@@ -10,7 +10,7 @@ The goal of this module is to build a strong networking foundation that will sup
 
 | Completed | Total Rooms | Progress |
 |-----------:|------------:|---------:|
-| 4 | 6 | **67%** 🟨 |
+| 5 | 6 | **83%** 🟨 |
 
 ---
 
@@ -22,9 +22,8 @@ The goal of this module is to build a strong networking foundation that will sup
 | ✅ | Intro to LAN | Easy | [task-notes.md](./Intro-to-LAN/task-notes.md) |
 | ✅ | OSI Model | Easy | [task-notes.md](./OSI-Model/task-notes.md) |
 | ✅ | Packets & Frames | Easy | [task-notes.md](./Packets-and-Frames/task-notes.md) |
-| ⏳ | Extending Your Network | Easy | Coming Soon |
+| ✅ | Extending Your Network | Easy | [task-notes.md](./Extending-Your-Network/task-notes.md) |
 | ⏳ | Topic Transition Recap | Easy | Coming Soon |
-
 ---
 
 # Module Objectives
@@ -77,6 +76,22 @@ By completing this module I will learn:
 - UDP Headers
 - Checksums
 - Sequence Numbers
+- Port Forwarding
+- Firewalls
+- Stateful Firewalls
+- Stateless Firewalls
+- Packet Inspection
+- VPN Fundamentals
+- PPP
+- PPTP
+- IPSec
+- Routing
+- Layer 2 Switching
+- Layer 3 Switching
+- VLANs
+- Network Simulation
+- Packet Flow Analysis
+
 ---
 
 ## OSI Model
@@ -128,6 +143,11 @@ By completing this module I will learn:
 - TCP Three-Way Handshake Lab
 - Network Ports Challenge
 
+## Extending Your Network
+
+- Firewall Simulator
+- Network Simulator
+
 ---
 
 # Repository Structure
@@ -164,24 +184,19 @@ Module-05-Network-Fundamentals/
 
 # Current Module Statistics
 
-- ✅ 4 of 6 Rooms Completed
-- ✅ 6 Interactive Labs Completed
-- ✅ 4 Room Documentation Files
-- 🟨 Module 67% Complete
+- ✅ 5 of 6 Rooms Completed
+- ✅ 8 Interactive Labs Completed
+- ✅ 5 Room Documentation Files
+- 🟨 Module 83% Complete
 
 ---
 
 # Next Room
 
-➡️ **Extending Your Network**
+➡️ **Topic Transition Recap**
 
-Upcoming topics include:
+This final room reviews and reinforces the networking concepts learned throughout Module 05 before progressing to Module 06 – How the Web Works.
 
-- Switches
-- Routers
-- DNS
-- Network Expansion
-- Internet Infrastructure
 
 ---
 
