@@ -21,7 +21,7 @@ The purpose of this repository is to:
 | Module 02 – Computer Fundamentals | ✅ Complete |
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
-| Module 05 – Network Fundamentals | 🟨 In Progress (3/6 Rooms Completed) |
+| Module 05 – Network Fundamentals | 🟨 In Progress (4/6 Rooms Completed) |
 | Module 06 – How the Web Works | ⬜ Not Started |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
@@ -143,10 +143,10 @@ TryHackMe/
 - ✅ What is Networking?
 - ✅ Intro to LAN
 - ✅ OSI Model
+- ✅ Packets & Frames
 
 ### Upcoming Rooms
 
-- ⏳ Packets & Frames
 - ⏳ Extending Your Network
 - ⏳ Topic Transition Recap
 
@@ -177,6 +177,21 @@ TryHackMe/
 - TCP
 - UDP
 - Encapsulation
+- Packets
+- Frames
+- TCP/IP Model
+- Three-Way Handshake
+- SYN
+- SYN/ACK
+- ACK
+- FIN
+- RST
+- TCP Headers
+- UDP Headers
+- Checksums
+- Sequence Numbers
+- Network Ports
+- Common Service Ports
 
 ---
 
@@ -201,6 +216,14 @@ TryHackMe/
 - OSI Model
 - Encapsulation
 - Network Troubleshooting
+- Packets
+- Frames
+- TCP/IP
+- TCP
+- UDP
+- Three-Way Handshake
+- Network Ports
+- Common Ports
 
 ---
 
@@ -250,8 +273,8 @@ TryHackMe/
 
 - ✅ 4 Completed Modules
 - 🟨 1 Module In Progress
-- ✅ 3 Networking Rooms Completed
-- ✅ 4 Interactive Networking Labs Completed
+- ✅ 4 Networking Rooms Completed
+- ✅ 6 Interactive Networking Labs Completed
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
@@ -269,7 +292,6 @@ I am currently completing:
 
 Remaining Rooms:
 
-- Packets & Frames
 - Extending Your Network
 - Topic Transition Recap
 

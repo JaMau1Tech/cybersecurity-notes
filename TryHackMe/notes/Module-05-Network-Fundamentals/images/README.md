@@ -2,7 +2,7 @@
 
 This directory contains all screenshots captured while completing the **Network Fundamentals** module in the TryHackMe Pre Security learning path.
 
-Screenshots are organized using standardized descriptive filenames to make documentation easy to reference and maintain.
+Screenshots are organized using standardized descriptive filenames for easy reference and documentation.
 
 ---
 
@@ -67,6 +67,25 @@ Screenshots are organized using standardized descriptive filenames to make docum
 
 ---
 
+# Room 4 – Packets & Frames
+
+## Task Screenshots
+
+- packets-and-frames-task01-what-are-packets-and-frames
+- packets-and-frames-task02-tcp-ip-three-way-handshake
+- packets-and-frames-task04-user-datagram-protocol
+
+## Lab Screenshots
+
+- packets-and-frames-task03-tcp-three-way-handshake-lab
+- packets-and-frames-task05-ports-lab
+
+## Room Completion
+
+- packets-and-frames-room-complete
+
+---
+
 # Screenshot Naming Standard
 
 Every screenshot follows this convention:
@@ -75,7 +94,7 @@ Every screenshot follows this convention:
 room-name-taskXX-description
 ```
 
-Labs use:
+Lab screenshots use:
 
 ```text
 room-name-taskXX-lab-description
@@ -96,9 +115,10 @@ room-name-room-complete
 | What is Networking? | 3 | 2 | 1 | 6 |
 | Intro to LAN | 4 | 1 | 1 | 6 |
 | OSI Model | 8 | 1 | 1 | 10 |
+| Packets & Frames | 3 | 2 | 1 | 6 |
 
-**Total Screenshots:** **22**
+**Total Screenshots:** **28**
 
 ---
 
-This image library is updated after every completed TryHackMe room to provide a consistent, searchable, and well-organized visual record of completed labs and learning activities.
+This image library is updated after every completed TryHackMe room to maintain a consistent, searchable, and well-organized visual record of completed tasks and hands-on labs.

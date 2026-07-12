@@ -10,7 +10,7 @@ The goal of this module is to build a strong networking foundation that will sup
 
 | Completed | Total Rooms | Progress |
 |-----------:|------------:|---------:|
-| 3 | 6 | **50%** 🟨 |
+| 4 | 6 | **67%** 🟨 |
 
 ---
 
@@ -21,7 +21,7 @@ The goal of this module is to build a strong networking foundation that will sup
 | ✅ | What is Networking? | Easy | [task-notes.md](./What-is-Networking/task-notes.md) |
 | ✅ | Intro to LAN | Easy | [task-notes.md](./Intro-to-LAN/task-notes.md) |
 | ✅ | OSI Model | Easy | [task-notes.md](./OSI-Model/task-notes.md) |
-| ⏳ | Packets & Frames | Easy | Coming Soon |
+| ✅ | Packets & Frames | Easy | [task-notes.md](./Packets-and-Frames/task-notes.md) |
 | ⏳ | Extending Your Network | Easy | Coming Soon |
 | ⏳ | Topic Transition Recap | Easy | Coming Soon |
 
@@ -62,7 +62,21 @@ By completing this module I will learn:
 - DHCP
 - ICMP
 - Ping
-
+- Packets
+- Frames
+- TCP/IP Model
+- Three-Way Handshake
+- SYN
+- SYN/ACK
+- ACK
+- FIN
+- RST
+- Network Ports
+- Common Service Ports
+- TCP Headers
+- UDP Headers
+- Checksums
+- Sequence Numbers
 ---
 
 ## OSI Model
@@ -109,6 +123,11 @@ By completing this module I will learn:
 
 - OSI Dungeon Interactive Lab
 
+## Packets & Frames
+
+- TCP Three-Way Handshake Lab
+- Network Ports Challenge
+
 ---
 
 # Repository Structure
@@ -145,25 +164,24 @@ Module-05-Network-Fundamentals/
 
 # Current Module Statistics
 
-- ✅ 3 of 6 Rooms Completed
-- ✅ 4 Interactive Labs Completed
-- ✅ 3 Room Documentation Files
-- ✅ Standardized Screenshot Documentation
-- 🟨 Module 50% Complete
+- ✅ 4 of 6 Rooms Completed
+- ✅ 6 Interactive Labs Completed
+- ✅ 4 Room Documentation Files
+- 🟨 Module 67% Complete
 
 ---
 
 # Next Room
 
-➡️ **Packets & Frames**
+➡️ **Extending Your Network**
 
 Upcoming topics include:
 
-- Packets
-- Frames
-- Encapsulation
-- Decapsulation
-- Data Transmission
+- Switches
+- Routers
+- DNS
+- Network Expansion
+- Internet Infrastructure
 
 ---
 
