@@ -10,7 +10,7 @@ The goal of this module is to build a strong networking foundation that will sup
 
 | Completed | Total Rooms | Progress |
 |-----------:|------------:|---------:|
-| 5 | 6 | **83%** 🟨 |
+| 6 | 6 | **100%** ✅ |
 
 ---
 
@@ -23,7 +23,7 @@ The goal of this module is to build a strong networking foundation that will sup
 | ✅ | OSI Model | Easy | [task-notes.md](./OSI-Model/task-notes.md) |
 | ✅ | Packets & Frames | Easy | [task-notes.md](./Packets-and-Frames/task-notes.md) |
 | ✅ | Extending Your Network | Easy | [task-notes.md](./Extending-Your-Network/task-notes.md) |
-| ⏳ | Topic Transition Recap | Easy | Coming Soon |
+| ✅ | Topic Transition Recap | Easy | [task-notes.md](./Topic-Transition-Recap/task-notes.md) |
 ---
 
 # Module Objectives
@@ -184,20 +184,21 @@ Module-05-Network-Fundamentals/
 
 # Current Module Statistics
 
-- ✅ 5 of 6 Rooms Completed
+- ✅ 6 of 6 Rooms Completed
 - ✅ 8 Interactive Labs Completed
-- ✅ 5 Room Documentation Files
-- 🟨 Module 83% Complete
+- ✅ 6 Room Documentation Files
+- ✅ Module Complete
 
 ---
 
-# Next Room
+# Module Status
 
-➡️ **Topic Transition Recap**
+## ✅ Module Complete
 
-This final room reviews and reinforces the networking concepts learned throughout Module 05 before progressing to Module 06 – How the Web Works.
+All rooms in **Module 05 – Network Fundamentals** have been successfully completed.
 
+The next module in the TryHackMe Pre Security learning path is:
 
----
+➡️ **Module 06 – How the Web Works**
 
-This module is continuously updated as I complete each networking room, document hands-on labs, and expand my understanding of networking concepts essential for cybersecurity.
+This module builds upon the networking concepts learned here by exploring web technologies, HTTP/HTTPS, DNS, web servers, and web applications.

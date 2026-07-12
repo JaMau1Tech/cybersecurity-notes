@@ -15,13 +15,13 @@ The purpose of this section is to:
 # Progress
 
 | Module | Status |
-|---------|---------|
-| Module 01 – Introduction to Cybersecurity | ✅ Completed |
-| Module 02 – Computer Fundamentals | ✅ Completed |
-| Module 03 – Operating Systems Basics | ✅ Completed |
-| Module 04 – Software Basics | ✅ Completed |
-| Module 05 – Network Fundamentals | 🟨 In Progress (2/6 Rooms Completed) |
-| Module 06 – How the Web Works | ⬜ Not Started |
+|---------|:------:|
+| Module 01 – Introduction to Cybersecurity | ✅ Complete |
+| Module 02 – Computer Fundamentals | ✅ Complete |
+| Module 03 – Operating Systems Basics | ✅ Complete |
+| Module 04 – Software Basics | ✅ Complete |
+| Module 05 – Network Fundamentals | ✅ Complete |
+| Module 06 – How the Web Works | 🟨 In Progress |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
 ---
@@ -113,19 +113,16 @@ The purpose of this section is to:
 
 ---
 
-## 🟨 Module 05 – Network Fundamentals *(In Progress)*
+## ✅ Module 05 – Network Fundamentals
 
-**Completed Rooms**
+### Completed Rooms
 
 - ✅ What is Networking?
 - ✅ Intro to LAN
-
-**Upcoming Rooms**
-
-- ⏳ OSI Model
-- ⏳ Packets & Frames
-- ⏳ Extending Your Network
-- ⏳ Topic Transition Recap
+- ✅ OSI Model
+- ✅ Packets & Frames
+- ✅ Extending Your Network
+- ✅ Topic Transition Recap
 
 **Skills Developed**
 
@@ -232,10 +229,9 @@ The purpose of this section is to:
 
 # Current Portfolio Statistics
 
-- ✅ 4 Completed Modules
-- 🟨 Module 05 – Network Fundamentals (2/6 Rooms Completed)
-- ✅ 2 TryHackMe Networking Rooms Completed
-- ✅ 3 Networking Hands-On Labs Completed
+- ✅ 5 Completed Modules
+- 🟨 1 Module In Progress
+- ✅ 8 Interactive Networking Labs
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
@@ -244,6 +240,23 @@ The purpose of this section is to:
 - ✅ Structured Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
 
+---
+
+# Current Focus
+
+I am currently completing:
+
+**Module 06 – How the Web Works**
+
+Upcoming topics include:
+
+- DNS
+- HTTP
+- HTTPS
+- Web Servers
+- Cookies
+- APIs
+- Web Requests
 ---
 
 This repository is continuously updated as I complete additional TryHackMe modules and continue building my cybersecurity knowledge through hands-on practice and technical documentation.

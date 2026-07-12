@@ -1,298 +1,311 @@
-# TryHackMe Workflow Standard
+# TryHackMe Documentation Workflow
 
-**Version:** 1.1
+**Version:** 2.0
 
 **Status:** 🔒 LOCKED
 
-**Last Updated:** 2026-07-11
+**Last Updated:** 2026-07-12
 
-This document defines the official workflow for every TryHackMe room completed as part of the Root & Repository project.
+This document defines the official TryHackMe documentation workflow used throughout the Root & Repository project.
 
-No steps may be skipped, reordered, added, or removed without explicit user approval.
-
----
-
-# Core Principles
-
-- The user controls the pace of the room by providing each task.
-- The assistant never assumes task order or task content.
-- Every task is completed before moving to the next.
-- Never skip documentation.
-- Never skip screenshots.
-- Screenshots are taken immediately after completing the associated task or lab.
-- Repository documentation begins only after the room is fully completed.
-- Every completed room follows the exact same workflow.
-- Improvements require explicit user approval and version updates.
+No changes may be made without explicit user approval.
 
 ---
 
-# Phase 1 — Task-Driven Workflow
+# Purpose
 
-The user controls the pace of the room by providing the current TryHackMe task.
+This workflow ensures every completed TryHackMe room is documented consistently to build:
 
-The assistant must never assume the task order, task number, or task content.
-
-The assistant waits for the user to paste the current task (text or screenshot) before providing guidance.
-
-Every task follows this exact sequence.
-
----
-
-## Step 1 — User Provides Current Task
-
-The user pastes the current TryHackMe task.
-
-This may be:
-
-- Text
-- Screenshot
-- Both
-
-The assistant waits for the task before continuing.
+- Strong technical documentation habits
+- High-quality GitHub portfolio projects
+- Long-term knowledge retention
+- Professional cybersecurity documentation
 
 ---
 
-## Step 2 — Explain the Task
+# Standard TryHackMe Room Workflow
 
-Explain:
+Every standard TryHackMe room follows this exact process.
 
-- The purpose of the task.
-- Important concepts.
-- Technical details to pay attention to.
-- Any prerequisite knowledge.
+## During Every Task
 
-Do not answer the questions yet.
+For **every task** in the room, the assistant must:
 
----
+### 1. Explain the Task
 
-## Step 3 — Generate Notebook Notes
+Provide a concise explanation of:
 
-Generate handwritten notebook notes using the official Notebook Standard.
-
-Generate notes for **only the current task**.
-
-Do not generate notes for future tasks.
+- What the concept is
+- Why it matters
+- Important terminology
+- Real-world cybersecurity relevance
 
 ---
 
-## Step 4 — Complete the Task
+### 2. Generate Handwritten Notebook Notes
 
-Work through the task together.
+Generate notes using the official **Notebook Standards**.
 
-This includes:
+These notes must:
 
-- Answering questions.
-- Explaining concepts.
-- Assisting with commands.
-- Assisting with interactive labs.
-- Troubleshooting when necessary.
-
-The goal is for the user to understand the material, not simply obtain the answers.
+- Follow the locked notebook structure
+- Be concise
+- Use bullet points
+- Be easy to handwrite
+- Never contain unnecessary paragraphs
 
 ---
 
-## Step 5 — Task Screenshot
+### 3. Complete the Task
 
-Immediately after the task is completed:
+Provide:
 
-Stop.
+- Correct answers
+- Lab guidance
+- Flag verification (when applicable)
 
-Prompt:
-
-> 📸 Take your screenshot now.
-
-Provide the exact screenshot filename using the Screenshot Standard.
-
-Wait for the user to confirm before continuing.
+Never fabricate answers or flags.
 
 ---
 
-## Step 6 — Lab Workflow (If Applicable)
+### 4. Screenshot
 
-If the current task contains a hands-on activity or interactive lab:
+Immediately after completing the task:
 
-- Complete the lab together.
-- Explain what is happening.
-- Help troubleshoot if necessary.
+Tell the user to capture a screenshot.
 
-Immediately after the lab is complete:
+Provide the exact filename inside its own code block.
 
-Stop.
+Example:
 
-Prompt:
+```text
+room-name-task01-example
+```
 
-> 📸 Take your lab screenshot now.
+No file extensions.
+
+---
+
+### 5. Repeat
+
+Repeat Steps 1–4 for every task until the room is complete.
+
+---
+
+# Lab Workflow
+
+Whenever a room contains a practical exercise or lab:
+
+After completing the lab:
+
+- Verify the flag (if applicable)
+- Confirm successful completion
+- Prompt for the lab screenshot
 
 Provide the exact filename.
 
-Wait for confirmation.
+Example:
 
-Only then continue.
-
-Every completed lab receives its own screenshot.
-
----
-
-## Step 7 — Repeat
-
-Repeat Steps 1–6 for every remaining task in the room.
-
-The assistant never skips ahead or assumes future task content.
+```text
+room-name-task03-firewall-lab
+```
 
 ---
 
-# Phase 2 — Room Completion
+# Room Completion
 
-When the room reaches 100% completion:
+After the final task:
 
-Stop.
+Prompt for a room completion screenshot.
 
-Prompt:
+Example:
 
-> 📸 Take your room completion screenshot now.
-
-Provide the filename.
-
-Wait for confirmation.
-
-Only after confirmation may repository documentation begin.
+```text
+room-name-room-complete
+```
 
 ---
 
-# Phase 3 — Repository Documentation
+# After Every Standard Room
 
 Generate documentation in this exact order:
 
 1. Complete handwritten notebook notes
 2. Screenshot checklist
-3. task-notes.md
-4. Full Module README.md
-5. Module images/README.md
-6. Parent TryHackMe README.md
+3. `task-notes.md`
+4. FULL updated Module README
+5. Updated Module images README
+6. Updated parent TryHackMe README
 7. Repository structure review
-8. Git status
-9. Git add
-10. Git commit
-11. Git push
+8. Git add / commit / push commands
 
-No documentation may be skipped.
-
----
-
-# Screenshot Timing Standard
-
-Screenshots are always requested immediately after:
-
-- Completing a task
-- Completing a lab
-- Completing the room
-
-Never continue until the screenshot prompt has been given.
-
-Never generate screenshot filenames after the room has already been completed.
+Do not change this order.
 
 ---
 
 # Screenshot Naming Standard
 
-## Task Screenshot
+Task
 
-Format:
+```text
+room-name-task01-description
+```
 
-<room>-task##-description
+Lab
 
-Example:
+```text
+room-name-task03-lab-description
+```
 
-networking-task03-ip-mac-addresses
+Room Completion
 
----
+```text
+room-name-room-complete
+```
 
-## Lab Screenshot
+No file extensions.
 
-Format:
+Use lowercase.
 
-<room>-task##-lab-description
-
-Example:
-
-networking-task03-mac-address-spoofing-lab
-
-The lab remains associated with the task in which it occurs.
-
----
-
-## Room Completion Screenshot
-
-Format:
-
-<room>-room-complete
-
-Example:
-
-networking-room-complete
+Separate words with hyphens.
 
 ---
 
-# Screenshot Checklist Rules
+# Module Repository Structure
 
-The final checklist must include:
+```text
+Module-XX-Module-Name/
+│
+├── README.md
+│
+├── images/
+│   ├── README.md
+│   └── all screenshots
+│
+├── Room-Name-1/
+│   └── task-notes.md
+│
+├── Room-Name-2/
+│   └── task-notes.md
+│
+└── Topic-Transition-Recap/
+    └── task-notes.md
+```
 
-- Every task screenshot
-- Every lab screenshot
+Each module has:
+
+- One README
+- One images folder
+- One images README
+
+Rooms do **not** contain their own README or images folder.
+
+---
+
+# Topic Transition Recap Workflow
+
+Topic Transition Recap rooms are **module reviews**, not standard learning rooms.
+
+They follow a simplified workflow.
+
+## During the Recap
+
+The assistant should:
+
+- Explain each question
+- Generate concise notebook notes
+- Provide the correct answer
+
+No screenshot prompts are required.
+
+No room completion screenshot is required.
+
+---
+
+# After Every Topic Transition Recap
+
+Generate:
+
+1. Simplified recap `task-notes.md`
+2. FULL updated Module README
+3. Updated Module images README (no recap screenshots)
+4. Updated parent TryHackMe README
+5. Repository review
+6. Git commands
+
+---
+
+# Topic Transition Recap Template
+
+```markdown
+# Topic Transition Recap
+
+## Status
+
+✅ Completed
+
+---
+
+## Overview
+
+...
+
+---
+
+## Topics Reviewed
+
+...
+
+---
+
+## Key Concepts Learned
+
+...
+
+---
+
+## Skills Developed
+
+...
+
+---
+
+## Personal Reflection
+
+...
+
+---
+
+## Module Summary
+
+### Completed Topics
+
+...
+
+### Skills Gained
+
+...
+
+---
+
+## Next Steps
+
+...
+```
+
+---
+
+# Topic Transition Recap Screenshot Policy
+
+No screenshots are required.
+
+Do not generate:
+
+- Question screenshots
+- Lab screenshots
 - Room completion screenshot
 
-No screenshots may be omitted.
-
----
-
-# Repository Rules
-
-The TryHackMe repository follows the locked Repository Standards.
-
-- One README per module
-- One shared images folder per module
-- One shared images README per module
-- One task-notes.md per room
-- No room-level README
-- No room-level images folder
-
----
-
-# Git Workflow
-
-Every completed room concludes with:
-
-1. Repository review
-2. Git status
-3. Git add
-4. Git commit
-5. Git push
-
-The assistant provides the exact Git commands.
-
----
-
-# Quality Assurance Checklist
-
-Before considering a room complete, verify:
-
-- [ ] Every task completed
-- [ ] Every notebook section completed
-- [ ] Every task screenshot captured
-- [ ] Every lab screenshot captured
-- [ ] Room completion screenshot captured
-- [ ] Screenshot checklist completed
-- [ ] task-notes.md generated
-- [ ] Module README updated
-- [ ] Module images README updated
-- [ ] Parent README updated
-- [ ] Repository reviewed
-- [ ] Git status provided
-- [ ] Git add provided
-- [ ] Git commit provided
-- [ ] Git push provided
-
-Only after every box is complete is the room considered finished.
+The recap is documented through its summary instead.
 
 ---
 
@@ -301,11 +314,14 @@ Only after every box is complete is the room considered finished.
 The assistant must:
 
 - Follow this workflow exactly.
-- Wait for the user to provide each task.
-- Never assume future task content.
-- Never skip notebook generation.
-- Never skip task assistance.
-- Never skip screenshot prompts.
-- Wait for screenshot confirmation before continuing.
-- Generate repository documentation only after the room is complete.
-- Never modify this workflow without explicit user approval.
+- Never skip workflow steps.
+- Never change the documentation order.
+- Never invent labs.
+- Never invent flags.
+- Never invent screenshots.
+- Keep notebook notes concise.
+- Keep GitHub documentation professional.
+- Keep repository organization consistent.
+- Treat Topic Transition Recaps differently from standard rooms.
+
+No workflow modifications may be made without explicit user approval.

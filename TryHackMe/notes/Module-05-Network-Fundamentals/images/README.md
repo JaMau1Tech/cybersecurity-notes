@@ -106,21 +106,29 @@ Screenshots are organized using standardized descriptive filenames for easy refe
 
 ---
 
+# Topic Transition Recap
+
+This room is documented using the **Topic Transition Recap workflow**.
+
+No screenshots are captured for recap rooms.
+
+---
+
 # Screenshot Naming Standard
 
-Every screenshot follows this convention:
+Task
 
 ```text
-room-name-taskXX-description
+room-name-task01-description
 ```
 
-Lab screenshots use:
+Lab
 
 ```text
-room-name-taskXX-lab-description
+room-name-task03-lab-description
 ```
 
-Room completion screenshots use:
+Room Completion
 
 ```text
 room-name-room-complete
@@ -137,9 +145,10 @@ room-name-room-complete
 | OSI Model | 8 | 1 | 1 | 10 |
 | Packets & Frames | 3 | 2 | 1 | 6 |
 | Extending Your Network | 4 | 2 | 1 | 7 |
+| Topic Transition Recap | 0 | 0 | 0 | 0 |
 
 **Total Screenshots:** **35**
 
 ---
 
-This image library is updated after every completed TryHackMe room to maintain a consistent, searchable, and well-organized visual record of completed tasks and hands-on labs.
+This image library is updated after every completed TryHackMe room. Topic Transition Recap rooms intentionally do not contain screenshots and are documented through a summary `task-notes.md` instead.
