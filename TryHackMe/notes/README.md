@@ -357,6 +357,40 @@ The purpose of this section is to:
 
 ---
 
+## 🟨 Module 07 – Attacks and Defenses
+
+### Completed Rooms
+
+- ✅ The CIA Triad
+
+### Skills Developed
+
+#### Security Fundamentals
+
+- Confidentiality
+- Integrity
+- Availability
+- CIA Triad
+- Information Security Principles
+
+#### Security Controls
+
+- Authentication
+- Authorization
+- Access Control
+- Encryption
+- Data Integrity
+- Availability Planning
+
+#### Security Analysis
+
+- Risk Assessment
+- Incident Classification
+- Security Mindset
+- Threat Analysis
+
+---
+
 ## Technical Skills
 
 - Technical Documentation
@@ -372,7 +406,9 @@ The purpose of this section is to:
 # Current Portfolio Statistics
 
 - ✅ 6 Completed Modules
-- ⬜ 1 Module Remaining
+- 🟨 Module 07 In Progress
+- ✅ 1 Security Foundations Room Completed
+- ✅ CIA Triad Completed
 - ✅ 6 Networking Rooms Completed
 - ✅ 4 Web Technology Rooms Completed
 - ✅ Python Fundamentals
@@ -388,20 +424,17 @@ The purpose of this section is to:
 
 # Current Focus
 
-I am preparing to begin:
+I am currently studying:
 
-**Module 07 – Attacks and Defenses**
+Module 07 – Attacks and Defenses
 
-Upcoming topics include:
+Completed:
 
-- Offensive Security Concepts
-- Defensive Security Concepts
-- Common Cyber Attacks
-- Security Controls
-- Authentication
-- Authorization
-- Access Control
-- Defensive Strategies
+- ✅ The CIA Triad
+
+Next:
+
+- Continue through the remaining rooms in Module 07.
 
 ---
 
@@ -423,6 +456,10 @@ This documentation-first approach reinforces learning while building a professio
 
 ---
 
-**Repository Status:** 🟨 Active Development
+Repository Status: 🟨 Active Development
 
-This notes collection is continuously updated as I complete additional TryHackMe modules and expand my cybersecurity knowledge through structured learning, hands-on practice, and professional technical documentation.
+Current Module:
+Module 07 – Attacks and Defenses
+
+Latest Completed Room:
+✅ The CIA Triad
