@@ -1,10 +1,10 @@
 # TryHackMe Documentation Workflow
 
-**Version:** 2.0
+**Version:** 2.1
 
 **Status:** 🔒 LOCKED
 
-**Last Updated:** 2026-07-12
+**Last Updated:** 2026-07-14
 
 This document defines the official TryHackMe documentation workflow used throughout the Root & Repository project.
 
@@ -132,14 +132,14 @@ Generate documentation in this exact order:
 
 1. Complete handwritten notebook notes
 2. Screenshot checklist
-3. `task-notes.md`
-4. FULL updated Module README
-5. Updated Module images README
-6. Updated parent TryHackMe README
+3. Full `task-notes.md`
+4. FULL regenerated Module `README.md`
+5. FULL regenerated Module `images/README.md`
+6. FULL regenerated parent TryHackMe `README.md`
 7. Repository structure review
 8. Git add / commit / push commands
 
-Do not change this order.
+All affected files must be complete, current, internally consistent, and ready to replace the existing files directly.
 
 ---
 
@@ -308,6 +308,42 @@ Do not generate:
 The recap is documented through its summary instead.
 
 ---
+
+# Full File Regeneration Standard
+
+After every completed standard TryHackMe room, the assistant must regenerate every affected documentation file in full.
+
+The assistant must not provide:
+
+- Partial sections
+- Patch notes
+- “Add this section” instructions
+- Isolated updates that require manual merging
+- Incomplete replacement content
+
+The following files must always be provided as complete, ready-to-replace files:
+
+1. `task-notes.md`
+2. Full Module `README.md`
+3. Full Module `images/README.md`
+4. Full parent TryHackMe `README.md`
+
+Each regenerated file must reflect all current project information, including:
+
+- Correct module number
+- Correct module name
+- Current room statuses
+- Completed room sections
+- Updated skills
+- Updated screenshot lists
+- Updated screenshot totals
+- Updated repository structure
+- Updated module progress
+- Correct next room
+- Correct module status
+- Any other dependent information affected by the completed room
+
+The assistant is responsible for checking internal consistency across all regenerated files so the user does not have to manually search for outdated information or merge documentation changes.
 
 # Assistant Responsibilities
 
