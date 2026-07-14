@@ -22,7 +22,7 @@ The purpose of this repository is to:
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
-| Module 06 – How The Web Works | 🟨 In Progress (3/4 Rooms Completed) |
+| Module 06 – How The Web Works | ✅ Complete |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
 ---
@@ -207,28 +207,25 @@ TryHackMe/
 
 ---
 
-## 🟨 Module 06 – How The Web Works *(In Progress)*
+## ✅ Module 06 – How The Web Works
 
 ### Completed Rooms
 
 - ✅ DNS in Detail
 - ✅ HTTP in Detail
 - ✅ How Websites Work
+- ✅ Putting it all together
 
-### Remaining Rooms
-
-- ⬜ Putting it all together
-
-### Skills Developed So Far
+### Skills Developed
 
 #### DNS
 
-- DNS
+- Domain Name System (DNS)
 - DNS Hierarchy
 - DNS Resolution
 - DNS Record Types
 - DNS Caching
-- TTL
+- Time To Live (TTL)
 
 #### HTTP
 
@@ -238,18 +235,33 @@ TryHackMe/
 - HTTP Requests
 - HTTP Responses
 - HTTP Headers
-- Cookies
 - HTTP Methods
 - HTTP Status Codes
+- Cookies
 
-#### Web Technologies
+#### Website Technologies
 
 - Front-End
 - Back-End
 - HTML
 - JavaScript
-- DOM Manipulation
 - Browser Rendering
+- Static Content
+- Dynamic Content
+- Virtual Hosts
+
+#### Web Infrastructure
+
+- Web Servers
+- Apache
+- Nginx
+- IIS
+- Node.js
+- Load Balancers
+- Health Checks
+- Content Delivery Networks (CDNs)
+- Databases
+- Web Application Firewalls (WAFs)
 
 #### Web Security
 
@@ -258,6 +270,7 @@ TryHackMe/
 - HTML Injection
 - Input Validation
 - Input Sanitization
+- Web Request Lifecycle
 
 ---
 
@@ -307,20 +320,36 @@ TryHackMe/
 
 ## Web Technologies
 
-- DNS
+- Domain Name System (DNS)
+- DNS Resolution
+- DNS Record Types
 - HTTP
 - HTTPS
 - URLs
+- HTTP Requests
+- HTTP Responses
+- HTTP Headers
+- HTTP Methods
+- HTTP Status Codes
+- Cookies
 - HTML
 - JavaScript
 - Front-End Development
 - Back-End Concepts
 - Browser Rendering
-- DOM Manipulation
-- Cookies
-- HTTP Headers
-- HTTP Methods
-- HTTP Status Codes
+- Static Content
+- Dynamic Content
+- Virtual Hosts
+- Web Servers
+- Apache
+- Nginx
+- IIS
+- Node.js
+- Load Balancers
+- Health Checks
+- Content Delivery Networks (CDNs)
+- Databases
+- Web Application Firewalls (WAFs)
 
 ---
 
@@ -331,6 +360,7 @@ TryHackMe/
 - HTML Injection
 - Input Validation
 - Input Sanitization
+- Web Request Lifecycle
 
 ---
 
@@ -379,10 +409,10 @@ TryHackMe/
 
 # Current Portfolio Statistics
 
-- ✅ 5 Completed Modules
-- 🟨 1 Module In Progress
+- ✅ 6 Completed Modules
+- ⬜ 1 Module Remaining
 - ✅ 6 Networking Rooms Completed
-- ✅ 3 Web Rooms Completed
+- ✅ 4 Web Rooms Completed
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
@@ -394,15 +424,20 @@ TryHackMe/
 
 # Current Focus
 
-I am currently completing:
+I am preparing to begin:
 
-**Module 06 – How The Web Works**
+**Module 07 – Attacks and Defenses**
 
-Remaining room:
+Upcoming topics include:
 
-- Putting it all together
-
-After completing this room, Module 06 will be complete and I will begin **Module 07 – Attacks and Defenses**.
+- Offensive Security
+- Defensive Security
+- Common Cyber Attacks
+- Authentication
+- Authorization
+- Security Controls
+- Access Control
+- Defensive Strategies
 
 ---
 

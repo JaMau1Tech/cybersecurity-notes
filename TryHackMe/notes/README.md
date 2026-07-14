@@ -1,6 +1,6 @@
 # TryHackMe Notes
 
-This folder contains notes, screenshots, and documentation from my progress through the **TryHackMe** learning paths.
+This folder contains my notes, screenshots, and documentation from my progress through the **TryHackMe Pre Security Learning Path**.
 
 The purpose of this section is to:
 
@@ -8,7 +8,8 @@ The purpose of this section is to:
 - Learn foundational IT concepts
 - Build problem-solving abilities
 - Improve technical documentation skills
-- Track learning progress
+- Reinforce learning through structured note-taking
+- Track learning progress throughout the Pre Security path
 
 ---
 
@@ -21,7 +22,7 @@ The purpose of this section is to:
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
-| Module 06 – How the Web Works | 🟨 In Progress |
+| Module 06 – How The Web Works | ✅ Complete |
 | Module 07 – Attacks and Defenses | ⬜ Not Started |
 
 ---
@@ -30,25 +31,25 @@ The purpose of this section is to:
 
 ## ✅ Module 01 – Introduction to Cybersecurity
 
-**Topics Covered**
+### Topics Covered
 
 - Introduction to Cybersecurity
 - Offensive Security
 - Defensive Security
 - Careers in Cybersecurity
 
-**Skills Developed**
+### Skills Developed
 
-- Understanding cybersecurity concepts
+- Cybersecurity fundamentals
 - Security domains
 - Threat awareness
-- Documentation
+- Technical documentation
 
 ---
 
 ## ✅ Module 02 – Computer Fundamentals
 
-**Topics Covered**
+### Topics Covered
 
 - Client-Server Basics
 - Cloud Computing Fundamentals
@@ -56,11 +57,11 @@ The purpose of this section is to:
 - Inside a Computer System
 - Virtualization
 
-**Skills Developed**
+### Skills Developed
 
 - Client-server architecture
 - Cloud computing concepts
-- Hardware fundamentals
+- Computer hardware fundamentals
 - Computer components
 - Virtual machines
 
@@ -68,7 +69,7 @@ The purpose of this section is to:
 
 ## ✅ Module 03 – Operating Systems Basics
 
-**Topics Covered**
+### Topics Covered
 
 - Windows Fundamentals
 - Linux Fundamentals
@@ -76,7 +77,7 @@ The purpose of this section is to:
 - Command Line Basics
 - Operating System Concepts
 
-**Skills Developed**
+### Skills Developed
 
 - Windows navigation
 - Linux navigation
@@ -88,7 +89,7 @@ The purpose of this section is to:
 
 ## ✅ Module 04 – Software Basics
 
-**Topics Covered**
+### Topics Covered
 
 - Data Representation
 - Data Encoding
@@ -97,14 +98,18 @@ The purpose of this section is to:
 - Database SQL Basics
 - Topic Transition Recap
 
-**Skills Developed**
+### Skills Developed
 
-- Binary and hexadecimal
-- ASCII and Unicode
-- UTF-8, UTF-16, UTF-32
+- Binary
+- Decimal
+- Hexadecimal
+- ASCII
+- Unicode
+- UTF-8
 - Python fundamentals
 - JavaScript fundamentals
-- Variables and constants
+- Variables
+- Constants
 - Conditional statements
 - Loops
 - SQL basics
@@ -124,17 +129,16 @@ The purpose of this section is to:
 - ✅ Extending Your Network
 - ✅ Topic Transition Recap
 
-**Skills Developed**
+### Skills Developed
 
-- Networking Fundamentals
-- Internet Fundamentals
-- LAN Topologies
+- Networking fundamentals
+- Internet fundamentals
+- LAN topologies
 - Switching
 - Routing
-- IP Addressing
-- Public vs Private IP Addresses
 - IPv4
 - IPv6
+- Public vs Private IP Addressing
 - MAC Addressing
 - MAC Address Spoofing
 - Subnetting
@@ -142,7 +146,85 @@ The purpose of this section is to:
 - DHCP
 - ICMP
 - Ping
+- OSI Model
+- TCP/IP Model
+- TCP
+- UDP
+- Three-Way Handshake
+- Packets
+- Frames
+- Network Ports
+- Firewalls
+- VPN Fundamentals
+- VLANs
 - Basic Network Troubleshooting
+
+---
+
+## ✅ Module 06 – How The Web Works
+
+### Completed Rooms
+
+- ✅ DNS in Detail
+- ✅ HTTP in Detail
+- ✅ How Websites Work
+- ✅ Putting it all together
+
+### Skills Developed
+
+#### DNS
+
+- Domain Name System (DNS)
+- DNS Hierarchy
+- DNS Resolution
+- DNS Record Types
+- DNS Caching
+- Time To Live (TTL)
+
+#### HTTP
+
+- HTTP
+- HTTPS
+- URLs
+- HTTP Requests
+- HTTP Responses
+- HTTP Headers
+- HTTP Methods
+- HTTP Status Codes
+- Cookies
+
+#### Website Technologies
+
+- Front-End
+- Back-End
+- HTML
+- JavaScript
+- Browser Rendering
+- Static Content
+- Dynamic Content
+- Virtual Hosts
+
+#### Web Infrastructure
+
+- Web Servers
+- Apache
+- Nginx
+- IIS
+- Node.js
+- Load Balancers
+- Health Checks
+- Content Delivery Networks (CDNs)
+- Databases
+- Web Application Firewalls (WAFs)
+
+#### Web Security
+
+- Source Code Review
+- Sensitive Data Exposure
+- HTML Injection
+- Input Validation
+- Input Sanitization
+- Web Request Lifecycle
 
 ---
 
@@ -156,35 +238,89 @@ The purpose of this section is to:
 - Virtual Machines
 - Operating Systems
 
+---
+
 ## Software Fundamentals
 
 - Binary
 - Decimal
 - Hexadecimal
-- RGB Colors
 - ASCII
 - Unicode
-- UTF Encoding
+- UTF-8 Encoding
+
+---
 
 ## Networking Fundamentals
 
 - Computer Networks
-- Internet Fundamentals
-- LAN Topologies
+- LAN Design
 - Switching
 - Routing
-- IP Addressing
-- Public vs Private IP Addresses
+- TCP/IP Fundamentals
 - IPv4
 - IPv6
+- Public & Private Networks
 - MAC Addressing
-- MAC Address Spoofing
 - Subnetting
 - ARP
 - DHCP
 - ICMP
 - Ping
+- OSI Model
+- TCP
+- UDP
+- Three-Way Handshake
+- Packets
+- Frames
+- Network Ports
+- Firewalls
+- VPNs
+- VLANs
 - Basic Network Troubleshooting
+
+---
+
+## Web Technologies
+
+- DNS
+- DNS Resolution
+- DNS Record Types
+- HTTP
+- HTTPS
+- URLs
+- HTTP Requests
+- HTTP Responses
+- HTTP Headers
+- HTTP Methods
+- HTTP Status Codes
+- Cookies
+- HTML
+- JavaScript
+- Front-End Development
+- Back-End Concepts
+- Browser Rendering
+- Static Content
+- Dynamic Content
+- Virtual Hosts
+- Web Servers
+- Load Balancers
+- Content Delivery Networks (CDNs)
+- Databases
+- Web Application Firewalls (WAFs)
+
+---
+
+## Web Security
+
+- Source Code Review
+- Sensitive Data Exposure
+- HTML Injection
+- Input Validation
+- Input Sanitization
+- Web Request Lifecycle
+
+---
 
 ## Programming
 
@@ -192,9 +328,8 @@ The purpose of this section is to:
 
 - Variables
 - User Input
-- Random Number Generation
+- Loops
 - Conditional Statements
-- While Loops
 
 ### JavaScript
 
@@ -202,8 +337,11 @@ The purpose of this section is to:
 - Constants
 - User Input
 - Conditional Statements
-- While Loops
+- Loops
 - Node.js
+- DOM Manipulation
+
+---
 
 ## Databases
 
@@ -217,46 +355,74 @@ The purpose of this section is to:
 - WHERE
 - ORDER BY
 
+---
+
 ## Technical Skills
 
 - Technical Documentation
-- Git & GitHub
+- Git
+- GitHub
+- Markdown
 - Repository Organization
 - Screenshot Documentation
-- Hands-on Labs
+- Hands-On Labs
 
 ---
 
 # Current Portfolio Statistics
 
-- ✅ 5 Completed Modules
-- 🟨 1 Module In Progress
-- ✅ 8 Interactive Networking Labs
+- ✅ 6 Completed Modules
+- ⬜ 1 Module Remaining
+- ✅ 6 Networking Rooms Completed
+- ✅ 4 Web Technology Rooms Completed
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
 - ✅ Networking Fundamentals
-- ✅ Organized Technical Documentation
-- ✅ Structured Screenshot Library
+- ✅ Web Technology Fundamentals
+- ✅ Structured Technical Documentation
+- ✅ Standardized Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
 
 ---
 
 # Current Focus
 
-I am currently completing:
+I am preparing to begin:
 
-**Module 06 – How the Web Works**
+**Module 07 – Attacks and Defenses**
 
 Upcoming topics include:
 
-- DNS
-- HTTP
-- HTTPS
-- Web Servers
-- Cookies
-- APIs
-- Web Requests
+- Offensive Security Concepts
+- Defensive Security Concepts
+- Common Cyber Attacks
+- Security Controls
+- Authentication
+- Authorization
+- Access Control
+- Defensive Strategies
+
 ---
 
-This repository is continuously updated as I complete additional TryHackMe modules and continue building my cybersecurity knowledge through hands-on practice and technical documentation.
+# Learning Philosophy
+
+These notes follow my **Root & Repository** documentation standards.
+
+Each completed TryHackMe room includes:
+
+- Handwritten notebook notes
+- Screenshot documentation
+- Task notes
+- Hands-on lab documentation
+- GitHub-ready Markdown
+- Repository organization
+- Git version history
+
+This documentation-first approach reinforces learning while building a professional cybersecurity knowledge base and portfolio.
+
+---
+
+**Repository Status:** 🟨 Active Development
+
+This notes collection is continuously updated as I complete additional TryHackMe modules and expand my cybersecurity knowledge through structured learning, hands-on practice, and professional technical documentation.

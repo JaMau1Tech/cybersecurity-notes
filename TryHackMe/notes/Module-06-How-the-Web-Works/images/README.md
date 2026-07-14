@@ -2,17 +2,15 @@
 
 ## Overview
 
-This folder stores every screenshot captured while completing the **How The Web Works** module of the TryHackMe Pre Security Learning Path.
+This folder stores all screenshots captured while completing the TryHackMe rooms in **Module 06 – How The Web Works**.
 
-All screenshots follow the project's locked naming convention:
+All screenshots follow the locked Root & Repository naming standard:
 
 - Lowercase
 - Hyphen-separated
-- Descriptive filenames
 - No spaces
-- No file extensions used in documentation
-
-These screenshots document task completion, practical exercises, and completed rooms while providing visual evidence of hands-on work throughout the module.
+- Descriptive filenames
+- No file extensions in documentation
 
 ---
 
@@ -24,20 +22,20 @@ These screenshots document task completion, practical exercises, and completed r
 |------|-------------|----------|
 | Task 1 | What is DNS? | `dns-in-detail-task01-what-is-dns` |
 | Task 2 | Domain Hierarchy | `dns-in-detail-task02-domain-hierarchy` |
-| Task 3 | DNS Record Types | `dns-in-detail-task03-record-types` |
+| Task 3 | Record Types | `dns-in-detail-task03-record-types` |
 | Task 4 | DNS Request Process | `dns-in-detail-task04-dns-request-process` |
 
 ### Lab Screenshot
 
 | Task | Description | Filename |
 |------|-------------|----------|
-| Task 5 | Practical DNS Queries | `dns-in-detail-task05-dns-practical` |
+| Task 5 | DNS Practical Queries | `dns-in-detail-task05-dns-practical` |
 
 ### Room Completion
 
 | Description | Filename |
-|-------------|----------|
-| DNS in Detail Completed | `dns-in-detail-room-complete` |
+|------------|----------|
+| Room Completed | `dns-in-detail-room-complete` |
 
 ---
 
@@ -47,24 +45,24 @@ These screenshots document task completion, practical exercises, and completed r
 
 | Task | Description | Filename |
 |------|-------------|----------|
-| Task 1 | What is HTTP & HTTPS | `http-in-detail-task01-what-is-https` |
+| Task 1 | What is HTTP(S)? | `http-in-detail-task01-what-is-http` |
 | Task 2 | Requests and Responses | `http-in-detail-task02-requests-and-responses` |
 | Task 3 | HTTP Methods | `http-in-detail-task03-http-methods` |
 | Task 4 | HTTP Status Codes | `http-in-detail-task04-http-status-codes` |
-| Task 5 | HTTP Headers | `http-in-detail-task05-headers` |
+| Task 5 | Headers | `http-in-detail-task05-headers` |
 | Task 6 | Cookies | `http-in-detail-task06-cookies` |
 
 ### Lab Screenshot
 
 | Task | Description | Filename |
 |------|-------------|----------|
-| Task 7 | Practical HTTP Requests | `http-in-detail-task07-making-requests` |
+| Task 7 | Making Requests | `http-in-detail-task07-making-requests` |
 
 ### Room Completion
 
 | Description | Filename |
-|-------------|----------|
-| HTTP in Detail Completed | `http-in-detail-room-complete` |
+|------------|----------|
+| Room Completed | `http-in-detail-room-complete` |
 
 ---
 
@@ -74,8 +72,8 @@ These screenshots document task completion, practical exercises, and completed r
 
 | Task | Description | Filename |
 |------|-------------|----------|
-| Task 1 | Website Components | `how-websites-work-task01-how-websites-work` |
-| Task 2 | HTML Fundamentals | `how-websites-work-task02-html` |
+| Task 1 | How Websites Work | `how-websites-work-task01-how-websites-work` |
+| Task 2 | HTML | `how-websites-work-task02-html` |
 | Task 3 | JavaScript | `how-websites-work-task03-javascript` |
 | Task 4 | Sensitive Data Exposure | `how-websites-work-task04-sensitive-data-exposure` |
 
@@ -88,18 +86,16 @@ These screenshots document task completion, practical exercises, and completed r
 ### Room Completion
 
 | Description | Filename |
-|-------------|----------|
-| How Websites Work Completed | `how-websites-work-room-complete` |
+|------------|----------|
+| Room Completed | `how-websites-work-room-complete` |
 
 ---
 
 # Putting it all together
 
-No screenshots have been added yet.
+This room is a **Topic Transition Recap**.
 
-This room is a **Topic Transition Recap**, which follows the locked documentation workflow.
-
-No screenshots will be generated for this room.
+According to the locked documentation workflow, **no screenshots are required** for recap rooms.
 
 ---
 
@@ -113,7 +109,7 @@ dns-in-detail-task04-dns-request-process
 dns-in-detail-task05-dns-practical
 dns-in-detail-room-complete
 
-http-in-detail-task01-what-is-https
+http-in-detail-task01-what-is-http
 http-in-detail-task02-requests-and-responses
 http-in-detail-task03-http-methods
 http-in-detail-task04-http-status-codes
@@ -136,7 +132,6 @@ how-websites-work-room-complete
 
 ```text
 images/
-│
 ├── README.md
 │
 ├── dns-in-detail-task01-what-is-dns.png
@@ -146,7 +141,7 @@ images/
 ├── dns-in-detail-task05-dns-practical.png
 ├── dns-in-detail-room-complete.png
 │
-├── http-in-detail-task01-what-is-https.png
+├── http-in-detail-task01-what-is-http.png
 ├── http-in-detail-task02-requests-and-responses.png
 ├── http-in-detail-task03-http-methods.png
 ├── http-in-detail-task04-http-status-codes.png
@@ -165,56 +160,22 @@ images/
 
 ---
 
-# Screenshot Statistics
+# Progress
 
-| Room | Task Screenshots | Lab Screenshots | Completion Screenshots | Total |
-|------|-----------------:|----------------:|-----------------------:|------:|
-| DNS in Detail | 4 | 1 | 1 | 6 |
-| HTTP in Detail | 6 | 1 | 1 | 8 |
-| How Websites Work | 4 | 1 | 1 | 6 |
-| Putting it all together | 0 | 0 | 0 | 0 |
-| **Module Total** | **14** | **3** | **3** | **20** |
-
----
-
-# Screenshot Naming Convention
-
-## Task Screenshots
-
-```text
-room-name-task01-description
-```
-
-Example:
-
-```text
-how-websites-work-task03-javascript
-```
+| Room | Screenshots |
+|------|------------:|
+| DNS in Detail | 6 |
+| HTTP in Detail | 8 |
+| How Websites Work | 6 |
+| Putting it all together | 0 *(Topic Transition Recap)* |
+| **Total** | **20** |
 
 ---
 
-## Lab Screenshots
+## Module Status
 
-```text
-room-name-task05-lab-description
-```
+✅ **Module Complete**
 
-Example:
+All required screenshots for **Module 06 – How The Web Works** have been captured and documented according to the locked Root & Repository documentation workflow.
 
-```text
-how-websites-work-task05-html-injection
-```
-
----
-
-## Room Completion Screenshots
-
-```text
-room-name-room-complete
-```
-
-Example:
-
-```text
-how-websites-work-room-complete
-```
+The Topic Transition Recap intentionally contains **no screenshots** in accordance with the established documentation standard.
