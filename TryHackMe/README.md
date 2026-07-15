@@ -1,6 +1,6 @@
 # TryHackMe
 
-This repository contains my documentation, notes, screenshots, and hands-on labs completed throughout the **TryHackMe Pre Security Learning Path**.
+This repository contains my documentation, handwritten notes, screenshots, and hands-on labs completed throughout the **TryHackMe Pre Security Learning Path**.
 
 The purpose of this repository is to:
 
@@ -8,8 +8,17 @@ The purpose of this repository is to:
 - Develop practical hands-on skills
 - Practice professional technical documentation
 - Reinforce learning through handwritten notes
-- Create a portfolio demonstrating continuous growth
+- Create a professional cybersecurity portfolio
 - Track progress through structured learning paths
+- Demonstrate continuous learning and skill development
+
+---
+
+# Learning Path Status
+
+| Learning Path | Status |
+|--------------|:------:|
+| Pre Security | ✅ Complete |
 
 ---
 
@@ -23,7 +32,9 @@ The purpose of this repository is to:
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
 | Module 06 – How The Web Works | ✅ Complete |
-| Module 07 – Attacks and Defenses | 🟨 In Progress (3/5 Rooms Completed) |
+| Module 07 – Attacks and Defenses | ✅ Complete |
+
+**Overall Progress:** **7 / 7 Modules Completed (100%)**
 
 ---
 
@@ -86,7 +97,7 @@ TryHackMe/
 
 - Computer Hardware
 - Client-Server Architecture
-- Cloud Concepts
+- Cloud Computing Concepts
 - Virtual Machines
 
 ---
@@ -133,7 +144,6 @@ TryHackMe/
 - Python Fundamentals
 - JavaScript Fundamentals
 - SQL Fundamentals
-
 ---
 
 ## ✅ Module 05 – Network Fundamentals
@@ -164,15 +174,46 @@ TryHackMe/
 - ICMP
 - Ping
 - OSI Model
-- TCP/IP
+- Physical Layer
+- Data Link Layer
+- Network Layer
+- Transport Layer
+- Session Layer
+- Presentation Layer
+- Application Layer
 - TCP
 - UDP
+- Encapsulation
+- Packets
+- Frames
+- TCP/IP Model
 - Three-Way Handshake
+- SYN
+- SYN/ACK
+- ACK
+- FIN
+- RST
+- TCP Headers
+- UDP Headers
+- Checksums
+- Sequence Numbers
 - Network Ports
+- Common Service Ports
+- Port Forwarding
 - Firewalls
-- VPNs
-- VLANs
+- Stateful Firewalls
+- Stateless Firewalls
 - Packet Inspection
+- VPN Fundamentals
+- PPP
+- PPTP
+- IPSec
+- Routing
+- Layer 2 Switching
+- Layer 3 Switching
+- VLANs
+- Network Simulation
+- Packet Flow Analysis
 
 ---
 
@@ -183,18 +224,18 @@ TryHackMe/
 - ✅ DNS in Detail
 - ✅ HTTP in Detail
 - ✅ How Websites Work
-- ✅ Putting it all together
+- ✅ Putting it all Together
 
 ### Skills Developed
 
 #### DNS
 
-- DNS
+- Domain Name System (DNS)
 - DNS Hierarchy
 - DNS Resolution
 - DNS Record Types
 - DNS Caching
-- TTL
+- Time To Live (TTL)
 
 #### HTTP
 
@@ -210,14 +251,14 @@ TryHackMe/
 
 #### Website Technologies
 
-- HTML
-- JavaScript
 - Front-End
 - Back-End
+- HTML
+- JavaScript
+- Browser Rendering
 - Static Content
 - Dynamic Content
 - Virtual Hosts
-- Browser Rendering
 
 #### Web Infrastructure
 
@@ -228,37 +269,34 @@ TryHackMe/
 - Node.js
 - Load Balancers
 - Health Checks
-- CDNs
+- Content Delivery Networks (CDNs)
 - Databases
-- WAFs
+- Web Application Firewalls (WAFs)
 
 #### Web Security
 
 - Source Code Review
-- HTML Injection
 - Sensitive Data Exposure
+- HTML Injection
 - Input Validation
 - Input Sanitization
 - Web Request Lifecycle
 
 ---
 
-## 🟨 Module 07 – Attacks and Defenses *(In Progress)*
+## ✅ Module 07 – Attacks and Defenses
 
-### Completed Rooms
+### Completed Activities
 
 - ✅ The CIA Triad
 - ✅ Cryptography Concepts
 - ✅ Become a Hacker
+- ✅ Become a Defender
+- ✅ Topic Rewind Recap
 
-### Remaining Rooms
+### Skills Developed
 
-- ⬜ Become a Defender
-- ⬜ Topic Rewind Recap
-
-### Skills Developed So Far
-
-#### Security Fundamentals
+#### Security Foundations
 
 - CIA Triad
 - Confidentiality
@@ -269,40 +307,50 @@ TryHackMe/
 
 #### Cryptography
 
-- Plaintext
-- Ciphertext
 - Encryption
 - Decryption
+- Plaintext
+- Ciphertext
 - Symmetric Encryption
 - Asymmetric Encryption
 - Public Keys
 - Private Keys
-- Key Distribution
 - HTTPS
-- TLS Concepts
 - Digital Certificates
+- Public Key Infrastructure (PKI)
 - Certificate Authorities
 
 #### Offensive Security
 
 - Ethical Hacking
-- Offensive Security
 - Penetration Testing
 - Enumeration
 - Reconnaissance
-- Vulnerability Assessment
+- Vulnerability Discovery
 - Attack Surface Analysis
-- Hidden Resource Discovery
-- Authentication Testing
+- Password Auditing
 - Dictionary Attacks
-- Credential Auditing
-- Password Security
+- Authentication Testing
+
+#### Defensive Security
+
+- Blue Team Fundamentals
+- Infrastructure Visibility
+- Asset Identification
+- Threat Anticipation
+- Risk Prioritization
+- Prevention
+- Detection
+- Mitigation
+- Analysis
+- Incident Response
+- Layered Security
+- Continuous Improvement
 
 #### Security Tools
 
 - Gobuster
 - Hydra
-
 ---
 
 # Skills Gained
@@ -326,6 +374,8 @@ TryHackMe/
 - OSI Model
 - TCP
 - UDP
+- Three-Way Handshake
+- Network Ports
 - Firewalls
 - VPNs
 - VLANs
@@ -334,35 +384,83 @@ TryHackMe/
 
 ## Web Technologies
 
-- DNS
+- Domain Name System (DNS)
+- DNS Resolution
 - HTTP
 - HTTPS
+- URLs
+- HTTP Requests
+- HTTP Responses
+- HTTP Headers
+- HTTP Methods
+- HTTP Status Codes
+- Cookies
 - HTML
 - JavaScript
-- Front-End
-- Back-End
-- Web Servers
-- Load Balancers
-- CDNs
-- WAFs
+- Front-End Development
+- Back-End Concepts
 - Browser Rendering
+- Static Content
+- Dynamic Content
+- Web Servers
+- Apache
+- Nginx
+- IIS
+- Node.js
+- Load Balancers
+- Health Checks
+- Content Delivery Networks (CDNs)
+- Web Application Firewalls (WAFs)
 
 ---
 
 ## Cybersecurity
 
+### Security Foundations
+
 - CIA Triad
-- Cryptography
+- Confidentiality
+- Integrity
+- Availability
+- Risk Assessment
+- Security Mindset
+
+### Cryptography
+
+- Encryption
+- Decryption
 - Symmetric Encryption
 - Asymmetric Encryption
-- Public Key Infrastructure
+- Public Key Infrastructure (PKI)
+- HTTPS
+- TLS Concepts
 - Digital Certificates
+- Certificate Authorities
+
+### Offensive Security
+
 - Ethical Hacking
 - Penetration Testing
 - Enumeration
-- Dictionary Attacks
-- Authentication Security
+- Reconnaissance
+- Vulnerability Assessment
+- Hidden Resource Discovery
 - Password Auditing
+- Dictionary Attacks
+- Authentication Testing
+
+### Defensive Security
+
+- Blue Team Fundamentals
+- Infrastructure Visibility
+- Asset Management
+- Threat Anticipation
+- Prevention
+- Detection
+- Mitigation
+- Analysis
+- Incident Response
+- Layered Security
 
 ---
 
@@ -405,40 +503,23 @@ TryHackMe/
 - Markdown
 - Repository Organization
 - Screenshot Documentation
-- Hands-On Labs
+- Hands-on Labs
+- Professional Note Taking
 
 ---
 
-# Current Portfolio Statistics
+# Portfolio Statistics
 
-- ✅ 6 Completed Modules
-- 🟨 1 Module In Progress
-- ✅ 6 Networking Rooms Completed
-- ✅ 4 Web Rooms Completed
-- ✅ 3 Security Rooms Completed
-- ✅ Python Fundamentals
-- ✅ JavaScript Fundamentals
-- ✅ SQL Fundamentals
-- ✅ Cryptography Fundamentals
-- ✅ Offensive Security Fundamentals
-- ✅ Structured Technical Documentation
-- ✅ Standardized Screenshot Library
-- ✅ Growing Cybersecurity Portfolio
-
----
-
-# Current Focus
-
-I am currently completing:
-
-**Module 07 – Attacks and Defenses**
-
-Remaining rooms:
-
-- Become a Defender
-- Topic Rewind Recap
-
-After completing these rooms, I will have finished the entire **TryHackMe Pre Security Learning Path**.
+| Statistic | Total |
+|-----------|------:|
+| Learning Paths Completed | 1 |
+| Modules Completed | 7 |
+| Standard Rooms Completed | 24 |
+| Topic Recaps Completed | 4 |
+| Hands-on Labs Completed | 20+ |
+| Security Tools Learned | Gobuster, Hydra |
+| Documentation Files | 30+ |
+| Screenshot Library | Professionally Organized |
 
 ---
 
@@ -446,7 +527,7 @@ After completing these rooms, I will have finished the entire **TryHackMe Pre Se
 
 This repository follows my **Root & Repository** documentation standards.
 
-Each completed TryHackMe room includes:
+Every completed TryHackMe room includes:
 
 - Handwritten notebook notes
 - Screenshot documentation
@@ -456,10 +537,41 @@ Each completed TryHackMe room includes:
 - Repository organization
 - Git version history
 
-This documentation-first approach reinforces learning while building a professional cybersecurity portfolio.
+This documentation-first approach reinforces learning while building a professional cybersecurity portfolio that demonstrates both technical ability and professional documentation skills.
 
 ---
 
-**Repository Status:** 🟨 Active Development
+# Pre Security Learning Path Summary
 
-This repository is continuously updated as I complete additional TryHackMe modules and expand my cybersecurity knowledge through hands-on practice and structured technical documentation.
+Throughout the Pre Security Learning Path, I developed a strong understanding of:
+
+- Computer hardware and architecture
+- Operating systems
+- Networking fundamentals
+- Web technologies
+- Information security principles
+- Cryptography fundamentals
+- Offensive security concepts
+- Defensive security concepts
+- Technical documentation
+- Professional cybersecurity workflows
+
+This learning path established the foundational knowledge required to continue into more advanced cybersecurity topics and hands-on penetration testing and defensive security training.
+
+---
+
+# Repository Status
+
+## ✅ Pre Security Learning Path Complete
+
+All modules, rooms, documentation, screenshots, and supporting materials have been completed following my Root & Repository documentation workflow.
+
+This repository serves as a permanent record of my foundational cybersecurity training and demonstrates my commitment to continuous learning, hands-on practice, and professional documentation.
+
+---
+
+**Repository Status:** ✅ Complete
+
+**Learning Path:** TryHackMe Pre Security
+
+**Completion:** **100%**

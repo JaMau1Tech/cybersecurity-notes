@@ -1,15 +1,24 @@
 # TryHackMe Notes
 
-This folder contains my notes, screenshots, and documentation from my progress through the **TryHackMe Pre Security Learning Path**.
+This folder contains my notes, screenshots, and documentation from completing the **TryHackMe Pre Security Learning Path**.
 
 The purpose of this section is to:
 
 - Practice hands-on cybersecurity skills
 - Learn foundational IT concepts
-- Build problem-solving abilities
+- Build offensive and defensive security knowledge
 - Improve technical documentation skills
-- Reinforce learning through structured note-taking
-- Track learning progress throughout the Pre Security path
+- Reinforce concepts through handwritten notes
+- Track learning progress
+- Create a professional cybersecurity portfolio
+
+---
+
+# Learning Path Status
+
+| Learning Path | Status |
+|--------------|:------:|
+| Pre Security | ✅ Complete |
 
 ---
 
@@ -22,8 +31,10 @@ The purpose of this section is to:
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
-| Module 06 – How the Web Works | ✅ Complete |
-| Module 07 – Attacks and Defenses | 🟨 In Progress |
+| Module 06 – How The Web Works | ✅ Complete |
+| Module 07 – Attacks and Defenses | ✅ Complete |
+
+**Overall Progress:** **7 / 7 Modules Completed (100%)**
 
 ---
 
@@ -40,10 +51,11 @@ The purpose of this section is to:
 
 ### Skills Developed
 
-- Cybersecurity fundamentals
-- Security domains
-- Threat awareness
-- Technical documentation
+- Cybersecurity Fundamentals
+- Security Domains
+- Threat Awareness
+- Security Careers
+- Technical Documentation
 
 ---
 
@@ -51,19 +63,18 @@ The purpose of this section is to:
 
 ### Topics Covered
 
-- Client-Server Basics
-- Cloud Computing Fundamentals
+- Client-Server
+- Cloud Computing
 - Computer Types
-- Inside a Computer System
+- Inside a Computer
 - Virtualization
 
 ### Skills Developed
 
-- Client-server architecture
-- Cloud computing concepts
-- Computer hardware fundamentals
-- Computer components
-- Virtual machines
+- Computer Hardware
+- Client-Server Architecture
+- Cloud Computing
+- Virtual Machines
 
 ---
 
@@ -74,16 +85,16 @@ The purpose of this section is to:
 - Windows Fundamentals
 - Linux Fundamentals
 - File Systems
-- Command Line Basics
-- Operating System Concepts
+- Command Line
+- Operating Systems
 
 ### Skills Developed
 
-- Windows navigation
-- Linux navigation
-- Command-line usage
-- File management
-- Operating system fundamentals
+- Windows Navigation
+- Linux Navigation
+- Command Line
+- File Management
+- Operating System Fundamentals
 
 ---
 
@@ -93,9 +104,9 @@ The purpose of this section is to:
 
 - Data Representation
 - Data Encoding
-- Python: Simple Demo
-- JavaScript: Simple Demo
-- Database SQL Basics
+- Python Basics
+- JavaScript Basics
+- SQL Basics
 - Topic Transition Recap
 
 ### Skills Developed
@@ -106,15 +117,9 @@ The purpose of this section is to:
 - ASCII
 - Unicode
 - UTF-8
-- Python fundamentals
-- JavaScript fundamentals
-- Variables
-- Constants
-- Conditional statements
-- Loops
-- SQL basics
-- Database concepts
-- Basic query construction
+- Python Fundamentals
+- JavaScript Fundamentals
+- SQL Fundamentals
 
 ---
 
@@ -122,42 +127,29 @@ The purpose of this section is to:
 
 ### Completed Rooms
 
-- ✅ What is Networking?
-- ✅ Intro to LAN
-- ✅ OSI Model
-- ✅ Packets & Frames
-- ✅ Extending Your Network
-- ✅ Topic Transition Recap
+- What is Networking?
+- Intro to LAN
+- OSI Model
+- Packets & Frames
+- Extending Your Network
+- Topic Transition Recap
 
 ### Skills Developed
 
-- Networking fundamentals
-- Internet fundamentals
-- LAN topologies
-- Switching
-- Routing
+- Networking Fundamentals
+- TCP/IP
 - IPv4
 - IPv6
-- Public vs Private IP Addressing
-- MAC Addressing
-- MAC Address Spoofing
+- Routing
+- Switching
 - Subnetting
 - ARP
 - DHCP
 - ICMP
-- Ping
-- OSI Model
-- TCP/IP Model
-- TCP
-- UDP
-- Three-Way Handshake
-- Packets
-- Frames
-- Network Ports
 - Firewalls
-- VPN Fundamentals
+- VPNs
 - VLANs
-- Basic Network Troubleshooting
+- Packet Analysis
 
 ---
 
@@ -165,160 +157,142 @@ The purpose of this section is to:
 
 ### Completed Rooms
 
-- ✅ DNS in Detail
-- ✅ HTTP in Detail
-- ✅ How Websites Work
-- ✅ Putting it all together
+- DNS in Detail
+- HTTP in Detail
+- How Websites Work
+- Putting it all Together
 
 ### Skills Developed
 
-#### DNS
-
-- Domain Name System (DNS)
-- DNS Hierarchy
-- DNS Resolution
-- DNS Record Types
-- DNS Caching
-- Time To Live (TTL)
-
-#### HTTP
-
+- DNS
 - HTTP
 - HTTPS
 - URLs
-- HTTP Requests
-- HTTP Responses
-- HTTP Headers
-- HTTP Methods
-- HTTP Status Codes
-- Cookies
-
-#### Website Technologies
-
-- Front-End
-- Back-End
 - HTML
 - JavaScript
-- Browser Rendering
-- Static Content
-- Dynamic Content
-- Virtual Hosts
-
-#### Web Infrastructure
-
+- Front-End
+- Back-End
 - Web Servers
 - Apache
 - Nginx
 - IIS
 - Node.js
 - Load Balancers
-- Health Checks
-- Content Delivery Networks (CDNs)
-- Databases
-- Web Application Firewalls (WAFs)
-
-#### Web Security
-
-- Source Code Review
-- Sensitive Data Exposure
-- HTML Injection
+- Content Delivery Networks
+- Web Application Firewalls
+- Cookies
+- Browser Rendering
 - Input Validation
-- Input Sanitization
-- Web Request Lifecycle
+
+---
+
+## ✅ Module 07 – Attacks and Defenses
+
+### Completed Activities
+
+- The CIA Triad
+- Cryptography Concepts
+- Become a Hacker
+- Become a Defender
+- Topic Rewind Recap
+
+### Skills Developed
+
+#### Security Foundations
+
+- CIA Triad
+- Confidentiality
+- Integrity
+- Availability
+- Risk Assessment
+- Security Mindset
+
+#### Cryptography
+
+- Encryption
+- Decryption
+- Symmetric Encryption
+- Asymmetric Encryption
+- Public Key Infrastructure
+- HTTPS
+- Digital Certificates
+
+#### Offensive Security
+
+- Ethical Hacking
+- Enumeration
+- Penetration Testing
+- Password Auditing
+- Dictionary Attacks
+- Gobuster
+- Hydra
+
+#### Defensive Security
+
+- Blue Team Fundamentals
+- Infrastructure Visibility
+- Prevention
+- Detection
+- Mitigation
+- Analysis
+- Incident Response
+- Layered Security
 
 ---
 
 # Skills Gained
 
-## Computer Fundamentals
+## IT Fundamentals
 
-- Client-Server Architecture
 - Computer Hardware
-- Cloud Computing
-- Virtual Machines
 - Operating Systems
+- Virtualization
+- Client-Server Architecture
+- Cloud Computing
 
 ---
 
-## Software Fundamentals
+## Networking
 
-- Binary
-- Decimal
-- Hexadecimal
-- ASCII
-- Unicode
-- UTF-8 Encoding
-
----
-
-## Networking Fundamentals
-
-- Computer Networks
-- LAN Design
-- Switching
-- Routing
-- TCP/IP Fundamentals
+- OSI Model
+- TCP/IP
 - IPv4
 - IPv6
-- Public & Private Networks
-- MAC Addressing
+- Routing
+- Switching
 - Subnetting
-- ARP
-- DHCP
-- ICMP
-- Ping
-- OSI Model
-- TCP
-- UDP
-- Three-Way Handshake
-- Packets
-- Frames
-- Network Ports
 - Firewalls
 - VPNs
 - VLANs
-- Basic Network Troubleshooting
+- Packet Analysis
 
 ---
 
 ## Web Technologies
 
 - DNS
-- DNS Resolution
-- DNS Record Types
 - HTTP
 - HTTPS
-- URLs
-- HTTP Requests
-- HTTP Responses
-- HTTP Headers
-- HTTP Methods
-- HTTP Status Codes
-- Cookies
 - HTML
 - JavaScript
-- Front-End Development
-- Back-End Concepts
-- Browser Rendering
-- Static Content
-- Dynamic Content
-- Virtual Hosts
 - Web Servers
-- Load Balancers
-- Content Delivery Networks (CDNs)
-- Databases
-- Web Application Firewalls (WAFs)
+- Browser Rendering
+- Web Infrastructure
 
 ---
 
-## Web Security
+## Cybersecurity
 
-- Source Code Review
-- Sensitive Data Exposure
-- HTML Injection
-- Input Validation
-- Input Sanitization
-- Web Request Lifecycle
+- CIA Triad
+- Cryptography
+- Symmetric Encryption
+- Asymmetric Encryption
+- Ethical Hacking
+- Defensive Security
+- Enumeration
+- Authentication
+- Incident Response
+- Layered Security
 
 ---
 
@@ -327,29 +301,23 @@ The purpose of this section is to:
 ### Python
 
 - Variables
-- User Input
 - Loops
+- User Input
 - Conditional Statements
 
 ### JavaScript
 
 - Variables
 - Constants
-- User Input
-- Conditional Statements
 - Loops
-- Node.js
+- Conditional Statements
 - DOM Manipulation
 
 ---
 
 ## Databases
 
-- Database Fundamentals
-- Tables
-- Rows
-- Columns
-- SQL Queries
+- SQL
 - SELECT
 - FROM
 - WHERE
@@ -357,128 +325,54 @@ The purpose of this section is to:
 
 ---
 
-## 🟨 Module 07 – Attacks and Defenses
-
-### Completed Rooms
-
-- ✅ The CIA Triad
-- ✅ Cryptography Concepts
-
-### Remaining Rooms
-
-- ⬜ Become a Hacker
-- ⬜ Become a Defender
-- ⬜ Topic Rewind Recap
-
-**Skills Developed**
-
-### Cybersecurity Fundamentals
-
-- CIA Triad
-- Confidentiality
-- Integrity
-- Availability
-- Security Mindset
-- Risk Assessment
-
-### Cryptography
-
-- Plaintext
-- Ciphertext
-- Encryption
-- Decryption
-- Keys
-- Algorithms
-- Symmetric Encryption
-- Asymmetric Encryption
-- Caesar Cipher
-- Key Distribution Problem
-- HTTPS
-- Certificates
-- Certificate Authorities (CA)
-- Hybrid Encryption
-
-### Practical Skills
-
-- Security Incident Classification
-- CIA Analysis
-- Caesar Cipher Encryption
-- Caesar Cipher Decryption
-- Secure Communication Concepts
----
-
 ## Technical Skills
 
 - Technical Documentation
+- Markdown
 - Git
 - GitHub
-- Markdown
 - Repository Organization
 - Screenshot Documentation
-- Hands-On Labs
+- Professional Note Taking
 
 ---
 
-# Current Portfolio Statistics
+# Portfolio Statistics
 
-- ✅ 6 Completed Modules
-- 🟨 1 Module In Progress
-- ✅ 6 Networking Rooms Completed
-- ✅ 4 Web Rooms Completed
-- ✅ 2 Cybersecurity Rooms Completed
-- ✅ Python Fundamentals
-- ✅ JavaScript Fundamentals
-- ✅ SQL Fundamentals
+- ✅ 1 Learning Path Completed
+- ✅ 7 Modules Completed
+- ✅ 24 Standard Rooms Completed
+- ✅ 4 Topic Recaps Completed
+- ✅ 20+ Hands-on Labs Completed
+- ✅ Offensive Security Fundamentals
+- ✅ Defensive Security Fundamentals
 - ✅ Cryptography Fundamentals
-- ✅ Organized Technical Documentation
-- ✅ Structured Screenshot Library
+- ✅ Structured Technical Documentation
+- ✅ Professional Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
-
----
-
-# Current Focus
-
-I am currently completing:
-
-**Module 07 – Attacks and Defenses**
-
-Completed rooms:
-
-- ✅ The CIA Triad
-- ✅ Cryptography Concepts
-
-Remaining rooms:
-
-- Become a Hacker
-- Become a Defender
-- Topic Rewind Recap
-
-After completing Module 07, I will have finished the **TryHackMe Pre Security Learning Path**.
 
 ---
 
 # Learning Philosophy
 
-These notes follow my **Root & Repository** documentation standards.
+My TryHackMe documentation follows my **Root & Repository** workflow.
 
-Each completed TryHackMe room includes:
+Every completed room includes:
 
 - Handwritten notebook notes
-- Screenshot documentation
-- Task notes
+- Task documentation
 - Hands-on lab documentation
+- Screenshot documentation
 - GitHub-ready Markdown
 - Repository organization
 - Git version history
 
-This documentation-first approach reinforces learning while building a professional cybersecurity knowledge base and portfolio.
+This documentation-first workflow reinforces learning while building a professional cybersecurity portfolio.
 
 ---
 
-Repository Status: 🟨 Active Development
+# Status
 
-Current Module:
-Module 07 – Attacks and Defenses
+## ✅ TryHackMe Pre Security Learning Path Complete
 
-Latest Completed Room:
-✅ Cryptography Concepts
+This folder documents my successful completion of the entire TryHackMe Pre Security Learning Path and serves as the foundation for my continued cybersecurity education.

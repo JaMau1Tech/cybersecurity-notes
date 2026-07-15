@@ -2,23 +2,53 @@
 
 This folder contains all screenshots captured while completing **Module 07 – Attacks and Defenses**.
 
-Screenshots document task completion, hands-on labs, and room completion for each room.
+The screenshots document task completion, hands-on activities, labs, and room completion throughout the module.
 
 ---
 
 # Screenshot Naming Standard
 
-All screenshots follow the Root & Repository naming convention:
+All screenshots follow my **Root & Repository** naming convention.
+
+## Tasks
 
 ```text
 room-name-task##-description
+```
+
+Example:
+
+```text
+become-a-hacker-task02-finding-weaknesses
+```
+
+---
+
+## Hands-on Labs
+
+```text
 room-name-task##-lab-description
+```
+
+Example:
+
+```text
+become-a-defender-task03-defending-your-environment-lab
+```
+
+---
+
+## Room Completion
+
+```text
 room-name-room-complete
 ```
 
-- Lowercase
-- Hyphen-separated
-- No file extensions in documentation
+Example:
+
+```text
+cryptography-concepts-room-complete
+```
 
 ---
 
@@ -26,25 +56,19 @@ room-name-room-complete
 
 ## Task Screenshots
 
-| Task | Screenshot |
-|------|------------|
-| Task 1 – Introduction | `the-cia-triad-task01-introduction` |
-| Task 2 – The CIA Triad | `the-cia-triad-task02-the-cia-triad` |
-| Task 3 – The Security Mindset | `the-cia-triad-task03-the-security-mindset` |
+- `the-cia-triad-task01-introduction`
+- `the-cia-triad-task02-the-cia-triad`
+- `the-cia-triad-task03-the-security-mindset`
 
-### Lab Screenshots
+### Lab
 
-| Lab | Screenshot |
-|------|------------|
-| CIA Triad Exercise | `the-cia-triad-task03-cia-triad-lab` |
+- `the-cia-triad-task03-cia-triad-lab`
 
 ### Room Completion
 
-| Screenshot |
-|------------|
-| `the-cia-triad-room-complete` |
+- `the-cia-triad-room-complete`
 
-**Total Screenshots:** **5**
+**Total:** **5 Screenshots**
 
 ---
 
@@ -52,26 +76,20 @@ room-name-room-complete
 
 ## Task Screenshots
 
-| Task | Screenshot |
-|------|------------|
-| Task 1 – Introduction | `cryptography-concepts-task01-introduction` |
-| Task 2 – Symmetric Encryption | `cryptography-concepts-task02-symmetric-encryption` |
-| Task 3 – Asymmetric Encryption | `cryptography-concepts-task03-asymmetric-encryption` |
-| Task 4 – Conclusion | `cryptography-concepts-task04-conclusion` |
+- `cryptography-concepts-task01-introduction`
+- `cryptography-concepts-task02-symmetric-encryption`
+- `cryptography-concepts-task03-asymmetric-encryption`
+- `cryptography-concepts-task04-conclusion`
 
-### Lab Screenshots
+### Lab
 
-| Lab | Screenshot |
-|------|------------|
-| Secret Message Rescue | `cryptography-concepts-task02-secret-message-rescue-lab` |
+- `cryptography-concepts-task02-secret-message-rescue-lab`
 
 ### Room Completion
 
-| Screenshot |
-|------------|
-| `cryptography-concepts-room-complete` |
+- `cryptography-concepts-room-complete`
 
-**Total Screenshots:** **6**
+**Total:** **6 Screenshots**
 
 ---
 
@@ -79,51 +97,82 @@ room-name-room-complete
 
 ## Task Screenshots
 
-| Task | Screenshot |
-|------|------------|
-| Task 1 – Introduction | `become-a-hacker-task01-introduction` |
-| Task 2 – Finding Weaknesses | `become-a-hacker-task02-finding-weaknesses` |
-| Task 3 – Chaining Weaknesses | `become-a-hacker-task03-chaining-weaknesses` |
+- `become-a-hacker-task01-introduction`
+- `become-a-hacker-task02-finding-weaknesses`
+- `become-a-hacker-task03-chaining-weaknesses`
 
-### Lab Screenshots
+### Labs
 
-| Lab | Screenshot |
-|------|------------|
-| Hidden Page Discovery (Gobuster) | `become-a-hacker-task02-hidden-pages-lab` |
-| Dictionary Attack (Hydra) | `become-a-hacker-task03-chaining-weaknesses-lab` |
+- `become-a-hacker-task02-hidden-pages-lab`
+- `become-a-hacker-task03-chaining-weaknesses-lab`
 
 ### Room Completion
 
-| Screenshot |
-|------------|
-| `become-a-hacker-room-complete` |
+- `become-a-hacker-room-complete`
 
-**Total Screenshots:** **6**
+**Total:** **6 Screenshots**
 
 ---
 
 # Become a Defender
 
-*Not completed yet.*
+## Task Screenshots
+
+- `become-a-defender-task01-introduction`
+- `become-a-defender-task02-understanding-your-environment`
+- `become-a-defender-task03-defending-your-environment`
+
+### Labs
+
+- `become-a-defender-task02-understanding-your-environment-lab`
+- `become-a-defender-task03-defending-your-environment-lab`
+
+### Room Completion
+
+- `become-a-defender-room-complete`
+
+**Total:** **6 Screenshots**
 
 ---
 
 # Topic Rewind Recap
 
-No screenshots required.
+Per my documentation workflow, **Topic Rewind Recaps do not require screenshots**.
+
+**Total:** **0 Screenshots**
 
 ---
 
-# Module Statistics
+# Module Screenshot Statistics
+
+| Activity | Screenshots |
+|----------|------------:|
+| The CIA Triad | 5 |
+| Cryptography Concepts | 6 |
+| Become a Hacker | 6 |
+| Become a Defender | 6 |
+| Topic Rewind Recap | 0 |
+
+---
+
+# Totals
 
 | Category | Count |
 |----------|------:|
-| Rooms Completed | 3 |
-| Task Screenshots | 10 |
-| Lab Screenshots | 3 |
-| Room Completion Screenshots | 3 |
-| **Total Screenshots** | **16** |
+| Activities Completed | 5 |
+| Task Screenshots | 13 |
+| Lab Screenshots | 5 |
+| Room Completion Screenshots | 4 |
+| Recap Screenshots | 0 |
+
+## **Total Screenshots: 23**
 
 ---
 
-This folder will continue to grow as additional rooms in **Module 07 – Attacks and Defenses** are completed.
+# Module Status
+
+✅ Module 07 – Attacks and Defenses Complete
+
+✅ Screenshot Library Complete
+
+All screenshots for Module 07 have been organized according to the Root & Repository documentation standard and are stored within this shared **images/** directory.
