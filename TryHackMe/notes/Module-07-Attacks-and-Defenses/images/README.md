@@ -27,7 +27,7 @@ All screenshots follow the locked naming standard:
 
 | Task | Description | Filename |
 |------|-------------|----------|
-| Task 3 | CIA Triad Hands-on Exercise | `the-cia-triad-task03-security-mindset-lab` |
+| Task 3 | CIA Triad hands-on exercise | `the-cia-triad-task03-security-mindset-lab` |
 
 ### Room Completion Screenshot
 
@@ -39,7 +39,25 @@ All screenshots follow the locked naming standard:
 
 # Cryptography Concepts
 
-No screenshots added yet.
+## Task Screenshots
+
+| Task | Description | Filename |
+|------|-------------|----------|
+| Task 1 | Introduction | `cryptography-concepts-task01-introduction` |
+| Task 2 | Symmetric Encryption | `cryptography-concepts-task02-symmetric-encryption` |
+| Task 3 | Asymmetric Encryption | `cryptography-concepts-task03-asymmetric-encryption` |
+
+### Lab Screenshot
+
+| Task | Description | Filename |
+|------|-------------|----------|
+| Task 2 | Secret Message Rescue | `cryptography-concepts-task02-symmetric-encryption-lab` |
+
+### Room Completion Screenshot
+
+| Description | Filename |
+|-------------|----------|
+| Cryptography Concepts completed at 100% | `cryptography-concepts-room-complete` |
 
 ---
 
@@ -68,6 +86,12 @@ the-cia-triad-task01-introduction
 the-cia-triad-task02-cia-triad
 the-cia-triad-task03-security-mindset-lab
 the-cia-triad-room-complete
+
+cryptography-concepts-task01-introduction
+cryptography-concepts-task02-symmetric-encryption
+cryptography-concepts-task02-symmetric-encryption-lab
+cryptography-concepts-task03-asymmetric-encryption
+cryptography-concepts-room-complete
 ```
 
 ---
@@ -80,7 +104,12 @@ images/
 ├── the-cia-triad-task01-introduction.png
 ├── the-cia-triad-task02-cia-triad.png
 ├── the-cia-triad-task03-security-mindset-lab.png
-└── the-cia-triad-room-complete.png
+├── the-cia-triad-room-complete.png
+├── cryptography-concepts-task01-introduction.png
+├── cryptography-concepts-task02-symmetric-encryption.png
+├── cryptography-concepts-task02-symmetric-encryption-lab.png
+├── cryptography-concepts-task03-asymmetric-encryption.png
+└── cryptography-concepts-room-complete.png
 ```
 
 ---
@@ -90,8 +119,8 @@ images/
 | Room | Screenshots |
 |------|------------:|
 | The CIA Triad | 4 |
-| Cryptography Concepts | 0 |
+| Cryptography Concepts | 5 |
 | Become a Hacker | 0 |
 | Become a Defender | 0 |
 | Topic Rewind Recap | 0 |
-| **Total** | **4** |
+| **Total** | **9** |

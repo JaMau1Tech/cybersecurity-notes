@@ -22,8 +22,8 @@ The purpose of this section is to:
 | Module 03 – Operating Systems Basics | ✅ Complete |
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
-| Module 06 – How The Web Works | ✅ Complete |
-| Module 07 – Attacks and Defenses | ⬜ Not Started |
+| Module 06 – How the Web Works | ✅ Complete |
+| Module 07 – Attacks and Defenses | 🟨 In Progress |
 
 ---
 
@@ -362,33 +362,49 @@ The purpose of this section is to:
 ### Completed Rooms
 
 - ✅ The CIA Triad
+- ✅ Cryptography Concepts
 
-### Skills Developed
+### Remaining Rooms
 
-#### Security Fundamentals
+- ⬜ Become a Hacker
+- ⬜ Become a Defender
+- ⬜ Topic Rewind Recap
 
+**Skills Developed**
+
+### Cybersecurity Fundamentals
+
+- CIA Triad
 - Confidentiality
 - Integrity
 - Availability
-- CIA Triad
-- Information Security Principles
-
-#### Security Controls
-
-- Authentication
-- Authorization
-- Access Control
-- Encryption
-- Data Integrity
-- Availability Planning
-
-#### Security Analysis
-
-- Risk Assessment
-- Incident Classification
 - Security Mindset
-- Threat Analysis
+- Risk Assessment
 
+### Cryptography
+
+- Plaintext
+- Ciphertext
+- Encryption
+- Decryption
+- Keys
+- Algorithms
+- Symmetric Encryption
+- Asymmetric Encryption
+- Caesar Cipher
+- Key Distribution Problem
+- HTTPS
+- Certificates
+- Certificate Authorities (CA)
+- Hybrid Encryption
+
+### Practical Skills
+
+- Security Incident Classification
+- CIA Analysis
+- Caesar Cipher Encryption
+- Caesar Cipher Decryption
+- Secure Communication Concepts
 ---
 
 ## Technical Skills
@@ -406,35 +422,38 @@ The purpose of this section is to:
 # Current Portfolio Statistics
 
 - ✅ 6 Completed Modules
-- 🟨 Module 07 In Progress
-- ✅ 1 Security Foundations Room Completed
-- ✅ CIA Triad Completed
+- 🟨 1 Module In Progress
 - ✅ 6 Networking Rooms Completed
-- ✅ 4 Web Technology Rooms Completed
+- ✅ 4 Web Rooms Completed
+- ✅ 2 Cybersecurity Rooms Completed
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
-- ✅ Networking Fundamentals
-- ✅ Web Technology Fundamentals
-- ✅ Structured Technical Documentation
-- ✅ Standardized Screenshot Library
+- ✅ Cryptography Fundamentals
+- ✅ Organized Technical Documentation
+- ✅ Structured Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
 
 ---
 
 # Current Focus
 
-I am currently studying:
+I am currently completing:
 
-Module 07 – Attacks and Defenses
+**Module 07 – Attacks and Defenses**
 
-Completed:
+Completed rooms:
 
 - ✅ The CIA Triad
+- ✅ Cryptography Concepts
 
-Next:
+Remaining rooms:
 
-- Continue through the remaining rooms in Module 07.
+- Become a Hacker
+- Become a Defender
+- Topic Rewind Recap
+
+After completing Module 07, I will have finished the **TryHackMe Pre Security Learning Path**.
 
 ---
 
@@ -462,4 +481,4 @@ Current Module:
 Module 07 – Attacks and Defenses
 
 Latest Completed Room:
-✅ The CIA Triad
+✅ Cryptography Concepts

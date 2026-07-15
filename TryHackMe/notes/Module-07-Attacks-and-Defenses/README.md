@@ -2,19 +2,17 @@
 
 ## Overview
 
-This module introduces the fundamental concepts of cybersecurity by exploring how attackers think, how defenders protect systems, and how security principles are applied in the real world.
-
-The module begins with the **CIA Triad**, the core model that defines what cybersecurity protects. It then expands into cryptography, offensive security, defensive security, and concludes with a recap of the concepts learned.
+This module introduces the core principles of cybersecurity by exploring how defenders protect information and how attackers attempt to compromise it. Beginning with the CIA Triad and cryptography, the module builds the foundational knowledge needed to understand offensive and defensive security before progressing into practical security concepts.
 
 ---
 
 ## Module Objectives
 
 - Understand the CIA Triad
-- Learn cryptography fundamentals
-- Explore the hacker mindset
-- Understand defensive security concepts
-- Build a strong cybersecurity foundation
+- Learn the fundamentals of cryptography
+- Explore offensive security concepts
+- Explore defensive security concepts
+- Develop a cybersecurity mindset
 
 ---
 
@@ -23,10 +21,10 @@ The module begins with the **CIA Triad**, the core model that defines what cyber
 | Status | Room | Description |
 |---------|------|-------------|
 | ✅ | The CIA Triad | Learn the three pillars of cybersecurity: Confidentiality, Integrity, and Availability. |
-| ⬜ | Cryptography Concepts | Learn how cryptography protects information. |
-| ⬜ | Become a Hacker | Explore offensive security and the hacker mindset. |
-| ⬜ | Become a Defender | Learn how defenders secure systems and networks. |
-| ⬜ | Topic Rewind Recap | Review and reinforce all concepts learned throughout the module. |
+| ✅ | Cryptography Concepts | Learn how cryptography protects digital information using symmetric and asymmetric encryption. |
+| ⬜ | Become a Hacker | Learn how attackers think and how ethical hacking works. |
+| ⬜ | Become a Defender | Learn the role of defensive security professionals. |
+| ⬜ | Topic Rewind Recap | Review the concepts learned throughout the module. |
 
 ---
 
@@ -41,19 +39,40 @@ The module begins with the **CIA Triad**, the core model that defines what cyber
 - Security Mindset
 - Risk Assessment
 
+### Cryptography
+
+- Cryptography Fundamentals
+- Plaintext
+- Ciphertext
+- Encryption
+- Decryption
+- Keys
+- Algorithms
+- Symmetric Encryption
+- Asymmetric Encryption
+- Key Distribution Problem
+- HTTPS
+- Public Key Infrastructure (PKI)
+- Certificates
+- Certificate Authorities (CA)
+- Hybrid Encryption
+
 ### Defensive Security
 
 - Access Control
-- Encryption Concepts
 - Data Protection
+- Secure Communications
 - Service Availability
-- Data Integrity
+- Encryption Concepts
 
 ### Practical Skills
 
-- Security Incident Classification
 - CIA Triad Analysis
-- Interactive Security Exercises
+- Security Incident Classification
+- Caesar Cipher Encryption
+- Caesar Cipher Decryption
+- Secret Message Analysis
+- Secure Communication Concepts
 
 ---
 
@@ -73,6 +92,27 @@ The module begins with the **CIA Triad**, the core model that defines what cyber
 **Documentation**
 
 - `The-CIA-Triad/task-notes.md`
+
+---
+
+### ✅ Cryptography Concepts
+
+**Topics Covered**
+
+- Cryptography
+- Plaintext
+- Ciphertext
+- Encryption
+- Decryption
+- Symmetric Encryption
+- Asymmetric Encryption
+- HTTPS
+- Certificates
+- Certificate Authorities
+
+**Documentation**
+
+- `Cryptography-Concepts/task-notes.md`
 
 ---
 
@@ -124,18 +164,18 @@ Module-07-Attacks-and-Defenses/
 
 ## Progress
 
-**Rooms Completed:** 1 / 5
+**Rooms Completed:** 2 / 5
 
-**Module Completion:** 20%
+**Module Completion:** 40%
 
 ```text
-█████░░░░░░░░░░░░░░░░░░ 20%
+██████████░░░░░░░░░░░░░ 40%
 ```
 
 ---
 
 ## Next Room
 
-➡️ **Cryptography Concepts**
+➡️ **Become a Hacker**
 
-Learn how encryption, hashing, and cryptographic techniques protect sensitive information and preserve confidentiality, integrity, and authenticity.
+Learn how attackers think, the phases of ethical hacking, common attack techniques, and how offensive security helps improve defenses.

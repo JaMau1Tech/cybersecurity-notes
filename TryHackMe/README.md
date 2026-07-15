@@ -23,8 +23,7 @@ The purpose of this repository is to:
 | Module 04 – Software Basics | ✅ Complete |
 | Module 05 – Network Fundamentals | ✅ Complete |
 | Module 06 – How The Web Works | ✅ Complete |
-| Module 07 – Attacks and Defenses | ⬜ Not Started |
-
+| Module 07 – Attacks and Defenses | 🟨 In Progress (2/5 Rooms Completed) |
 ---
 
 # Repository Structure
@@ -272,6 +271,43 @@ TryHackMe/
 - Input Sanitization
 - Web Request Lifecycle
 
+## Cybersecurity
+
+### Core Principles
+
+- CIA Triad
+- Confidentiality
+- Integrity
+- Availability
+- Security Mindset
+- Risk Assessment
+
+### Cryptography
+
+- Cryptography Fundamentals
+- Plaintext
+- Ciphertext
+- Encryption
+- Decryption
+- Keys
+- Algorithms
+- Symmetric Encryption
+- Asymmetric Encryption
+- Caesar Cipher
+- Key Distribution Problem
+- Public Key Cryptography
+- HTTPS
+- Certificates
+- Certificate Authorities (CA)
+- Hybrid Encryption
+
+### Secure Communications
+
+- TLS Concepts
+- Secure Web Browsing
+- Certificate Validation
+- Public Key Infrastructure (PKI)
+
 ---
 
 # Skills Gained
@@ -395,6 +431,69 @@ TryHackMe/
 
 ---
 
+## 🟨 Module 07 – Attacks and Defenses *(In Progress)*
+
+### Completed Rooms
+
+- ✅ The CIA Triad
+- ✅ Cryptography Concepts
+
+### Remaining Rooms
+
+- ⬜ Become a Hacker
+- ⬜ Become a Defender
+- ⬜ Topic Rewind Recap
+
+### Skills Developed So Far
+
+#### Cybersecurity Fundamentals
+
+- CIA Triad
+- Confidentiality
+- Integrity
+- Availability
+- Security Mindset
+- Risk Assessment
+
+#### Cryptography
+
+- Cryptography Fundamentals
+- Plaintext
+- Ciphertext
+- Encryption
+- Decryption
+- Symmetric Encryption
+- Asymmetric Encryption
+- Keys
+- Algorithms
+- Key Distribution Problem
+- Caesar Cipher
+- Public Key Cryptography
+- Public Keys
+- Private Keys
+- HTTPS
+- Digital Certificates
+- Certificate Authorities (CA)
+- Hybrid Encryption
+
+#### Defensive Security
+
+- Access Control
+- Data Protection
+- Secure Communications
+- Encryption Concepts
+- Certificate Validation
+
+#### Practical Skills
+
+- CIA Triad Analysis
+- Security Incident Classification
+- Caesar Cipher Encryption
+- Caesar Cipher Decryption
+- Secure Communication Analysis
+
+---
+
 ## Technical Skills
 
 - Technical Documentation
@@ -410,35 +509,37 @@ TryHackMe/
 # Current Portfolio Statistics
 
 - ✅ 6 Completed Modules
-- ⬜ 1 Module Remaining
+- 🟨 1 Module In Progress
 - ✅ 6 Networking Rooms Completed
 - ✅ 4 Web Rooms Completed
+- ✅ 2 Cybersecurity Rooms Completed
 - ✅ Python Fundamentals
 - ✅ JavaScript Fundamentals
 - ✅ SQL Fundamentals
+- ✅ Cryptography Fundamentals
 - ✅ Structured Technical Documentation
 - ✅ Standardized Screenshot Library
 - ✅ Growing Cybersecurity Portfolio
-
 ---
 
 # Current Focus
 
-I am preparing to begin:
+I am currently completing:
 
 **Module 07 – Attacks and Defenses**
 
-Upcoming topics include:
+Completed rooms:
 
-- Offensive Security
-- Defensive Security
-- Common Cyber Attacks
-- Authentication
-- Authorization
-- Security Controls
-- Access Control
-- Defensive Strategies
+- ✅ The CIA Triad
+- ✅ Cryptography Concepts
 
+Remaining rooms:
+
+- Become a Hacker
+- Become a Defender
+- Topic Rewind Recap
+
+After completing Module 07, I will have finished the **TryHackMe Pre Security Learning Path**.
 ---
 
 # Learning Philosophy
