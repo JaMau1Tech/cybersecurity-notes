@@ -6,7 +6,7 @@
 
 **Learning Path**
 
-- Pre Security *(In Progress)*
+- Pre Security *(Completed)*
 
 ---
 
