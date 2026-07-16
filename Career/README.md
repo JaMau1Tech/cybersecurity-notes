@@ -91,23 +91,24 @@ Tracks:
 
 ---
 
-# Career Goals
+# Current Career Goals
 
-## Immediate Objectives
+## Immediate Goals
 
-- Apply for entry-level IT Support and Help Desk positions
+- Secure an entry-level IT Support or Help Desk position
 - Complete Cisco Networking Academy – Networking Basics
-- Finalize targeted IT Support application materials
-- Continue expanding my GitHub portfolio with verified hands-on work
+- Continue building hands-on projects and documentation
+- Expand my professional GitHub portfolio
 - Strengthen Windows, Linux, and networking fundamentals
-- Prepare for technical and behavioral interviews
+- Continue networking with IT professionals
 
-## Long-Term Objectives
+## Long-Term Goals
 
-- Gain professional IT support experience
-- Earn foundational IT and networking certifications
-- Build practical Windows Server, Active Directory, and help desk labs
-- Transition into a cybersecurity-focused role
+- Build professional IT experience
+- Earn CompTIA A+
+- Earn CompTIA Network+
+- Earn CompTIA Security+
+- Transition into cybersecurity
 
 ---
 
