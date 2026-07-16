@@ -1,6 +1,6 @@
 # Screenshots
 
-This folder contains screenshots documenting my cybersecurity learning journey.
+This folder contains screenshots documenting my IT and cybersecurity learning journey.
 
 Screenshots provide visual evidence of projects, labs, troubleshooting, and technical concepts learned throughout my hands-on practice.
 
@@ -14,7 +14,7 @@ Screenshots/
 ├── Linux/
 ├── Networking/
 ├── Tools/
-└── TryHackMe/
+└── README.md
 ```
 
 ---
@@ -33,24 +33,25 @@ Screenshots are used to:
 
 # Naming Convention
 
-Use descriptive lowercase filenames separated by hyphens.
+Use descriptive, lowercase, hyphen-separated filenames.
+
+Documentation checklists must show filenames without extensions.
 
 Examples:
 
 ```text
-linux-whoami-command.png
-virtualbox-display-settings.png
-wsl-install-success.png
-nmap-scan-results.png
-tryhackme-linux-find-command.png
+linux-whoami-command
+virtualbox-display-settings
+wsl-install-success
+nmap-scan-results
 ```
 
 Avoid generic names such as:
 
 ```text
-Screenshot 2026-07-08.png
-IMG_1234.png
-Untitled.png
+Screenshot 2026-07-08
+IMG_1234
+Untitled
 ```
 
 ---

@@ -6,6 +6,17 @@ The project began with Oracle VirtualBox and Xubuntu. After repeated virtual mac
 
 ---
 
+# Project Status
+
+**Status:** ✅ Completed — Previous Computer  
+**Current Environment:** Not currently active on my new computer
+
+This project documents Linux virtualization, installation, and troubleshooting work completed on my previous laptop. It is preserved as evidence of my earlier hands-on experience with Oracle VirtualBox, Xubuntu, WSL, PowerShell, and technical troubleshooting.
+
+A new virtualization environment will be built and documented separately on my current computer.
+
+---
+
 # Objective
 
 Create a stable Linux environment for:
@@ -46,7 +57,9 @@ Ubuntu-VM-Setup/
 
 # Outcome
 
-Successfully created a working Linux learning environment using WSL after troubleshooting VirtualBox installation issues.
+Successfully documented and troubleshot multiple Linux environment options on my previous computer.
+
+Although the VirtualBox environment experienced installation and stability problems, I established a working Linux command-line environment through WSL and documented the investigation, troubleshooting steps, findings, and lessons learned.
 
 ---
 

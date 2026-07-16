@@ -1,8 +1,26 @@
 # Scripts
 
-This folder contains scripts created throughout my cybersecurity learning journey.
+This folder is reserved for original Bash, PowerShell, and Python scripts created throughout my IT and cybersecurity development.
 
-Scripts are organized by programming or scripting language.
+Scripts will be added only after they have been written, tested, documented, and verified.
+
+---
+
+# Script Documentation Standard
+
+Every completed script should include:
+
+- Purpose
+- Requirements
+- Usage instructions
+- Example command
+- Expected output
+- Error handling
+- Security considerations
+- Testing notes
+- Lessons learned
+
+Scripts must not contain passwords, API keys, tokens, personal information, or other secrets.
 
 ---
 
@@ -54,6 +72,8 @@ This folder will store scripts used for:
 - password-generator.py
 
 ---
+
+
 
 # Current Status
 
