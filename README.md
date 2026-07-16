@@ -4,17 +4,25 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/JaMau1Tech/root-and-repository)
 ![GitHub stars](https://img.shields.io/github/stars/JaMau1Tech/root-and-repository)
 
-A centralized cybersecurity learning repository documenting my hands-on labs, investigations, projects, notes, and technical documentation as I develop practical IT and cybersecurity skills.
+A centralized IT and cybersecurity learning repository documenting my hands-on labs, investigations, projects, study notes, and technical documentation as I develop practical skills in IT support, networking, Linux, Windows, and cybersecurity.
 
 ---
 
 # About
 
-**Root & Repository** serves as both my personal cybersecurity knowledge base and a professional portfolio documenting my continuous growth in IT and cybersecurity.
+This repository documents my journey toward becoming an IT Support professional while building the technical foundation needed for a long-term career in cybersecurity.
 
-Rather than simply collecting notes, this repository captures the complete learning process—from studying new concepts and completing hands-on labs to documenting investigations, troubleshooting challenges, reflecting on lessons learned, and building practical projects.
+Inside you'll find:
 
-My goal is to demonstrate not only what I have learned, but also how I learn, document, and continuously improve.
+- IT fundamentals
+- Linux learning
+- Networking labs
+- TryHackMe documentation
+- Investigation write-ups
+- Bash scripting
+- Git & GitHub projects
+- Study notes
+- Career development
 
 ---
 
@@ -28,15 +36,25 @@ Every topic is reinforced through structured documentation, hands-on experience,
 
 ---
 
-# Learning Goals
+# Current Goals
 
-* Master Linux fundamentals
-* Build a strong networking foundation
-* Develop practical cybersecurity skills through hands-on labs
-* Improve scripting and automation skills
-* Complete structured TryHackMe learning paths
-* Develop consistent technical documentation practices
-* Build a professional cybersecurity portfolio
+## Short-Term (0–6 Months)
+
+- Land an entry-level IT Support or Help Desk position
+- Build a strong foundation in IT, networking, Windows, and Linux
+- Complete Cisco Networking Academy – Networking Basics
+- Continue documenting hands-on projects and labs
+- Expand my professional GitHub portfolio
+- Grow my professional network on LinkedIn
+
+## Long-Term (6–24 Months)
+
+- Build a practical home lab environment
+- Earn CompTIA A+
+- Earn CompTIA Network+
+- Earn CompTIA Security+
+- Transition into a cybersecurity-focused role
+- Continue developing technical and troubleshooting skills through hands-on experience
 
 ---
 
@@ -44,6 +62,9 @@ Every topic is reinforced through structured documentation, hands-on experience,
 
 ```text
 root-and-repository/
+
+├── Career/
+├── Cybersecurity-Academy/
 ├── Investigations/
 ├── Linux/
 ├── Networking/
@@ -52,9 +73,38 @@ root-and-repository/
 ├── Roadmap/
 ├── Screenshots/
 ├── Scripts/
+├── Standards/
 ├── Templates/
 └── TryHackMe/
 ```
+
+---
+
+# Currently Learning
+
+- Cisco Networking Academy - Networking Basics
+- Linux Administration
+- Windows Fundamentals
+- Networking Fundamentals
+- Git & GitHub
+- Bash
+- TryHackMe
+
+---
+
+# Recent Achievements
+
+- ✅ Completed TryHackMe Pre Security Learning Path *(July 2026)*
+- ✅ Earned TryHackMe Pre Security Certificate *(July 2026)*
+- ✅ Built a structured GitHub learning portfolio
+- ✅ Began networking with IT and cybersecurity professionals on LinkedIn *(July 2026)*
+- ✅ Started Cisco Networking Academy – Networking Basics *(July 2026)*
+
+---
+
+# Professional Development
+
+To complement my technical learning, I actively network with IT and cybersecurity professionals, seek career guidance, and apply industry feedback to continuously improve my technical skills, portfolio, and career roadmap.
 
 ---
 
@@ -96,6 +146,18 @@ Learning roadmap, certification goals, progress tracking, and long-term developm
 
 Reusable documentation templates that ensure consistency across notes, labs, investigations, and projects.
 
+## Career
+
+Resume development, LinkedIn materials, cover letters, interview preparation, professional branding, and job-search resources.
+
+## Cybersecurity Academy
+
+Structured assessments, practical exercises, mock interviews, mastery reports, and concept-focused cybersecurity training.
+
+## Standards
+
+Locked workflows, repository conventions, documentation standards, screenshot naming rules, and quality-control procedures.
+
 ---
 
 # Core Skills
@@ -117,85 +179,140 @@ This repository is helping me develop practical experience in:
 
 # Current Focus
 
-* Linux Fundamentals
-* Networking Fundamentals
-* Bash Scripting
-* Windows Fundamentals
-* TryHackMe Learning Paths
-* Technical Documentation
+I am currently concentrating on strengthening my IT fundamentals through consistent hands-on practice and technical documentation.
+
+## Active Learning
+
+- Cisco Networking Academy – Networking Basics
+- Windows Fundamentals
+- Linux Fundamentals
+- Networking Fundamentals
+- Git & GitHub
+- Technical Documentation
+
+## Active Projects
+
+- Root & Repository Portfolio
+- TryHackMe Documentation
+- Cisco Networking Academy Documentation
+- LinkedIn & Career Development
+
+## Current Priorities
+
+- Build strong networking knowledge
+- Continue growing my GitHub portfolio
+- Apply for entry-level IT Support and Help Desk positions
+- Connect with IT and cybersecurity professionals
 
 ---
 
 # TryHackMe Progress
 
-## Completed
+## Completed Learning Paths
 
-* Introduction to Cyber Security
-* Computer Fundamentals
-* Operating Systems Security
+- Pre Security
 
-## In Progress
+## Completed Modules
 
-* Pre Security
-* Linux Fundamentals
+- Introduction to Cyber Security
+- Computer Fundamentals
+- Operating Systems Basics
+- Software Basics
+- Network Fundamentals
+- How the Web Works
+- Attacks and Defenses
 
-## Planned
+## Next Learning Paths
 
-* Complete Beginner
-* SOC Level 1
-* Jr Penetration Tester
-* Cyber Defense
+- Cyber Security 101
+- SOC Level 1
+- Jr Penetration Tester
+- Cyber Defense
 
 ---
 
 # Current Projects
 
-* Linux Virtual Machine Lab
-* WSL Documentation
-* Root & Repository Portfolio
-* TryHackMe Documentation
-* Windows Investigations
-* Wireshark Investigations
+- Root & Repository Portfolio
+- TryHackMe Documentation
+- Cisco Networking Academy Documentation
+- Linux Documentation & Command Reference
+- Networking Documentation & Cheat Sheets
+- Career Portfolio Development
 
 ---
 
-# Future Projects
+# Planned Labs
 
-* Active Directory Home Lab
-* Windows Server Lab
-* Kali Linux Lab
-* SIEM Lab
-* SOC Analyst Lab
-* Vulnerability Management Lab
-* Detection Engineering Projects
-* Python Security Tools
+- Ubuntu Linux VM
+- Kali Linux VM
+- Windows 11 VM
+- Windows Server Lab
+- Active Directory Lab
+- osTicket Help Desk Lab
+- pfSense Firewall Lab
+- SIEM Lab
+- Vulnerability Scanning Lab
 
 ---
 
 # Certification Roadmap
 
-* CompTIA A+
-* CompTIA Network+
-* CompTIA Security+
-* CompTIA CySA+
-* CISSP (Long-Term)
+## Completed
+
+- TryHackMe Pre Security
+
+## Current
+
+- Cisco Networking Basics
+
+## Planned
+
+- CompTIA A+
+- Network+
+- Security+
+- CySA+
+- CISSP (Long-Term)
 
 ---
 
-# Technologies
+# Technologies and Platforms
 
-* Windows 11
-* Ubuntu
-* Xubuntu
-* Windows Subsystem for Linux (WSL)
-* Oracle VirtualBox
-* Git
-* GitHub
-* Visual Studio Code
-* Bash
-* PowerShell
-* Python
-* Wireshark
+## Operating Systems
+
+- Windows 11
+
+## Virtualization
+
+- Oracle VirtualBox
+
+## Networking
+
+- Nmap / Zenmap
+- Wireshark
+
+## Development
+
+- Git
+- GitHub
+- Visual Studio Code
+
+## Learning Platforms
+
+- Cisco Networking Academy
+- TryHackMe
+
+## Operating Systems Studied
+
+- Ubuntu
+- Xubuntu
+- Windows Subsystem for Linux
+
+## Scripting & Command Line
+
+- Bash
+- PowerShell
+- Python
 
 ---
 
@@ -230,19 +347,28 @@ To maintain consistency across the repository, every major addition follows thes
 
 # Repository Status
 
-* ✅ Repository Organized
-* ✅ Documentation Standards Established
-* ✅ Templates Implemented
-* ✅ Portfolio Actively Maintained
-* 🚧 Continuous Development
+- ✅ Repository Organized
+- ✅ Documentation Standards Established
+- ✅ Templates Implemented
+- ✅ Pre Security Learning Path Completed
+- ✅ Portfolio Actively Maintained
+- 🚧 Continuous Development
 
 ---
 
+# Career Objective
+
+My immediate goal is to begin my career in an entry-level IT Support or Help Desk role while continuing to strengthen my skills in networking, Windows, Linux, scripting, and cybersecurity through hands-on projects, continuous learning, and professional documentation.
+
+My long-term goal is to transition into a cybersecurity role by combining real-world IT experience with advanced technical knowledge and continuous professional development.
+
+---
 # Author
 
 **Ja'Maurian Williams**
 
-CSIT Student | Aspiring Cybersecurity Professional
+Incoming Traviss Technical College Student
+Aspiring IT Support & Cybersecurity Professional
 
 **GitHub:**
 https://github.com/JaMau1Tech
