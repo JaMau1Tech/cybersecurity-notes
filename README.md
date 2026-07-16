@@ -99,6 +99,7 @@ root-and-repository/
 - ✅ Built a structured GitHub learning portfolio
 - ✅ Began networking with IT and cybersecurity professionals on LinkedIn *(July 2026)*
 - ✅ Started Cisco Networking Academy – Networking Basics *(July 2026)*
+- ✅ Completed Cisco Networking Academy - Getting Started with Cisco Packet Tracer (100%)
 
 ---
 
@@ -174,6 +175,10 @@ This repository is helping me develop practical experience in:
 * Technical Documentation
 * Troubleshooting
 * Version Control with Git and GitHub
+* Cisco Packet Tracer
+* Network Topology Design
+* DHCP Configuration
+* Network Connectivity Testing
 
 ---
 
@@ -239,6 +244,7 @@ I am currently concentrating on strengthening my IT fundamentals through consist
 - Linux Documentation & Command Reference
 - Networking Documentation & Cheat Sheets
 - Career Portfolio Development
+- Cisco Packet Tracer - Getting Started
 
 ---
 
