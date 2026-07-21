@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/root-and-repository-banner.png" width="100%" alt="Root & Repository Banner">
+</p>
+
 # Root & Repository
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JaMau1Tech/root-and-repository)
