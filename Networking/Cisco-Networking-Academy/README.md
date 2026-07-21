@@ -64,8 +64,8 @@ Getting-Started-with-Cisco-Packet-Tracer/
 
 ### Current Progress
 
-- **Modules Completed:** 2 / 4
-- **Progress:** 50%
+- **Modules Completed:** 2 / 17
+- **Progress:** 12%
 - **Quiz Average:** 100%
 
 ### Completed Modules
@@ -98,10 +98,23 @@ Topics:
 
 ---
 
-### Upcoming Modules
+### Remaining Modules
 
-- ⬜ Module 03 – Wireless and Mobile Networks
-- ⬜ Module 04 – Build a Home Network
+- Module 03 – Wireless and Mobile Networks
+- Module 04 – Build a Home Network
+- Module 05 – Communication Principles
+- Module 06 – Network Media
+- Module 07 – The Access Layer
+- Module 08 – The Internet Protocol
+- Module 09 – IPv4 and Network Segmentation
+- Module 10 – IPv6 Addressing Formats and Rules
+- Module 11 – Dynamic Addressing with DHCP
+- Module 12 – Gateways to Other Networks
+- Module 13 – The ARP Process
+- Module 14 – Routing Between Networks
+- Module 15 – TCP and UDP
+- Module 16 – Application Layer Services
+- Module 17 – Network Testing Utilities
 
 ---
 
@@ -158,8 +171,8 @@ Cisco-Networking-Academy/
 |--------|------:|
 | Courses Completed | 1 |
 | Courses In Progress | 1 |
-| Networking Basics Progress | 50% |
-| Modules Completed | 2 |
+| Networking Basics Modules Completed | 2 / 17 |
+| Networking Basics Progress | 12% |
 | Quiz Average | 100% |
 
 ---

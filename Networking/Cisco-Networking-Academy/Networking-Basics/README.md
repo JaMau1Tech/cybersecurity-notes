@@ -33,11 +33,36 @@ The workflow includes:
 # Progress
 
 | Module | Status | Quiz |
-|----------|:------:|:----:|
+|---------|:------:|:----:|
 | Module 01 - Communication in a Connected World | ✅ Complete | **100%** |
 | Module 02 - Network Components, Types, and Connections | ✅ Complete | **100%** |
 | Module 03 - Wireless and Mobile Networks | ⬜ Not Started | — |
 | Module 04 - Build a Home Network | ⬜ Not Started | — |
+| Module 05 - Communication Principles | ⬜ Not Started | — |
+| Module 06 - Network Media | ⬜ Not Started | — |
+| Module 07 - The Access Layer | ⬜ Not Started | — |
+| Module 08 - The Internet Protocol | ⬜ Not Started | — |
+| Module 09 - IPv4 and Network Segmentation | ⬜ Not Started | — |
+| Module 10 - IPv6 Addressing Formats and Rules | ⬜ Not Started | — |
+| Module 11 - Dynamic Addressing with DHCP | ⬜ Not Started | — |
+| Module 12 - Gateways to Other Networks | ⬜ Not Started | — |
+| Module 13 - The ARP Process | ⬜ Not Started | — |
+| Module 14 - Routing Between Networks | ⬜ Not Started | — |
+| Module 15 - TCP and UDP | ⬜ Not Started | — |
+| Module 16 - Application Layer Services | ⬜ Not Started | — |
+| Module 17 - Network Testing Utilities | ⬜ Not Started | — |
+
+---
+
+# Checkpoint Exams
+
+| Checkpoint Exam | Status |
+|-----------------|:------:|
+| Build a Small Network | ⬜ |
+| Network Access | ⬜ |
+| The Internet Protocol | ⬜ |
+| Communication Between Networks | ⬜ |
+| Protocols for Specific Tasks | ⬜ |
 
 ---
 
@@ -148,8 +173,8 @@ Throughout this course, I have developed knowledge in:
 # Current Progress
 
 - **Course:** Networking Basics
-- **Modules Completed:** **2 / 4**
-- **Current Progress:** **50%**
+- **Modules Completed:** **2 / 17**
+- **Current Progress:** **12%**
 - **Quiz Average:** **100%**
 
 ---

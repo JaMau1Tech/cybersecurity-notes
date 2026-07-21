@@ -25,7 +25,7 @@ Throughout this repository, I aim to:
 | Provider | Course | Status | Progress |
 |----------|--------|:------:|:--------:|
 | Cisco Networking Academy | Getting Started with Cisco Packet Tracer | ✅ Complete | 100% |
-| Cisco Networking Academy | Networking Basics | 🟨 In Progress | 50% |
+| Cisco Networking Academy | Networking Basics | 🟨 In Progress | 12% |
 
 ---
 
@@ -78,9 +78,8 @@ Current networking skills include:
 |--------|------:|
 | Networking Courses Completed | 1 |
 | Networking Courses In Progress | 1 |
-| Networking Modules Completed | 2 |
+| Networking Basics Modules Completed | 2 / 17 |
 | Current Quiz Average | 100% |
-
 ---
 
 # Current Focus
