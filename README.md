@@ -2,65 +2,228 @@
   <img src="assets/root-and-repository-banner.png" alt="Root & Repository Banner" width="100%">
 </p>
 
-<h1 align="center">Root & Repository</h1>
+<h1 align="center">🌱 Root & Repository</h1>
 
 <p align="center">
-  <strong>Documenting my journey through IT, Networking, Cybersecurity, and Professional Development.</strong>
+  <strong>Learning. Building. Documenting. Growing.</strong>
+</p>
+
+<p align="center">
+A professional portfolio documenting my journey through IT Support, Networking, Cybersecurity, Linux, and Career Development.
 </p>
 
 ---
 
-# About
+# 📖 About
+
+Welcome to **Root & Repository**, my central professional learning portfolio.
 
 This repository documents my journey toward becoming an IT Support professional while building the technical foundation needed for a long-term career in cybersecurity.
 
+Rather than simply completing courses or earning certifications, I document every step of my learning through structured notes, hands-on labs, troubleshooting exercises, technical projects, and professional documentation.
+
 Inside you'll find:
 
-- IT fundamentals
-- Linux learning
-- Networking labs
-- TryHackMe documentation
-- Investigation write-ups
-- Bash scripting
-- Git & GitHub projects
-- Study notes
-- Career development
+- 💻 IT Fundamentals
+- 🌐 Networking Labs
+- 🛡️ Cybersecurity Documentation
+- 🐧 Linux Learning
+- 🔍 Investigations
+- ⚙️ Bash, PowerShell & Python
+- 📚 Study Notes
+- 💼 Career Development
 
 ---
 
-# Project Philosophy
+# 🎯 Career Objective
 
-This repository is built on a simple philosophy:
+My immediate goal is to begin my career in an **entry-level IT Support or Help Desk role** while continuing to strengthen my skills in networking, Windows, Linux, scripting, and cybersecurity through hands-on projects and professional documentation.
 
-> Learn. Practice. Document. Improve.
-
-Every topic is reinforced through structured documentation, hands-on experience, and repeatable workflows. By maintaining detailed notes, evidence, and reflections, I create a long-term knowledge base while developing the habits expected of an IT and cybersecurity professional.
+My long-term goal is to transition into a cybersecurity role by combining real-world IT experience with continuous learning and practical technical experience.
 
 ---
 
-# Current Goals
+# 🚀 Quick Navigation
 
-## Short-Term (0–6 Months)
-
-- Land an entry-level IT Support or Help Desk position
-- Build a strong foundation in IT, networking, Windows, and Linux
-- Complete Cisco Networking Academy – Networking Basics
-- Continue documenting hands-on projects and labs
-- Expand my professional GitHub portfolio
-- Grow my professional network on LinkedIn
-
-## Long-Term (6–24 Months)
-
-- Build a practical home lab environment
-- Earn CompTIA A+
-- Earn CompTIA Network+
-- Earn CompTIA Security+
-- Transition into a cybersecurity-focused role
-- Continue developing technical and troubleshooting skills through hands-on experience
+- 📖 About
+- 🎯 Career Objective
+- 📂 Portfolio Dashboard
+- 🌱 Learning Philosophy
+- 🎯 Current Journey
+- 💻 Core Skills
+- 🎓 Certifications & Achievements
+- 🛠️ Featured Projects
+- 🧪 Future Labs
+- 📂 Repository Structure
+- ⚙️ Documentation Workflow
+- 📏 Repository Standards
+- 🗺️ Roadmap
+- 📬 Contact
 
 ---
 
-# Repository Structure
+# 📂 Portfolio Dashboard
+
+| Section | Description |
+|----------|-------------|
+| 💼 Career | Resume, LinkedIn, interview preparation, job search |
+| 🛡️ Cybersecurity Academy | Structured learning, assessments, practical exercises |
+| 🌐 Networking | Cisco Networking Academy, Packet Tracer labs, networking notes |
+| 🐧 Linux | Linux documentation, Bash scripting, WSL, virtual machines |
+| 🔍 Investigations | Windows investigations, Wireshark analysis, troubleshooting |
+| 🛠️ Projects | Hands-on IT and cybersecurity projects |
+| ⚙️ Scripts | Bash, PowerShell, and Python automation |
+| 📚 Resources | Cheat sheets, references, documentation |
+| 📝 Templates | Reusable documentation templates |
+| 📏 Standards | Repository workflows and documentation standards |
+| 🧭 Roadmap | Learning plans and certification roadmap |
+
+---
+
+# 🌱 Learning Philosophy
+
+This repository is built around one simple philosophy:
+
+> **Learn → Practice → Document → Improve**
+
+Every concept is reinforced through structured documentation, hands-on experience, repeatable workflows, and continuous reflection.
+
+I believe documentation is just as important as technical ability because it demonstrates organization, communication, and professional growth.
+
+---
+
+# 🎯 Current Journey
+
+## 📚 Currently Learning
+
+- Cisco Networking Academy – Networking Basics
+- Linux Administration
+- Windows Fundamentals
+- Networking Fundamentals
+- Git & GitHub
+- Bash
+- TryHackMe
+
+### 🛠️ Active Projects
+
+- Root & Repository Portfolio
+- Cisco Networking Academy Documentation
+- TryHackMe Documentation
+- Linux Documentation
+- Career Development
+
+### 🎯 Current Priorities
+
+- Strengthen networking knowledge
+- Continue expanding my GitHub portfolio
+- Apply for entry-level IT Support positions
+- Build professional connections within IT and cybersecurity
+
+---
+
+# 💻 Core Skills
+
+## Operating Systems
+
+- Windows 11
+- Ubuntu Linux
+- Windows Subsystem for Linux (WSL)
+
+## Networking
+
+- TCP/IP
+- OSI Model
+- DHCP
+- DNS
+- Routing & Switching Fundamentals
+- Cisco Packet Tracer
+
+## Cybersecurity
+
+- Security Fundamentals
+- TryHackMe
+- Wireshark
+- Nmap / Zenmap
+
+## Scripting & Automation
+
+- Bash
+- PowerShell
+- Python
+
+## Development Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+
+## Professional Skills
+
+- Technical Documentation
+- Troubleshooting
+- Research
+- Problem Solving
+- Version Control
+
+---
+
+# 🎓 Certifications & Achievements
+
+## ✅ Completed
+
+- TryHackMe – Pre Security Learning Path
+- TryHackMe – Pre Security Certificate
+- Cisco Networking Academy – Getting Started with Cisco Packet Tracer
+
+## 🚧 In Progress
+
+- Cisco Networking Academy – Networking Basics
+
+## 📅 Planned
+
+- CompTIA A+
+- CompTIA Network+
+- CompTIA Security+
+- CompTIA CySA+
+- CISSP (Long-Term)
+
+---
+
+# 🏆 Professional Milestones
+
+- Built a structured GitHub learning portfolio
+- Developed standardized documentation workflows
+- Began networking with IT professionals on LinkedIn
+- Continuing hands-on IT and cybersecurity projects
+
+---
+
+# 🛠️ Featured Projects
+
+- 🌱 Root & Repository Portfolio
+- 🛡️ TryHackMe Documentation
+- 🌐 Cisco Networking Academy Documentation
+- 🐧 Linux Documentation & Command Reference
+- 📚 Networking Documentation
+- 💼 Career Portfolio Development
+
+---
+
+# 🧪 Future Labs
+
+- Ubuntu Linux VM
+- Kali Linux VM
+- Windows 11 VM
+- Windows Server Lab
+- Active Directory Lab
+- osTicket Help Desk Lab
+- pfSense Firewall Lab
+- SIEM Lab
+- Vulnerability Scanning Lab
+
+---
+
+# 📂 Repository Structure
 
 ```text
 root-and-repository/
@@ -82,251 +245,9 @@ root-and-repository/
 
 ---
 
-# Currently Learning
+# ⚙️ Documentation Workflow
 
-- Cisco Networking Academy - Networking Basics
-- Linux Administration
-- Windows Fundamentals
-- Networking Fundamentals
-- Git & GitHub
-- Bash
-- TryHackMe
-
----
-
-# Recent Achievements
-
-- ✅ Completed TryHackMe Pre Security Learning Path *(July 2026)*
-- ✅ Earned TryHackMe Pre Security Certificate *(July 2026)*
-- ✅ Built a structured GitHub learning portfolio
-- ✅ Began networking with IT and cybersecurity professionals on LinkedIn *(July 2026)*
-- ✅ Started Cisco Networking Academy – Networking Basics *(July 2026)*
-- ✅ Completed Cisco Networking Academy - Getting Started with Cisco Packet Tracer (100%)
-
----
-
-# Professional Development
-
-To complement my technical learning, I actively network with IT and cybersecurity professionals, seek career guidance, and apply industry feedback to continuously improve my technical skills, portfolio, and career roadmap.
-
----
-
-# Repository Sections
-
-## Linux
-
-Linux notes, Bash scripting, WSL documentation, virtual machines, operating system concepts, and command references.
-
-## Networking
-
-Networking fundamentals, protocols, packet analysis, subnetting, Wireshark investigations, and troubleshooting.
-
-## TryHackMe
-
-Structured documentation for completed rooms, learning paths, handwritten notes, lab write-ups, and technical reflections.
-
-## Investigations
-
-Troubleshooting exercises, Windows investigations, Wireshark investigations, incident analysis, and other blue-team style case studies.
-
-## Projects
-
-Hands-on IT and cybersecurity projects completed throughout my learning journey.
-
-## Scripts
-
-Automation scripts written in Bash, PowerShell, and Python to reinforce practical skills.
-
-## Resources
-
-Reference materials, cheat sheets, documentation, and learning resources used throughout the repository.
-
-## Roadmap
-
-Learning roadmap, certification goals, progress tracking, and long-term development plans.
-
-## Templates
-
-Reusable documentation templates that ensure consistency across notes, labs, investigations, and projects.
-
-## Career
-
-Resume development, LinkedIn materials, cover letters, interview preparation, professional branding, and job-search resources.
-
-## Cybersecurity Academy
-
-Structured assessments, practical exercises, mock interviews, mastery reports, and concept-focused cybersecurity training.
-
-## Standards
-
-Locked workflows, repository conventions, documentation standards, screenshot naming rules, and quality-control procedures.
-
----
-
-# Core Skills
-
-This repository is helping me develop practical experience in:
-
-* Linux Administration
-* Windows Administration
-* Networking Fundamentals
-* Security Fundamentals
-* Bash Scripting
-* PowerShell
-* Python Automation
-* Technical Documentation
-* Troubleshooting
-* Version Control with Git and GitHub
-* Cisco Packet Tracer
-* Network Topology Design
-* DHCP Configuration
-* Network Connectivity Testing
-
----
-
-# Current Focus
-
-I am currently concentrating on strengthening my IT fundamentals through consistent hands-on practice and technical documentation.
-
-## Active Learning
-
-- Cisco Networking Academy – Networking Basics
-- Windows Fundamentals
-- Linux Fundamentals
-- Networking Fundamentals
-- Git & GitHub
-- Technical Documentation
-
-## Active Projects
-
-- Root & Repository Portfolio
-- TryHackMe Documentation
-- Cisco Networking Academy Documentation
-- LinkedIn & Career Development
-
-## Current Priorities
-
-- Build strong networking knowledge
-- Continue growing my GitHub portfolio
-- Apply for entry-level IT Support and Help Desk positions
-- Connect with IT and cybersecurity professionals
-
----
-
-# TryHackMe Progress
-
-## Completed Learning Paths
-
-- Pre Security
-
-## Completed Modules
-
-- Introduction to Cyber Security
-- Computer Fundamentals
-- Operating Systems Basics
-- Software Basics
-- Network Fundamentals
-- How the Web Works
-- Attacks and Defenses
-
-## Next Learning Paths
-
-- Cyber Security 101
-- SOC Level 1
-- Jr Penetration Tester
-- Cyber Defense
-
----
-
-# Current Projects
-
-- Root & Repository Portfolio
-- TryHackMe Documentation
-- Cisco Networking Academy Documentation
-- Linux Documentation & Command Reference
-- Networking Documentation & Cheat Sheets
-- Career Portfolio Development
-- Cisco Packet Tracer - Getting Started
-
----
-
-# Planned Labs
-
-- Ubuntu Linux VM
-- Kali Linux VM
-- Windows 11 VM
-- Windows Server Lab
-- Active Directory Lab
-- osTicket Help Desk Lab
-- pfSense Firewall Lab
-- SIEM Lab
-- Vulnerability Scanning Lab
-
----
-
-# Certification Roadmap
-
-## Completed
-
-- TryHackMe Pre Security
-
-## Current
-
-- Cisco Networking Basics
-
-## Planned
-
-- CompTIA A+
-- Network+
-- Security+
-- CySA+
-- CISSP (Long-Term)
-
----
-
-# Technologies and Platforms
-
-## Operating Systems
-
-- Windows 11
-
-## Virtualization
-
-- Oracle VirtualBox
-
-## Networking
-
-- Nmap / Zenmap
-- Wireshark
-
-## Development
-
-- Git
-- GitHub
-- Visual Studio Code
-
-## Learning Platforms
-
-- Cisco Networking Academy
-- TryHackMe
-
-## Operating Systems Studied
-
-- Ubuntu
-- Xubuntu
-- Windows Subsystem for Linux
-
-## Scripting & Command Line
-
-- Bash
-- PowerShell
-- Python
-
----
-
-# Documentation Workflow
-
-Every major topic, lab, investigation, or project follows a structured workflow:
+Every major topic, lab, investigation, or project follows the same structured workflow:
 
 1. Learn the concept
 2. Create handwritten notebook notes
@@ -336,51 +257,88 @@ Every major topic, lab, investigation, or project follows a structured workflow:
 6. Organize files within the repository
 7. Commit changes using Git and GitHub
 
-This repeatable workflow ensures that every learning experience is documented consistently, reproducibly, and professionally while building a comprehensive cybersecurity portfolio.
+This repeatable workflow helps ensure every learning experience is documented consistently while building a professional portfolio.
 
 ---
 
-# Repository Standards
+# 📏 Repository Standards
 
-To maintain consistency across the repository, every major addition follows these principles:
+Every contribution follows these principles:
 
-* Accuracy before completion
-* Hands-on validation whenever possible
-* Clear and consistent documentation
-* Supporting screenshots for practical work
-* Reflection and lessons learned
-* Version-controlled development with Git
+- Accuracy before completion
+- Hands-on validation whenever possible
+- Clear and consistent documentation
+- Supporting screenshots for practical work
+- Reflection and lessons learned
+- Version-controlled development with Git
 
 ---
 
-# Repository Status
+# 🗺️ Roadmap
+
+## Current Focus
+
+- Cisco Networking Academy
+- Windows Fundamentals
+- Linux Administration
+- Git & GitHub
+- Technical Documentation
+
+## Next Goals
+
+- Home Lab Development
+- Active Directory
+- Help Desk Portfolio
+- Networking Projects
+- Cloud Fundamentals
+
+## Long-Term Goals
+
+- CompTIA A+
+- CompTIA Network+
+- CompTIA Security+
+- Entry-Level IT Support Position
+- Cybersecurity Career
+
+---
+
+# 📈 Repository Status
 
 - ✅ Repository Organized
 - ✅ Documentation Standards Established
 - ✅ Templates Implemented
-- ✅ Pre Security Learning Path Completed
-- ✅ Portfolio Actively Maintained
-- 🚧 Continuous Development
+- ✅ TryHackMe Pre Security Completed
+- ✅ Cisco Packet Tracer Course Completed
+- 🚧 Portfolio Continuously Growing
 
 ---
 
-# Career Objective
+# 📬 Contact
 
-My immediate goal is to begin my career in an entry-level IT Support or Help Desk role while continuing to strengthen my skills in networking, Windows, Linux, scripting, and cybersecurity through hands-on projects, continuous learning, and professional documentation.
+**Ja'Maurian Smith-Williams**
 
-My long-term goal is to transition into a cybersecurity role by combining real-world IT experience with advanced technical knowledge and continuous professional development.
+🎓 Incoming Traviss Technical College Student
 
----
-# Author
+💻 Aspiring IT Support & Cybersecurity Professional
 
-**Ja'Maurian Williams**
+**GitHub**
 
-Incoming Traviss Technical College Student
-Aspiring IT Support & Cybersecurity Professional
-
-**GitHub:**
 https://github.com/JaMau1Tech
 
+**LinkedIn**
+
+https://www.linkedin.com/in/ja-maurian-smith-williams-46784741b/
+
+**TryHackMe**
+
+https://tryhackme.com/p/jamaur1tech
+
 ---
 
-> **Root & Repository** is continuously updated as I complete new labs, investigations, projects, certifications, and cybersecurity training. Every contribution reflects my commitment to continuous learning, structured documentation, and professional growth.
+<p align="center">
+
+<strong>Root & Repository</strong><br>
+
+<em>Learning. Building. Documenting. Growing.</em>
+
+</p>
