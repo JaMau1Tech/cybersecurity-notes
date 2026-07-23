@@ -1,6 +1,6 @@
 # TryHackMe
 
-This repository contains my documentation, handwritten notes, screenshots, and hands-on labs completed throughout the **TryHackMe Pre Security Learning Path**.
+This repository contains my documentation, handwritten notes, screenshots, and hands-on labs completed throughout my **TryHackMe** learning journey.
 
 The purpose of this repository is to:
 
@@ -9,7 +9,7 @@ The purpose of this repository is to:
 - Practice professional technical documentation
 - Reinforce learning through handwritten notes
 - Create a professional cybersecurity portfolio
-- Track progress through structured learning paths
+- Track progress through structured learning paths and standalone rooms
 - Demonstrate continuous learning and skill development
 
 ---
@@ -22,7 +22,17 @@ The purpose of this repository is to:
 
 ---
 
+# Standalone Room Collections
+
+| Collection | Status |
+|------------|:------:|
+| Active Directory | 🚧 In Progress |
+
+---
+
 # Progress
+
+## Learning Paths
 
 | Module | Status |
 |---------|:------:|
@@ -34,7 +44,15 @@ The purpose of this repository is to:
 | Module 06 – How The Web Works | ✅ Complete |
 | Module 07 – Attacks and Defenses | ✅ Complete |
 
-**Overall Progress:** **7 / 7 Modules Completed (100%)**
+**Learning Path Progress:** **7 / 7 Modules Completed (100%)**
+
+---
+
+## Standalone Rooms
+
+| Collection | Progress |
+|------------|:--------:|
+| Active Directory | **1 / 3 Rooms Completed (33%)** |
 
 ---
 
@@ -45,24 +63,52 @@ TryHackMe/
 │
 ├── README.md
 │
-├── Module-01-Introduction-to-Cybersecurity/
+├── Learning-Paths/
+│   │
+│   └── Pre-Security/
+│       │
+│       ├── Module-01-Introduction-to-Cybersecurity/
+│       ├── Module-02-Computer-Fundamentals/
+│       ├── Module-03-Operating-Systems-Basics/
+│       ├── Module-04-Software-Basics/
+│       ├── Module-05-Network-Fundamentals/
+│       ├── Module-06-How-The-Web-Works/
+│       └── Module-07-Attacks-and-Defenses/
 │
-├── Module-02-Computer-Fundamentals/
-│
-├── Module-03-Operating-Systems-Basics/
-│
-├── Module-04-Software-Basics/
-│
-├── Module-05-Network-Fundamentals/
-│
-├── Module-06-How-The-Web-Works/
-│
-└── Module-07-Attacks-and-Defenses/
+└── Standalone-Rooms/
+    │
+    └── Active-Directory/
+        │
+        ├── README.md
+        ├── images/
+        ├── Windows-Active-Directory-Basics/
+        ├── Active-Directory-Hardening/
+        └── Monitoring-Active-Directory/
 ```
 
 ---
 
-# Completed Modules
+# Completed Learning Paths
+
+## 📘 Pre Security
+
+**Status:** ✅ Complete
+
+The Pre Security Learning Path provided a comprehensive introduction to cybersecurity fundamentals, covering computer hardware, operating systems, networking, web technologies, and core security principles. Completing this path established the knowledge required for more advanced cybersecurity training and hands-on labs.
+
+### Completed Modules
+
+| Module | Status |
+|---------|:------:|
+| Module 01 – Introduction to Cybersecurity | ✅ Complete |
+| Module 02 – Computer Fundamentals | ✅ Complete |
+| Module 03 – Operating Systems Basics | ✅ Complete |
+| Module 04 – Software Basics | ✅ Complete |
+| Module 05 – Network Fundamentals | ✅ Complete |
+| Module 06 – How The Web Works | ✅ Complete |
+| Module 07 – Attacks and Defenses | ✅ Complete |
+
+---
 
 ## ✅ Module 01 – Introduction to Cybersecurity
 
@@ -144,6 +190,7 @@ TryHackMe/
 - Python Fundamentals
 - JavaScript Fundamentals
 - SQL Fundamentals
+
 ---
 
 ## ✅ Module 05 – Network Fundamentals
@@ -163,57 +210,18 @@ TryHackMe/
 - LAN Topologies
 - Switching
 - Routing
-- IPv4
-- IPv6
-- Public vs Private Addressing
-- MAC Addressing
-- MAC Spoofing
+- IPv4 / IPv6
 - Subnetting
 - ARP
 - DHCP
 - ICMP
-- Ping
 - OSI Model
-- Physical Layer
-- Data Link Layer
-- Network Layer
-- Transport Layer
-- Session Layer
-- Presentation Layer
-- Application Layer
-- TCP
-- UDP
-- Encapsulation
-- Packets
-- Frames
-- TCP/IP Model
-- Three-Way Handshake
-- SYN
-- SYN/ACK
-- ACK
-- FIN
-- RST
-- TCP Headers
-- UDP Headers
-- Checksums
-- Sequence Numbers
-- Network Ports
-- Common Service Ports
-- Port Forwarding
+- TCP/IP
+- Packets & Frames
 - Firewalls
-- Stateful Firewalls
-- Stateless Firewalls
-- Packet Inspection
 - VPN Fundamentals
-- PPP
-- PPTP
-- IPSec
-- Routing
-- Layer 2 Switching
-- Layer 3 Switching
 - VLANs
 - Network Simulation
-- Packet Flow Analysis
 
 ---
 
@@ -230,57 +238,46 @@ TryHackMe/
 
 #### DNS
 
-- Domain Name System (DNS)
-- DNS Hierarchy
+- DNS
 - DNS Resolution
 - DNS Record Types
 - DNS Caching
-- Time To Live (TTL)
 
 #### HTTP
 
-- HTTP
-- HTTPS
+- HTTP / HTTPS
 - URLs
 - HTTP Requests
 - HTTP Responses
-- HTTP Headers
 - HTTP Methods
 - HTTP Status Codes
 - Cookies
 
 #### Website Technologies
 
-- Front-End
-- Back-End
 - HTML
 - JavaScript
+- Front-End
+- Back-End
 - Browser Rendering
-- Static Content
-- Dynamic Content
-- Virtual Hosts
 
 #### Web Infrastructure
 
-- Web Servers
 - Apache
 - Nginx
 - IIS
 - Node.js
 - Load Balancers
-- Health Checks
-- Content Delivery Networks (CDNs)
+- CDNs
 - Databases
-- Web Application Firewalls (WAFs)
+- WAFs
 
 #### Web Security
 
 - Source Code Review
-- Sensitive Data Exposure
 - HTML Injection
 - Input Validation
-- Input Sanitization
-- Web Request Lifecycle
+- Sensitive Data Exposure
 
 ---
 
@@ -302,23 +299,16 @@ TryHackMe/
 - Confidentiality
 - Integrity
 - Availability
-- Security Mindset
 - Risk Assessment
 
 #### Cryptography
 
 - Encryption
 - Decryption
-- Plaintext
-- Ciphertext
 - Symmetric Encryption
 - Asymmetric Encryption
-- Public Keys
-- Private Keys
-- HTTPS
+- PKI
 - Digital Certificates
-- Public Key Infrastructure (PKI)
-- Certificate Authorities
 
 #### Offensive Security
 
@@ -326,34 +316,156 @@ TryHackMe/
 - Penetration Testing
 - Enumeration
 - Reconnaissance
-- Vulnerability Discovery
-- Attack Surface Analysis
 - Password Auditing
-- Dictionary Attacks
-- Authentication Testing
 
 #### Defensive Security
 
 - Blue Team Fundamentals
-- Infrastructure Visibility
-- Asset Identification
-- Threat Anticipation
-- Risk Prioritization
-- Prevention
 - Detection
 - Mitigation
-- Analysis
 - Incident Response
 - Layered Security
-- Continuous Improvement
 
 #### Security Tools
 
 - Gobuster
 - Hydra
+
+---
+
+# Standalone Rooms
+
+In addition to structured learning paths, I complete standalone TryHackMe rooms to deepen my knowledge in specific cybersecurity domains. These rooms focus on practical administration, defensive security, offensive security, and other specialized topics that extend beyond the guided learning paths.
+
+---
+
+## Active Directory
+
+**Status:** 🚧 In Progress
+
+The Active Directory collection focuses on Microsoft's enterprise identity and access management platform. These rooms build practical experience administering Windows domains, managing users and computers, configuring Group Policy, securing Active Directory environments, and monitoring enterprise infrastructure.
+
+### Progress
+
+| Room | Status |
+|------|:------:|
+| Windows Active Directory Basics | ✅ Complete |
+| Active Directory Hardening | ⏳ Not Started |
+| Monitoring Active Directory | ⏳ Not Started |
+
+**Collection Progress:** **1 / 3 Rooms Completed (33%)**
+
+---
+
+### ✅ Windows Active Directory Basics
+
+#### Overview
+
+This room introduced the fundamentals of Microsoft Active Directory and Windows Domains while providing practical administrative experience in a simulated enterprise environment.
+
+The room covered:
+
+- Windows Domains
+- Domain Controllers
+- Active Directory Objects
+- Users and Groups
+- Organizational Units (OUs)
+- Computer Objects
+- Group Policy Objects (GPOs)
+- Kerberos Authentication
+- NetNTLM Authentication
+- Trees
+- Forests
+- Trust Relationships
+
+---
+
+#### Hands-on Activities
+
+Completed practical exercises involving:
+
+- Creating Organizational Units
+- Deleting Organizational Units
+- Managing Active Directory users
+- Managing computer objects
+- Delegating administrative permissions
+- Resetting passwords
+- Managing password policies
+- Creating Group Policy Objects
+- Linking Group Policies
+- Configuring workstation security policies
+- Using PowerShell for Active Directory administration
+- Troubleshooting authentication issues
+- Verifying Group Policy application
+
+---
+
+#### Skills Developed
+
+- Active Directory Administration
+- Windows Domain Administration
+- User Management
+- Computer Management
+- Organizational Unit Administration
+- Group Policy Management
+- PowerShell Administration
+- Kerberos Fundamentals
+- NetNTLM Fundamentals
+- Enterprise Authentication
+- Delegated Administration
+- Active Directory Troubleshooting
+
+---
+
+#### Tools Used
+
+- Active Directory Users and Computers (ADUC)
+- Group Policy Management Console (GPMC)
+- Windows PowerShell
+- Windows Remote Desktop
+- FreeRDP
+
+---
+
+#### Documentation
+
+```text
+Standalone-Rooms/
+└── Active-Directory/
+    ├── README.md
+    ├── Windows-Active-Directory-Basics/
+    │   └── task-notes.md
+    └── images/
+```
+
+---
+
+### 🔜 Next Room
+
+**Active Directory Hardening**
+
+Upcoming topics include:
+
+- Tiered Administration
+- Least Privilege
+- Microsoft LAPS
+- Secure Administrative Workstations
+- Group Policy Hardening
+- Administrative Security Best Practices
+
+---
+
+### Long-Term Goal
+
+Complete the Active Directory collection to develop practical enterprise Windows administration skills before progressing into more advanced Windows security, monitoring, detection engineering, and Active Directory attack techniques.
+
 ---
 
 # Skills Gained
+
+Throughout my TryHackMe learning journey, I have developed practical knowledge and hands-on experience across multiple cybersecurity domains.
+
+---
 
 ## Networking
 
@@ -366,25 +478,23 @@ TryHackMe/
 - IPv6
 - Public & Private Networks
 - MAC Addressing
-- Subnetting
 - ARP
 - DHCP
 - ICMP
-- Ping
 - OSI Model
 - TCP
 - UDP
 - Three-Way Handshake
 - Network Ports
 - Firewalls
-- VPNs
+- VPN Fundamentals
 - VLANs
 
 ---
 
 ## Web Technologies
 
-- Domain Name System (DNS)
+- DNS
 - DNS Resolution
 - HTTP
 - HTTPS
@@ -400,17 +510,36 @@ TryHackMe/
 - Front-End Development
 - Back-End Concepts
 - Browser Rendering
-- Static Content
-- Dynamic Content
 - Web Servers
 - Apache
 - Nginx
 - IIS
 - Node.js
 - Load Balancers
-- Health Checks
 - Content Delivery Networks (CDNs)
 - Web Application Firewalls (WAFs)
+
+---
+
+## Windows & Active Directory
+
+- Windows Administration
+- Windows Domains
+- Active Directory Fundamentals
+- Domain Controllers
+- Active Directory Objects
+- Organizational Units (OUs)
+- User Administration
+- Computer Administration
+- Group Policy Objects (GPOs)
+- Kerberos Authentication
+- NetNTLM Authentication
+- Enterprise Authentication
+- Trust Relationships
+- Trees & Forests
+- Delegated Administration
+- PowerShell for Active Directory
+- Active Directory Troubleshooting
 
 ---
 
@@ -513,12 +642,14 @@ TryHackMe/
 | Statistic | Total |
 |-----------|------:|
 | Learning Paths Completed | 1 |
+| Standalone Collections | 1 In Progress |
 | Modules Completed | 7 |
-| Standard Rooms Completed | 24 |
+| Standard Rooms Completed | 25 |
+| Standalone Rooms Completed | 1 |
 | Topic Recaps Completed | 4 |
 | Hands-on Labs Completed | 20+ |
-| Security Tools Learned | Gobuster, Hydra |
-| Documentation Files | 30+ |
+| Security Tools Learned | Gobuster, Hydra, PowerShell |
+| Documentation Files | 35+ |
 | Screenshot Library | Professionally Organized |
 
 ---
@@ -537,26 +668,22 @@ Every completed TryHackMe room includes:
 - Repository organization
 - Git version history
 
-This documentation-first approach reinforces learning while building a professional cybersecurity portfolio that demonstrates both technical ability and professional documentation skills.
+My documentation emphasizes understanding concepts, practicing hands-on skills, troubleshooting real-world issues, and maintaining professional-quality technical documentation that demonstrates continuous learning.
 
 ---
 
-# Pre Security Learning Path Summary
+# Current Focus
 
-Throughout the Pre Security Learning Path, I developed a strong understanding of:
+## 🚧 Active Directory Learning
 
-- Computer hardware and architecture
-- Operating systems
-- Networking fundamentals
-- Web technologies
-- Information security principles
-- Cryptography fundamentals
-- Offensive security concepts
-- Defensive security concepts
-- Technical documentation
-- Professional cybersecurity workflows
+Current standalone learning objectives include:
 
-This learning path established the foundational knowledge required to continue into more advanced cybersecurity topics and hands-on penetration testing and defensive security training.
+- Active Directory Hardening
+- Monitoring Active Directory
+- Enterprise Windows Administration
+- Active Directory Security
+- Windows Authentication
+- Group Policy Security
 
 ---
 
@@ -564,14 +691,23 @@ This learning path established the foundational knowledge required to continue i
 
 ## ✅ Pre Security Learning Path Complete
 
-All modules, rooms, documentation, screenshots, and supporting materials have been completed following my Root & Repository documentation workflow.
+Completed all modules, rooms, documentation, screenshots, and supporting materials for the TryHackMe Pre Security Learning Path.
 
-This repository serves as a permanent record of my foundational cybersecurity training and demonstrates my commitment to continuous learning, hands-on practice, and professional documentation.
+## 🚧 Active Directory Standalone Collection In Progress
+
+Completed:
+
+- ✅ Windows Active Directory Basics
+
+Upcoming:
+
+- ⏳ Active Directory Hardening
+- ⏳ Monitoring Active Directory
 
 ---
 
-**Repository Status:** ✅ Complete
+**Learning Path Status:** ✅ Pre Security Complete
 
-**Learning Path:** TryHackMe Pre Security
+**Standalone Progress:** 🚧 Active Directory (1 / 3)
 
-**Completion:** **100%**
+**Overall Repository Status:** 🚀 Active Development
