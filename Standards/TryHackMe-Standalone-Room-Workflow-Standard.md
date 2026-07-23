@@ -1,452 +1,260 @@
-# TryHackMe Standalone Room Documentation Workflow Standard
+# TryHackMe Standalone Room Documentation Workflow v2.0
 
-**Version:** 1.0  
-**Status:** Locked  
-**Applies To:** TryHackMe standalone rooms that are not part of a learning path  
-**Repository Area:** `TryHackMe/Standalone-Rooms/`
+_Last Updated: July 2026_
 
 ---
 
-## 1. Purpose
+# Workflow Overview
 
-This standard defines the permanent documentation workflow for TryHackMe standalone rooms.
+This workflow is used for all standalone TryHackMe room collections (e.g., Active Directory, Windows, Linux, SOC, Cloud, etc.). The focus is on learning through hands-on practice while maintaining professional-quality documentation for my Root & Repository portfolio.
 
-Standalone rooms are organized by topic rather than by learning-path module. The workflow preserves the same Root & Repository learning standards used throughout the repository:
-
-- Concept-first learning
-- Ultra-concise handwritten notebook notes
-- Hands-on completion
-- Screenshot evidence
-- Professional GitHub documentation
-- Repository consistency
-- Git version control
-
-This workflow must not be changed, reordered, renamed, expanded, reduced, or merged with another workflow unless explicitly approved.
+Rather than interrupting practical work to create detailed notes after every task, I complete the room first while recording important reminders and documenting meaningful practical work. Once the room is finished, I generate comprehensive notebook notes and repository documentation.
 
 ---
 
-## 2. Repository Structure
+# During Every Task
 
-Standalone rooms are grouped by topic.
+## Step 1 – Explain the Task
 
-```text
-TryHackMe/
-├── README.md
-├── Certificates/
-├── Learning-Paths/
-│   └── Pre-Security/
-│       └── existing learning-path modules
-└── Standalone-Rooms/
-    └── Topic-Name/
-        ├── README.md
-        ├── images/
-        │   ├── README.md
-        │   └── all screenshots for rooms in this topic
-        ├── Room-Name-1/
-        │   └── task-notes.md
-        ├── Room-Name-2/
-        │   └── task-notes.md
-        └── Room-Name-3/
-            └── task-notes.md
-```
+Before beginning each task:
 
-### Active Directory Example
-
-```text
-TryHackMe/
-└── Standalone-Rooms/
-    └── Active-Directory/
-        ├── README.md
-        ├── images/
-        │   ├── README.md
-        │   └── all Active Directory room screenshots
-        ├── Windows-Active-Directory-Basics/
-        │   └── task-notes.md
-        ├── Active-Directory-Hardening/
-        │   └── task-notes.md
-        └── Monitoring-Active-Directory/
-            └── task-notes.md
-```
-
-### Structure Rules
-
-- Each topic has one `README.md`.
-- Each topic has one shared `images/` folder.
-- Each topic has one shared `images/README.md`.
-- Each room has one folder.
-- Each room folder contains only `task-notes.md`.
-- Room folders do not contain individual `README.md` files.
-- Room folders do not contain individual `images/` folders.
-- Screenshots from every room in the topic remain in the shared topic `images/` folder.
+- Explain the concept.
+- Explain why it matters.
+- Define important terminology.
+- Explain the real-world relevance.
 
 ---
 
-## 3. Standard Room Workflow
+## Step 2 – Quick Notebook Jot Notes
 
-For every task in a standalone room, complete the following steps in this exact order.
+Provide concise reminders to write in my notebook while working through the task.
 
-### Step 1 — Explain the Task
-
-Explain the current task concisely using:
-
-- Core concept
-- Why it matters
-- Key terminology
-- Real-world relevance
-
-Do not provide unnecessary paragraphs or unrelated background.
-
-### Step 2 — Generate Handwritten Notebook Notes
-
-Generate ultra-concise handwritten notebook notes using compact bullets and separators.
-
-Notebook notes must:
-
-- Be easy to handwrite
-- Prioritize essential concepts
-- Avoid long paragraphs
-- Preserve important commands, terminology, and relationships
-- Use the established Root & Repository notebook style
-
-### Step 3 — Complete the Task
-
-Complete the task by:
-
-- Answering questions accurately
-- Guiding hands-on work step by step
-- Verifying flags when applicable
-- Confirming successful completion
-- Never inventing answers, flags, commands, results, or lab steps
-
-### Step 4 — Capture the Task Screenshot
-
-Immediately after the task is completed:
-
-1. Prompt for the required screenshot.
-2. Provide the exact filename.
-3. Put the filename in its own code block.
-4. Use lowercase letters.
-5. Use hyphens between words.
-6. Do not include the file extension.
-
-### Step 5 — Repeat
-
-Repeat Steps 1–4 for every task in the room.
-
----
-
-## 4. Hands-On Lab Workflow
-
-After every practical exercise or lab:
-
-1. Verify that the activity was completed successfully.
-2. Verify the flag when one exists.
-3. Confirm the result.
-4. Immediately prompt for a screenshot.
-5. Provide the exact screenshot filename in its own code block.
-6. Do not include a file extension.
-
-Never create a lab screenshot requirement for an activity that did not occur.
-
----
-
-## 5. Room Completion Workflow
-
-After the final task:
-
-1. Confirm that every task is complete.
-2. Prompt for the room-complete screenshot.
-3. Provide the exact room-complete screenshot filename.
-4. Capture the screenshot before generating final repository documentation.
-
----
-
-## 6. Screenshot Naming Standard
-
-### Task Screenshot
-
-```text
-room-name-task01-description
-```
+These should be short bullet points that capture important concepts, commands, or reminders—not full notebook notes.
 
 Example:
 
-```text
-windows-active-directory-basics-task01-introduction
-```
-
-### Lab Screenshot
-
-```text
-room-name-task03-lab-description
-```
-
-Example:
-
-```text
-windows-active-directory-basics-task04-lab-manage-users
-```
-
-### Room Completion Screenshot
-
-```text
-room-name-room-complete
-```
-
-Example:
-
-```text
-windows-active-directory-basics-room-complete
-```
-
-### Naming Rules
-
-- Lowercase only
-- Hyphen-separated
-- No spaces
-- No file extension in the requested filename
-- Use two digits for task numbers
-- Describe the evidence shown
-- Keep names consistent across the screenshot checklist and documentation
-
-ShareX will save the actual file as `.png`.
+- Kerberos uses ticket-based authentication
+- OUs organize Active Directory objects
+- `Get-ADUser` retrieves user information
+- Follow the Principle of Least Privilege
 
 ---
 
-## 7. ShareX Screenshot Workflow
+## Step 3 – Complete the Task
 
-### Destination Folder
+Work through:
 
-Set ShareX to save screenshots directly into the active topic's shared images folder.
-
-Active Directory example:
-
-```text
-root-and-repository/TryHackMe/Standalone-Rooms/Active-Directory/images/
-```
-
-### Recommended Capture Method
-
-Use:
-
-```text
-Capture region
-```
-
-Capture only the relevant TryHackMe task, answer, lab result, flag, or completion evidence.
-
-Avoid capturing:
-
-- Unrelated browser tabs
-- Notifications
-- Personal information
-- Credentials
-- Unnecessary desktop content
-
-### Recommended After-Capture Tasks
-
-Enable:
-
-- Save image to file
-- Copy image to clipboard
-
-Optional:
-
-- Show quick task menu
-
-Disable unless intentionally needed:
-
-- Upload image to host
-- Shorten URL
-- Share URL
-- Automatic public uploads
-
-### Recommended Image Format
-
-```text
-PNG
-```
-
-### Per-Screenshot Process
-
-1. Complete the TryHackMe task or lab.
-2. Receive the exact filename.
-3. Start ShareX region capture.
-4. Select the relevant evidence.
-5. Save into the topic's shared `images/` folder.
-6. Replace the automatic name with the exact provided filename.
-7. Confirm the image exists in the correct folder.
-8. Continue to the next task.
-
----
-
-## 8. Post-Room Documentation Order
-
-After every completed standalone room, generate documentation in this exact order:
-
-1. Complete handwritten notebook notes
-2. Screenshot checklist
-3. Full room `task-notes.md`
-4. Full updated topic `README.md`
-5. Full updated topic `images/README.md`
-6. Full updated parent `TryHackMe/README.md`
-7. Repository consistency review
-8. Exact Git add, commit, and push commands
-
-All affected documentation files must be regenerated in full.
-
-Do not provide:
-
-- Partial sections
-- Patch notes
-- Merge instructions
-- Isolated replacement snippets
-- “Add this section” instructions
-
----
-
-## 9. Documentation Consistency Audit
-
-Before presenting the completed documentation, verify that every affected file agrees on:
-
-- Topic name
-- Room name
-- Room status
-- Completed-room count
-- Progress percentage
-- Task count
-- Screenshot filenames
-- Screenshot totals
-- Labs completed
-- Skills developed
-- Repository structure
-- Current focus
-- Next room
-- Overall TryHackMe statistics
-- Learning-path versus standalone-room classification
-
-Correct inconsistencies before presenting the files.
-
----
-
-## 10. Topic README Requirements
-
-The topic `README.md` must include:
-
-- Topic overview
-- Purpose
-- Room roadmap
-- Completed rooms
-- Current progress
-- Skills developed
-- Screenshot count
-- Repository structure
-- Current room
-- Next room
-- Topic status
-
-For the Active Directory topic, the room order is:
-
-1. Windows Active Directory Basics
-2. Active Directory Hardening
-3. Monitoring Active Directory
-
----
-
-## 11. Topic Images README Requirements
-
-The shared `images/README.md` must include:
-
-- Screenshot organization explanation
-- Screenshots grouped by room
-- Screenshot filename
-- Task or lab represented
-- Brief evidence description
-- Screenshot total per room
-- Overall topic screenshot total
-
-Only include screenshots that were actually captured.
-
----
-
-## 12. Room `task-notes.md` Requirements
-
-Every room `task-notes.md` must include:
-
-- Room title
-- Status
-- Overview
-- Objectives
-- Task-by-task notes
-- Questions and verified answers
-- Hands-on lab steps
-- Flags when legitimately obtained
-- Commands used
+- Questions
+- Practical exercises
+- Hands-on labs
+- Flags
 - Troubleshooting
-- Skills developed
-- Lessons learned
-- Screenshot references
-- Room outcome
 
-Never invent missing content.
+without stopping to generate polished documentation.
 
 ---
 
-## 13. Git Workflow
+## Step 4 – Screenshot Guidance
 
-After documentation and the consistency audit:
+Only request screenshots when documenting meaningful practical work.
+
+### Capture screenshots for:
+
+#### Hands-on Labs
+
+Examples:
+
+- Creating users
+- Creating groups
+- Creating Organizational Units
+- Editing Group Policy
+- Running PowerShell commands
+- Enumeration
+- Exploitation
+- Mitigation
+- Security tool usage
+
+---
+
+#### Administrative Tasks
+
+Capture work that demonstrates technical ability.
+
+Examples:
+
+- Active Directory Users and Computers
+- Group Policy Management
+- Windows Administration
+- Linux Administration
+- Terminal output
+- Configuration changes
+
+---
+
+#### Important Results
+
+Examples:
+
+- Flag obtained
+- Successful login
+- Successful command output
+- Successful configuration
+- Policy successfully applied
+- Verification results
+
+---
+
+#### Errors & Troubleshooting
+
+Errors are valuable learning opportunities and should be documented.
+
+When an error occurs:
+
+1. Capture a screenshot of the error.
+2. Troubleshoot the issue together.
+3. Capture a screenshot of the successful resolution.
+4. Include the troubleshooting process in the final documentation.
+
+Examples:
+
+- Authentication failures
+- Permission denied
+- Configuration mistakes
+- Command errors
+- Service failures
+- Connection issues
+
+---
+
+### Do NOT capture screenshots for:
+
+- Multiple-choice answers
+- Reading-only tasks
+- Completed question pages
+- Answer submission pages
+
+unless the page contains meaningful technical information worth documenting.
+
+---
+
+# After Completing the Entire Room
+
+Generate documentation in the following order:
+
+## 1. Full Handwritten Notebook Notes
+
+Generate one comprehensive notebook page containing:
+
+- Room overview
+- Key concepts
+- Important terminology
+- Commands used
+- Why each concept matters
+- Real-world applications
+- Practical skills developed
+- Troubleshooting performed
+- Lessons learned
+- Personal takeaways
+
+---
+
+## 2. Screenshot Checklist
+
+Generate a checklist containing only meaningful screenshots collected throughout the room, including:
+
+- Practical labs
+- Administrative tasks
+- Tool usage
+- Errors
+- Troubleshooting
+- Successful fixes
+- Final room completion
+
+---
+
+## 3. Generate `task-notes.md`
+
+Create the room's complete GitHub-ready documentation.
+
+---
+
+## 4. Update the Collection README
+
+Regenerate the full standalone collection `README.md` with all affected sections updated.
+
+---
+
+## 5. Update the Collection Images README
+
+Regenerate the full `images/README.md` with all screenshot references updated.
+
+---
+
+## 6. Update the Parent TryHackMe README
+
+Update only the affected sections of the master `TryHackMe/README.md` while preserving all existing content.
+
+---
+
+## 7. Repository Consistency Review
+
+Verify:
+
+- Room status
+- Collection progress
+- Screenshot totals
+- Skills lists
+- Repository structure
+- Documentation consistency
+- README references
+
+Ensure all documentation is internally consistent before finalizing.
+
+---
+
+## 8. Git Commands
+
+Generate the exact Git commands:
 
 ```bash
-git status
-```
-
-Stage the affected standalone-room files:
-
-```bash
-git add TryHackMe/Standalone-Rooms/ TryHackMe/README.md
-```
-
-Create a meaningful commit:
-
-```bash
-git commit -m "Complete <room name> standalone room"
-```
-
-Push:
-
-```bash
+git add .
+git commit -m "Complete <Room Name> documentation"
 git push origin main
 ```
 
-Adjust the branch name only when the repository uses a different default branch.
+---
+
+# Repository Structure
+
+```text
+Standalone-Rooms/
+│
+├── README.md
+│
+├── Collection-Name/
+│   ├── README.md
+│   ├── images/
+│   │   ├── README.md
+│   │   └── screenshots
+│   │
+│   ├── Room-Name-1/
+│   │   └── task-notes.md
+│   │
+│   ├── Room-Name-2/
+│   │   └── task-notes.md
+│   │
+│   └── Room-Name-3/
+│       └── task-notes.md
+```
 
 ---
 
-## 14. Assistant Responsibilities
+# Documentation Principles
 
-The assistant must:
-
-- Follow this workflow exactly
-- Preserve the order of every step
-- Keep notebook notes concise
-- Explain concepts before answering
-- Never fabricate answers or flags
-- Prompt for screenshots immediately after completion
-- Use exact standardized filenames
-- Regenerate affected documentation files in full
-- Perform a consistency audit
-- Keep topic organization professional
-- Distinguish standalone rooms from learning-path modules
-- Preserve the shared topic images structure
-
----
-
-## 15. Locked Status
-
-This workflow is the official standard for TryHackMe standalone rooms.
-
-**Standard Name:** TryHackMe Standalone Room Documentation Workflow  
-**Version:** 1.0  
-**Status:** Locked
-
-No workflow step, filename, documentation artifact, repository structure rule, screenshot process, or generation order may be changed unless explicitly approved.
+- Prioritize learning over documentation during labs.
+- Keep quick notebook reminders while working.
+- Produce comprehensive notebook notes after completing the room.
+- Document practical work instead of question completion.
+- Capture troubleshooting as part of the learning process.
+- Maintain professional, portfolio-quality documentation.
+- Keep repository organization consistent across all standalone collections.

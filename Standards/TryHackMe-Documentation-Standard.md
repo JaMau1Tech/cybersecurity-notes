@@ -1,380 +1,204 @@
-# TryHackMe Documentation Standard
+# TryHackMe Documentation Standard v3.0
 
-**Version:** 2.2
-
-**Status:** 🔒 LOCKED
-
-**Repository:** Root & Repository
-
-**Last Updated:** 2026-07-14
-
----
-
-# Purpose
-
-This document defines the official documentation workflow used for every TryHackMe room completed within the Root & Repository Cybersecurity Academy.
-
-This document is the **single source of truth** for all TryHackMe documentation.
-
-Unless explicitly approved by the repository owner, **no workflow, notebook format, documentation structure, screenshot process, repository structure, or generation order may be modified.**
+_Last Updated: July 2026_
 
 ---
 
 # Documentation Philosophy
 
-The goal of this workflow is to:
+The goal of this documentation workflow is to prioritize **learning through hands-on practice** while maintaining professional-quality documentation for my cybersecurity portfolio.
 
-- Build professional documentation habits
-- Reinforce learning through handwritten notes
-- Produce GitHub-ready documentation
-- Create a professional cybersecurity portfolio
-- Maintain complete consistency across every completed room
-
-Consistency is more important than creativity.
-
-Never redesign the workflow.
+Instead of interrupting practical work to create polished notes after every task, I focus on completing the room first while capturing important reminders and documenting meaningful practical work. After the room is complete, I consolidate everything into comprehensive notebook notes and repository documentation.
 
 ---
 
-# Official Task Workflow
+# During Each Task
 
-For **EVERY task** inside a standard TryHackMe room, follow this exact order.
+## 1. Task Explanation
 
----
+Before beginning each task:
 
-## Step 1 — Explain the Task
-
-Provide a concise explanation including:
-
-- What the concept is
-- Why it matters
-- Key terminology
-- Real-world cybersecurity relevance
-
-Keep explanations educational but concise.
+- Explain the concept.
+- Explain why it matters.
+- Define important terminology.
+- Explain real-world relevance.
 
 ---
 
-## Step 2 — Generate Handwritten Notebook Notes
+## 2. Quick Notebook Jot Notes
 
-Generate notebook notes using the official **Module 06 notebook style**.
+Instead of writing full notebook notes during every task, capture only short reminders.
 
-This notebook format is permanently locked.
+Example:
 
-Requirements:
+- OU = Organizational Unit
+- Kerberos uses tickets
+- GPOs manage domain-wide settings
+- Remember least privilege
+- PowerShell cmdlet: `Get-ADUser`
 
-- Ultra concise
-- Handwriting friendly
-- Bullet focused
-- No unnecessary paragraphs
-- No long explanations
-- Same formatting used throughout Module 06
-
-Example style:
-
-```text
-=========================
-HTTP METHODS
-=========================
-
-GET
-
-- Retrieve data
-
-POST
-
-- Create data
-
-PUT
-
-- Update data
-
-DELETE
-
-- Remove data
-
--------------------------
-
-Remember
-
-GET = Read
-
-POST = Create
-
-PUT = Update
-
-DELETE = Delete
-```
-
-Never revert to previous notebook templates.
-
-Never redesign the notebook layout.
+These notes are intended to help retain important concepts while remaining focused on the practical exercises.
 
 ---
 
-## Step 3 — Complete the Task
+## 3. Complete the Task
 
-Provide:
+Work through:
 
-- Correct answers
-- Practical guidance
-- Lab walkthroughs
-- Flag verification (when applicable)
-
-Never fabricate:
-
-- Flags
+- Questions
+- Practical exercises
 - Labs
-- Answers
+- Flags
+- Troubleshooting
+
+without stopping to create polished documentation.
 
 ---
 
-## Step 4 — Screenshot
+# Screenshot Standards
 
-Immediately after completing every task:
+Screenshots should document practical experience rather than simple question completion.
 
-Tell the user to capture a screenshot.
+## Capture screenshots for:
 
-Provide the exact filename.
+### Hands-on Labs
 
-Example:
+Document meaningful stages of practical exercises.
 
-```text
-room-name-task01-example
-```
+Examples:
 
-Rules:
-
-- lowercase
-- hyphen-separated
-- no spaces
-- no file extensions
-
----
-
-## Step 5 — Repeat
-
-Repeat Steps 1–4 until the room is complete.
+- Creating users
+- Creating groups
+- Creating Organizational Units
+- Editing Group Policy
+- Running PowerShell commands
+- Configuring services
+- Running security tools
+- Enumeration results
+- Successful exploitation
+- Successful mitigation
 
 ---
 
-# Lab Workflow
+### Administrative Tasks
 
-Whenever a practical lab exists:
+Capture work that demonstrates technical ability.
 
-After successful completion:
+Examples:
 
-- Verify the flag
-- Confirm success
-- Prompt for the lab screenshot
-
-Example:
-
-```text
-room-name-task04-lab-example
-```
+- Active Directory Users and Computers
+- Group Policy Management
+- Windows Administration
+- Linux Administration
+- Terminal output
+- Configuration changes
 
 ---
 
-# Room Completion
+### Important Results
 
-After the final task:
+Examples:
 
-Prompt for the room completion screenshot.
-
-Example
-
-```text
-room-name-room-complete
-```
+- Flag obtained
+- Successful login
+- Successful command output
+- Policy successfully applied
+- Verification results
 
 ---
 
-# Topic Transition Recap Workflow
+### Errors & Troubleshooting
 
-Topic Transition Recaps are NOT normal rooms.
+Errors are valuable learning opportunities and should be documented.
 
-They follow a simplified workflow.
+When an error occurs:
 
----
+1. Capture a screenshot of the error.
+2. Troubleshoot the issue.
+3. Capture a screenshot of the successful resolution.
+4. Include the troubleshooting process in the final documentation.
 
-## During the Recap
+Examples:
 
-For every question:
-
-Explain:
-
-- concept
-- terminology
-- real-world relevance
-
-Generate concise handwritten notes using the same Module 06 notebook style.
-
-Provide the correct answer.
+- Authentication failures
+- Permission denied
+- Configuration mistakes
+- Command errors
+- Service failures
+- Connection issues
 
 ---
 
-## Screenshot Policy
+## Do NOT capture screenshots for:
 
-Topic Transition Recaps DO NOT require:
+- Multiple-choice answers
+- Reading-only tasks
+- Completed question pages
+- Answer submission pages
 
-- Question screenshots
-- Lab screenshots
-- Room completion screenshots
-
-Unless explicitly requested by the repository owner.
-
----
-
-## After Every Topic Transition Recap
-
-Generate:
-
-1. task-notes.md
-2. Module README
-3. Module images README
-4. Parent TryHackMe README
-5. TryHackMe Notes README (if affected)
-6. Repository Review
-7. Git Commands
+unless the page contains meaningful technical information worth documenting.
 
 ---
 
-# Documentation Generation Order
+# After Completing the Entire Room
 
-After EVERY standard room generate:
+Once the room has been completed, generate the complete documentation.
 
-1. Complete handwritten notebook notes
+## Full Notebook Notes
+
+Generate one comprehensive notebook page containing:
+
+- Room overview
+- Key concepts
+- Important terminology
+- Commands used
+- Why each concept matters
+- Real-world applications
+- Practical skills developed
+- Troubleshooting performed
+- Lessons learned
+- Personal takeaways
+
+This serves as the permanent study reference for the room.
+
+---
+
+## Screenshot Checklist
+
+Generate a checklist containing only meaningful screenshots collected throughout the room, including:
+
+- Practical labs
+- Administrative tasks
+- Tool usage
+- Errors
+- Troubleshooting
+- Successful fixes
+- Final room completion
+
+---
+
+## Repository Documentation
+
+Generate in the following order:
+
+1. Full notebook notes
 2. Screenshot checklist
-3. task-notes.md
-4. FULL Module README.md
-5. FULL Module images README.md
-6. FULL Parent TryHackMe README.md
-7. FULL TryHackMe Notes README.md (if affected)
-8. Repository Structure Review
-9. Git add / commit / push commands
-
-Never skip documentation.
-
-Never change this order.
+3. `task-notes.md`
+4. Collection/Module README updates
+5. Images README updates
+6. Parent README updates (affected sections only)
+7. Repository consistency review
+8. Git add / commit / push commands
 
 ---
 
-# Full Documentation Regeneration Policy
+# Documentation Goals
 
-Every affected file must be regenerated completely.
+This workflow emphasizes:
 
-Never provide:
-
-- partial sections
-- merge instructions
-- patch notes
-- "replace this section"
-- "add this"
-
-Instead provide complete replacement files.
-
----
-
-# Screenshot Naming Standard
-
-Task
-
-```text
-room-name-task01-description
-```
-
-Lab
-
-```text
-room-name-task03-lab-description
-```
-
-Room Complete
-
-```text
-room-name-room-complete
-```
-
-Rules
-
-- lowercase
-- hyphen-separated
-- descriptive
-- no extension
-
----
-
-# Repository Structure
-
-```text
-Module-XX-Module-Name/
-│
-├── README.md
-│
-├── images/
-│   ├── README.md
-│   └── screenshots
-│
-├── Room-Name/
-│   └── task-notes.md
-│
-└── Topic-Transition-Recap/
-    └── task-notes.md
-```
-
-One README per module.
-
-One images folder per module.
-
-Rooms never have their own README.
-
----
-
-# Documentation Consistency Audit
-
-Before presenting documentation verify:
-
-- Module number
-- Module name
-- Room status
-- Completed room count
-- Remaining room count
-- Module completion percentage
-- Screenshot filenames
-- Screenshot totals
-- Skills learned
-- Current focus
-- Repository structure
-- Portfolio statistics
-- README consistency
-- Images README consistency
-- Parent README consistency
-- Notes README consistency
-
-If anything is inconsistent:
-
-Fix it BEFORE presenting documentation.
-
----
-
-# Assistant Responsibilities
-
-The assistant MUST:
-
-- Follow this workflow exactly.
-- Follow the Module 06 notebook style exactly.
-- Never redesign notebook notes.
-- Never change formatting.
-- Never improvise documentation.
-- Never invent labs.
-- Never invent flags.
-- Never invent screenshots.
-- Keep explanations concise.
-- Keep notebook notes ultra concise.
-- Keep GitHub documentation professional.
-- Maintain repository consistency.
-- Regenerate complete documentation.
-- Perform the Documentation Consistency Audit before presenting documentation.
-
-This workflow remains locked until explicitly updated by the repository owner.
+- Learning through hands-on practice
+- Professional technical documentation
+- Real-world troubleshooting
+- Practical evidence of skills
+- Portfolio-quality organization
+- Continuous improvement
